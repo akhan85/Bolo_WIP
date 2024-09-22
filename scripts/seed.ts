@@ -110,14 +110,14 @@ const main = async () => {
                 imageSrc: "/woman.svg",
                 correct: false,
                 text: "aurat",
-                audioSrc: "/sound/pk_woman.mp3",
+                audioSrc: "/sound/pk_woman.mp3",                
             },
             {
                 challengeId: 1, //which one of these is "a boy"?
                 imageSrc: "/boy.svg",
                 correct: false,
                 text: "larka",
-                audioSrc: "/sound/pk_boy.mp3",
+                audioSrc: "/sound/pk_boy.mp3",                
             },
         ]);
 
@@ -128,13 +128,13 @@ const main = async () => {
                 challengeId: 2, //"a man"
                 correct: true,
                 text: "aadmi",
-                audioSrc: "/sound/pk_man.mp3",
+                audioSrc: "/sound/pk_man.mp3",                
             },
             {
                 challengeId: 2, //which one of these is "a woman"?
                 correct: false,
                 text: "aurat",
-                audioSrc: "/sound/pk_woman.mp3",
+                audioSrc: "/sound/pk_woman.mp3",                
             },
             {
                 challengeId: 2, //which one of these is "a man"?
@@ -159,14 +159,14 @@ const main = async () => {
                 imageSrc: "/woman.svg",
                 correct: true,
                 text: "aurat",
-                audioSrc: "/sound/pk_woman.mp3",
+                audioSrc: "/sound/pk_woman.mp3",                
             },
             {
                 challengeId: 3, //which one of these is "a man"?
                 imageSrc: "/boy.svg",
                 correct: false,
                 text: "larka",
-                audioSrc: "/sound/pk_boy.mp3",
+                audioSrc: "/sound/pk_boy.mp3",                
             },
         ]);
 

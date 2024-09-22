@@ -70,10 +70,11 @@ export const HeartsModal = () => {
                             No thanks
                         </Button>
                     </div>
-                </DialogFooter>
-            
+                </DialogFooter>        
             </DialogContent>
         </Dialog>
 
     );
 };
+
+export default HeartsModal;
