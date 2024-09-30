@@ -50,8 +50,10 @@ export const createStripeUrl = async () => {
     metadata: {
       userId,
     },
-    success_url: returnUrl,
-    cancel_url: returnUrl,
+    //success_url: returnUrl, this was how it was in the video, below code is changes via perplexity
+    success_url: `${process.env.NEXT_PUBLIC_APP_URL}/shop?success=true`,
+    //cancel_url: returnUrl, see above
+    cancel_url: `${process.env.NEXT_PUBLIC_APP_URL}/shop?canceled=true`,
   });
 
   return { data: stripeSession.url };
