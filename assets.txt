@@ -1,0 +1,823 @@
+Seeding database
+Problematic Unit: {
+  "stage": "A0",
+  "units": [
+    {
+      "unit_number": 2,
+      "unit_name": "Joining Letters & Basic Reading",
+      "lessons": [
+        {
+          "lesson_number": 1,
+          "lesson_name": "Connecting Letters Basics",
+          "objectives": [
+            "Understand how Urdu letters connect in initial, medial and final forms",
+            "Recognize non-connecting letters",
+            "Read simple connected-letter combinations"
+          ],
+          "cards": [
+            {
+              "type": "explanation",
+              "content": "In Urdu, most letters connect from both sides, but some only connect from one side."
+            },
+            {
+              "type": "vocab",
+              "urdu": "بـ ـبـ ـب",
+              "roman": "b (forms)",
+              "english": "b (all forms)"
+            },
+            {
+              "type": "vocab",
+              "urdu": "مـ ـمـ ـم",
+              "roman": "m (forms)",
+              "english": "m (all forms)"
+            },
+            {
+              "type": "vocab",
+              "urdu": "ر",
+              "roman": "r",
+              "english": "Non-connecting letter"
+            },
+            {
+              "type": "reading",
+              "urdu": "با",
+              "roman": "ba",
+              "english": "—"
+            },
+            {
+              "type": "reading",
+              "urdu": "بی",
+              "roman": "bee",
+              "english": "—"
+            },
+            {
+              "type": "reading",
+              "urdu": "تم",
+              "roman": "tum",
+              "english": "you"
+            },
+            {
+              "type": "reading",
+              "urdu": "بو",
+              "roman": "bo",
+              "english": "—"
+            },
+            {
+              "type": "quiz",
+              "question": "Which letter does NOT connect from both sides?",
+              "options": [
+                "م",
+                "ب",
+                "ر"
+              ],
+              "answer": "ر"
+            }
+          ]
+        },
+        {
+          "lesson_number": 2,
+          "lesson_name": "Two-Letter Words",
+          "objectives": [
+            "Blend letters into basic two-letter combinations",
+            "Identify initial and final forms in reading",
+            "Read simple words with common letters"
+          ],
+          "cards": [
+            {
+              "type": "reading",
+              "urdu": "ما",
+              "roman": "maa",
+              "english": "mother (root form)"
+            },
+            {
+              "type": "reading",
+              "urdu": "با",
+              "roman": "baa",
+              "english": "arm (root)"
+            },
+            {
+              "type": "reading",
+              "urdu": "نو",
+              "roman": "no",
+              "english": "nine"
+            },
+            {
+              "type": "reading",
+              "urdu": "بس",
+              "roman": "bus",
+              "english": "enough"
+            },
+            {
+              "type": "reading",
+              "urdu": "تم",
+              "roman": "tum",
+              "english": "you"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "urdu": "ما",
+                  "english": "maa"
+                },
+                {
+                  "urdu": "نو",
+                  "english": "no"
+                },
+                {
+                  "urdu": "بس",
+                  "english": "bus"
+                }
+              ]
+            },
+            {
+              "type": "quiz",
+              "question": "Which word is read as 'tum'?",
+              "options": [
+                "تم",
+                "ما",
+                "با"
+              ],
+              "answer": "تم"
+            }
+          ]
+        },
+        {
+          "lesson_number": 3,
+          "lesson_name": "Three-Letter Words",
+          "objectives": [
+            "Read common 3-letter Urdu words",
+            "Distinguish between connecting vs non-connecting middle letters",
+            "Understand short vs long vowel influence in reading"
+          ],
+          "cards": [
+            {
+              "type": "reading",
+              "urdu": "گھر",
+              "roman": "ghar",
+              "english": "home"
+            },
+            {
+              "type": "reading",
+              "urdu": "سفر",
+              "roman": "safar",
+              "english": "travel"
+            },
+            {
+              "type": "reading",
+              "urdu": "شہر",
+              "roman": "sheher",
+              "english": "city"
+            },
+            {
+              "type": "reading",
+              "urdu": "کتب",
+              "roman": "kutub",
+              "english": "books (plural)"
+            },
+            {
+              "type": "reading",
+              "urdu": "مٹھ",
+              "roman": "mith",
+              "english": "sweet"
+            },
+            {
+              "type": "fill_blank",
+              "text": "___ = ghar",
+              "answer": "گھر"
+            },
+            {
+              "type": "quiz",
+              "question": "Which of these means 'city'?",
+              "options": [
+                "شہر",
+                "سفر",
+                "کتب"
+              ],
+              "answer": "شہر"
+            }
+          ]
+        },
+        {
+          "lesson_number": 4,
+          "lesson_name": "Short Vowels in Connected Words",
+          "objectives": [
+            "Recognize short vowel pronunciation without diacritics",
+            "Read high-frequency short-vowel words fluently",
+            "Identify context-based short vowel shifts"
+          ],
+          "cards": [
+            {
+              "type": "explanation",
+              "content": "Short vowels (zabar, zer, pesh) are often omitted in everyday Urdu writing."
+            },
+            {
+              "type": "reading",
+              "urdu": "دل",
+              "roman": "dil",
+              "english": "heart"
+            },
+            {
+              "type": "reading",
+              "urdu": "کت",
+              "roman": "kit",
+              "english": "cut (root)"
+            },
+            {
+              "type": "reading",
+              "urdu": "پر",
+              "roman": "par",
+              "english": "on"
+            },
+            {
+              "type": "reading",
+              "urdu": "در",
+              "roman": "dar",
+              "english": "door (root)"
+            },
+            {
+              "type": "reading",
+              "urdu": "گل",
+              "roman": "gul",
+              "english": "flower"
+            },
+            {
+              "type": "quiz",
+              "question": "Which word is read as 'dil'?",
+              "options": [
+                "دل",
+                "گل",
+                "پر"
+              ],
+              "answer": "دل"
+            }
+          ]
+        },
+        {
+          "lesson_number": 5,
+          "lesson_name": "Basic Sentence Reading",
+          "objectives": [
+            "Read full simple Urdu sentences",
+            "Understand basic pronoun + verb patterns",
+            "Build foundational sentence processing confidence"
+          ],
+          "cards": [
+            {
+              "type": "reading_sentence",
+              "urdu": "میں گھر جا رہا ہوں۔",
+              "roman": "main ghar ja raha hoon.",
+              "english": "I am going home."
+            },
+            {
+              "type": "reading_sentence",
+              "urdu": "وہ کتاب پڑھ رہی ہے۔",
+              "roman": "woh kitaab parh rahi hai.",
+              "english": "She is reading a book."
+            },
+            {
+              "type": "reading_sentence",
+              "urdu": "تم پانی پی رہے ہو؟",
+              "roman": "tum paani pee rahe ho?",
+              "english": "Are you drinking water?"
+            },
+            {
+              "type": "reading_sentence",
+              "urdu": "یہ میرا گھر ہے۔",
+              "roman": "yeh mera ghar hai.",
+              "english": "This is my house."
+            },
+            {
+              "type": "reading_sentence",
+              "urdu": "ہم سکول جا رہے ہیں۔",
+              "roman": "hum school ja rahe hain.",
+              "english": "We are going to school."
+            },
+            {
+              "type": "quiz",
+              "question": "Translate: 'وہ کتاب پڑھ رہی ہے'",
+              "options": [
+                "She is reading a book",
+                "He is going home",
+                "I am drinking water"
+              ],
+              "answer": "She is reading a book"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+Built word map with 245 entries.
+Problematic Unit in Seeding Loop: {
+  "stage": "A0",
+  "units": [
+    {
+      "unit_number": 2,
+      "unit_name": "Joining Letters & Basic Reading",
+      "lessons": [
+        {
+          "lesson_number": 1,
+          "lesson_name": "Connecting Letters Basics",
+          "objectives": [
+            "Understand how Urdu letters connect in initial, medial and final forms",
+            "Recognize non-connecting letters",
+            "Read simple connected-letter combinations"
+          ],
+          "cards": [
+            {
+              "type": "explanation",
+              "content": "In Urdu, most letters connect from both sides, but some only connect from one side."
+            },
+            {
+              "type": "vocab",
+              "urdu": "بـ ـبـ ـب",
+              "roman": "b (forms)",
+              "english": "b (all forms)"
+            },
+            {
+              "type": "vocab",
+              "urdu": "مـ ـمـ ـم",
+              "roman": "m (forms)",
+              "english": "m (all forms)"
+            },
+            {
+              "type": "vocab",
+              "urdu": "ر",
+              "roman": "r",
+              "english": "Non-connecting letter"
+            },
+            {
+              "type": "reading",
+              "urdu": "با",
+              "roman": "ba",
+              "english": "—"
+            },
+            {
+              "type": "reading",
+              "urdu": "بی",
+              "roman": "bee",
+              "english": "—"
+            },
+            {
+              "type": "reading",
+              "urdu": "تم",
+              "roman": "tum",
+              "english": "you"
+            },
+            {
+              "type": "reading",
+              "urdu": "بو",
+              "roman": "bo",
+              "english": "—"
+            },
+            {
+              "type": "quiz",
+              "question": "Which letter does NOT connect from both sides?",
+              "options": [
+                "م",
+                "ب",
+                "ر"
+              ],
+              "answer": "ر"
+            }
+          ]
+        },
+        {
+          "lesson_number": 2,
+          "lesson_name": "Two-Letter Words",
+          "objectives": [
+            "Blend letters into basic two-letter combinations",
+            "Identify initial and final forms in reading",
+            "Read simple words with common letters"
+          ],
+          "cards": [
+            {
+              "type": "reading",
+              "urdu": "ما",
+              "roman": "maa",
+              "english": "mother (root form)"
+            },
+            {
+              "type": "reading",
+              "urdu": "با",
+              "roman": "baa",
+              "english": "arm (root)"
+            },
+            {
+              "type": "reading",
+              "urdu": "نو",
+              "roman": "no",
+              "english": "nine"
+            },
+            {
+              "type": "reading",
+              "urdu": "بس",
+              "roman": "bus",
+              "english": "enough"
+            },
+            {
+              "type": "reading",
+              "urdu": "تم",
+              "roman": "tum",
+              "english": "you"
+            },
+            {
+              "type": "matching",
+              "pairs": [
+                {
+                  "urdu": "ما",
+                  "english": "maa"
+                },
+                {
+                  "urdu": "نو",
+                  "english": "no"
+                },
+                {
+                  "urdu": "بس",
+                  "english": "bus"
+                }
+              ]
+            },
+            {
+              "type": "quiz",
+              "question": "Which word is read as 'tum'?",
+              "options": [
+                "تم",
+                "ما",
+                "با"
+              ],
+              "answer": "تم"
+            }
+          ]
+        },
+        {
+          "lesson_number": 3,
+          "lesson_name": "Three-Letter Words",
+          "objectives": [
+            "Read common 3-letter Urdu words",
+            "Distinguish between connecting vs non-connecting middle letters",
+            "Understand short vs long vowel influence in reading"
+          ],
+          "cards": [
+            {
+              "type": "reading",
+              "urdu": "گھر",
+              "roman": "ghar",
+              "english": "home"
+            },
+            {
+              "type": "reading",
+              "urdu": "سفر",
+              "roman": "safar",
+              "english": "travel"
+            },
+            {
+              "type": "reading",
+              "urdu": "شہر",
+              "roman": "sheher",
+              "english": "city"
+            },
+            {
+              "type": "reading",
+              "urdu": "کتب",
+              "roman": "kutub",
+              "english": "books (plural)"
+            },
+            {
+              "type": "reading",
+              "urdu": "مٹھ",
+              "roman": "mith",
+              "english": "sweet"
+            },
+            {
+              "type": "fill_blank",
+              "text": "___ = ghar",
+              "answer": "گھر"
+            },
+            {
+              "type": "quiz",
+              "question": "Which of these means 'city'?",
+              "options": [
+                "شہر",
+                "سفر",
+                "کتب"
+              ],
+              "answer": "شہر"
+            }
+          ]
+        },
+        {
+          "lesson_number": 4,
+          "lesson_name": "Short Vowels in Connected Words",
+          "objectives": [
+            "Recognize short vowel pronunciation without diacritics",
+            "Read high-frequency short-vowel words fluently",
+            "Identify context-based short vowel shifts"
+          ],
+          "cards": [
+            {
+              "type": "explanation",
+              "content": "Short vowels (zabar, zer, pesh) are often omitted in everyday Urdu writing."
+            },
+            {
+              "type": "reading",
+              "urdu": "دل",
+              "roman": "dil",
+              "english": "heart"
+            },
+            {
+              "type": "reading",
+              "urdu": "کت",
+              "roman": "kit",
+              "english": "cut (root)"
+            },
+            {
+              "type": "reading",
+              "urdu": "پر",
+              "roman": "par",
+              "english": "on"
+            },
+            {
+              "type": "reading",
+              "urdu": "در",
+              "roman": "dar",
+              "english": "door (root)"
+            },
+            {
+              "type": "reading",
+              "urdu": "گل",
+              "roman": "gul",
+              "english": "flower"
+            },
+            {
+              "type": "quiz",
+              "question": "Which word is read as 'dil'?",
+              "options": [
+                "دل",
+                "گل",
+                "پر"
+              ],
+              "answer": "دل"
+            }
+          ]
+        },
+        {
+          "lesson_number": 5,
+          "lesson_name": "Basic Sentence Reading",
+          "objectives": [
+            "Read full simple Urdu sentences",
+            "Understand basic pronoun + verb patterns",
+            "Build foundational sentence processing confidence"
+          ],
+          "cards": [
+            {
+              "type": "reading_sentence",
+              "urdu": "میں گھر جا رہا ہوں۔",
+              "roman": "main ghar ja raha hoon.",
+              "english": "I am going home."
+            },
+            {
+              "type": "reading_sentence",
+              "urdu": "وہ کتاب پڑھ رہی ہے۔",
+              "roman": "woh kitaab parh rahi hai.",
+              "english": "She is reading a book."
+            },
+            {
+              "type": "reading_sentence",
+              "urdu": "تم پانی پی رہے ہو؟",
+              "roman": "tum paani pee rahe ho?",
+              "english": "Are you drinking water?"
+            },
+            {
+              "type": "reading_sentence",
+              "urdu": "یہ میرا گھر ہے۔",
+              "roman": "yeh mera ghar hai.",
+              "english": "This is my house."
+            },
+            {
+              "type": "reading_sentence",
+              "urdu": "ہم سکول جا رہے ہیں۔",
+              "roman": "hum school ja rahe hain.",
+              "english": "We are going to school."
+            },
+            {
+              "type": "quiz",
+              "question": "Translate: 'وہ کتاب پڑھ رہی ہے'",
+              "options": [
+                "She is reading a book",
+                "He is going home",
+                "I am drinking water"
+              ],
+              "answer": "She is reading a book"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+Database seeded successfully with Urdu curriculum
+
+--- ASSET REPORT ---
+Required Audio Files:
+/sound/_al.mp3
+/sound/_e.mp3
+/sound/aap_kaise_hain_.mp3
+/sound/bachcha_phool_tor_raha_hai_.mp3
+/sound/bh.mp3
+/sound/gham.mp3
+/sound/hello.mp3
+/sound/khoob.mp3
+/sound/koi_baat_nahi.mp3
+/sound/kya_ye_sasta_hai_.mp3
+/sound/maaf_keejiye.mp3
+/sound/meherbani.mp3
+/sound/pk_boy.mp3
+/sound/pk_man.mp3
+/sound/pk_woman.mp3
+/sound/qalam.mp3
+/sound/qalam_toot_gaya_.mp3
+/sound/re.mp3
+/sound/salaam.mp3
+/sound/shukriya.mp3
+/sound/tum_kaise_ho_.mp3
+/sound/wa_alaikum_assalam.mp3
+/sound/woh_gham_mein_hai_.mp3
+/sound/ye_bohot_mehnga_hai_.mp3
+
+Required Image Files:
+/.svg
+/__.svg
+/___.svg
+/____.svg
+/_____.svg
+/______.svg
+/a.svg
+/a_little.svg
+/after.svg
+/afternoon.svg
+/airplane.svg
+/always.svg
+/and_peace_be_upon_you_too.svg
+/b.svg
+/beautiful/well.svg
+/bed.svg
+/before.svg
+/bh_(air_burst).svg
+/bicycle.svg
+/boy.svg
+/bread.svg
+/breakfast.svg
+/breathy_h.svg
+/brother.svg
+/bus.svg
+/car.svg
+/ch.svg
+/chair.svg
+/cheap.svg
+/chicken.svg
+/cleaning.svg
+/clothes.svg
+/d.svg
+/daughter.svg
+/dinner.svg
+/discount.svg
+/do_you_like_meat.svg
+/door.svg
+/dozen.svg
+/early__hurry.svg
+/evening.svg
+/every_day.svg
+/expensive.svg
+/father.svg
+/for_what__why.svg
+/from_whom.svg
+/fruits.svg
+/grandfather_maternal.svg
+/grandfather_paternal.svg
+/grandmother_maternal.svg
+/grandmother_paternal.svg
+/half_past.svg
+/he_is_in_sorrow..svg
+/hello.svg
+/hi_/_peace.svg
+/hi__peace.svg
+/hour.svg
+/how.svg
+/how_are_you.svg
+/how_are_you?.svg
+/how_are_you?_(informal_to_male).svg
+/how_are_you_informal_to_female.svg
+/how_are_you_informal_to_male.svg
+/how_are_you_to_a_man_formal.svg
+/how_are_you_to_a_woman_formal.svg
+/i_am_fine.svg
+/i_dont_eat_meat.svg
+/i_like_meat.svg
+/is_this_cheap?.svg
+/j.svg
+/kh.svg
+/kilogram.svg
+/kindness_/_please.svg
+/kindness__please.svg
+/kitchen.svg
+/late.svg
+/light.svg
+/lunch.svg
+/man.svg
+/market.svg
+/meat.svg
+/milk.svg
+/minute.svg
+/money.svg
+/morning.svg
+/mother.svg
+/my_name_is_ahmed.svg
+/my_name_is_sarah.svg
+/night.svg
+/no_problem.svg
+/oclock.svg
+/often.svg
+/p.svg
+/peace_be_upon_you.svg
+/pen.svg
+/please_very_formalliterary.svg
+/price.svg
+/quarter_past.svg
+/quarter_to.svg
+/r.svg
+/retroflex_d.svg
+/retroflex_r.svg
+/retroflex_t.svg
+/rice.svg
+/right_now.svg
+/room.svg
+/s.svg
+/s_.svg
+/salt.svg
+/shop.svg
+/short_a.svg
+/short_i.svg
+/short_u.svg
+/sister.svg
+/something_else.svg
+/sometimes.svg
+/son.svg
+/sorrow.svg
+/sorry_/_excuse_me_(formal).svg
+/sorry__excuse_me_formal.svg
+/sugar.svg
+/t.svg
+/table.svg
+/tea.svg
+/thank_you.svg
+/the_child_is_picking_a_flower..svg
+/the_pen_broke..svg
+/this_is_very_expensive..svg
+/time.svg
+/to_clean.svg
+/to_come.svg
+/to_cook_food.svg
+/to_do.svg
+/to_drink.svg
+/to_eat.svg
+/to_get_ready.svg
+/to_get_up.svg
+/to_go.svg
+/to_go__walk.svg
+/to_meet.svg
+/to_play.svg
+/to_rest.svg
+/to_return.svg
+/to_see__watch.svg
+/to_shower.svg
+/to_sleep.svg
+/to_study.svg
+/to_study__read.svg
+/to_tell.svg
+/to_wake_up.svg
+/to_walk.svg
+/to_work.svg
+/to_write.svg
+/tomorrow__yesterday_context.svg
+/train.svg
+/unknown.svg
+/vegetable.svg
+/vegetables.svg
+/very.svg
+/water.svg
+/what.svg
+/what_is_your_name.svg
+/what_is_your_name_formal.svg
+/what_is_your_name_informal.svg
+/when.svg
+/where.svg
+/which.svg
+/who.svg
+/whose.svg
+/why.svg
+/window.svg
+/woman.svg
+/z.svg
+--------------------
+

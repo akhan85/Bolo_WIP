@@ -30,10 +30,10 @@ type QuizProps = {
     challengeOptions: (typeof challengeOptions.$inferSelect)[];
   })[];
   userSubscription:
-    | (typeof userSubscription.$inferSelect & {
-        isActive: boolean;
-      })
-    | null;
+  | (typeof userSubscription.$inferSelect & {
+    isActive: boolean;
+  })
+  | null;
 };
 
 export const Quiz = ({
@@ -78,6 +78,7 @@ export const Quiz = ({
     return uncompletedIndex === -1 ? 0 : uncompletedIndex;
   });
 
+
   const [selectedOption, setSelectedOption] = useState<number>();
   const [status, setStatus] = useState<"none" | "wrong" | "correct">("none");
 
@@ -86,6 +87,13 @@ export const Quiz = ({
 
   const onNext = () => {
     setActiveIndex((current) => current + 1);
+  };
+
+  const onBack = () => {
+    if (activeIndex === 0) return; // Can't go back from first question
+    setActiveIndex((current) => current - 1);
+    setStatus("none");
+    setSelectedOption(undefined);
   };
 
   const onSelect = (id: number) => {
@@ -216,6 +224,8 @@ export const Quiz = ({
         hearts={hearts}
         percentage={percentage}
         hasActiveSubscription={!!userSubscription?.isActive}
+        onBack={onBack}
+        showBack={activeIndex > 0}
       />
 
       <div className="flex-1">
@@ -225,7 +235,7 @@ export const Quiz = ({
               {title}
             </h1>
 
-            <div>
+            <div className="mb-8">
               {challenge.type === "ASSIST" && (
                 <QuestionBubble question={challenge.question} />
               )}

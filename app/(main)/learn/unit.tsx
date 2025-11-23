@@ -12,10 +12,10 @@ type UnitProps = {
     completed: boolean;
   })[];
   activeLesson:
-    | (typeof lessons.$inferSelect & {
-        unit: typeof units.$inferSelect;
-      })
-    | undefined;
+  | (typeof lessons.$inferSelect & {
+    unit: typeof units.$inferSelect;
+  })
+  | undefined;
   activeLessonPercentage: number;
 };
 

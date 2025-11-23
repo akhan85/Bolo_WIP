@@ -4,7 +4,7 @@ import { Check, Crown, Star } from "lucide-react";
 import Link from "next/link";
 import { CircularProgressbarWithChildren } from "react-circular-progressbar";
 
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 import "react-circular-progressbar/dist/styles.css";
@@ -79,10 +79,14 @@ export const LessonButton = ({
                 },
               }}
             >
-              <Button
-                size="rounded"
-                variant={locked ? "locked" : "secondary"}
-                className="h-[70px] w-[70px] border-b-8"
+              <div
+                className={cn(
+                  "h-[70px] w-[70px] border-b-8",
+                  buttonVariants({
+                    variant: locked ? "locked" : "secondary",
+                    size: "rounded",
+                  })
+                )}
               >
                 <Icon
                   className={cn(
@@ -93,14 +97,18 @@ export const LessonButton = ({
                     isCompleted && "fill-none stroke-[4]"
                   )}
                 />
-              </Button>
+              </div>
             </CircularProgressbarWithChildren>
           </div>
         ) : (
-          <Button
-            size="rounded"
-            variant={locked ? "locked" : "secondary"}
-            className="h-[70px] w-[70px] border-b-8"
+          <div
+            className={cn(
+              "h-[70px] w-[70px] border-b-8",
+              buttonVariants({
+                variant: locked ? "locked" : "secondary",
+                size: "rounded",
+              })
+            )}
           >
             <Icon
               className={cn(
@@ -111,7 +119,7 @@ export const LessonButton = ({
                 isCompleted && "fill-none stroke-[4]"
               )}
             />
-          </Button>
+          </div>
         )}
       </div>
     </Link>

@@ -1,4 +1,4 @@
-import { InfinityIcon, X } from "lucide-react";
+import { ArrowLeft, InfinityIcon, X } from "lucide-react";
 import Image from "next/image";
 
 import { Progress } from "@/components/ui/progress";
@@ -8,21 +8,34 @@ type HeaderProps = {
   hearts: number;
   percentage: number;
   hasActiveSubscription: boolean;
+  onBack?: () => void;
+  showBack?: boolean;
 };
 
 export const Header = ({
   hearts,
   percentage,
   hasActiveSubscription,
+  onBack,
+  showBack = false,
 }: HeaderProps) => {
   const { open } = useExitModal();
 
   return (
     <header className="mx-auto flex w-full max-w-[1140px] items-center justify-between gap-x-7 px-10 pt-[20px] lg:pt-[50px]">
-      <X
-        onClick={open}
-        className="cursor-pointer text-slate-500 transition hover:opacity-75"
-      />
+      <div className="flex items-center gap-x-2">
+        {showBack && onBack && (
+          <ArrowLeft
+            onClick={onBack}
+            className="cursor-pointer text-slate-500 transition hover:opacity-75"
+          />
+        )}
+        <X
+          onClick={open}
+          className="cursor-pointer text-slate-500 transition hover:opacity-75"
+        />
+
+      </div>
 
       <Progress value={percentage} />
 

@@ -9,49 +9,63 @@ import path from "path";
 const sql = neon(process.env.DATABASE_URL!);
 const db = drizzle(sql, { schema });
 
-// Type definitions for the JSON structure
-type Card = {
-  id: string;
-  type: "word" | "sentence" | "quiz";
-  urdu?: string;
-  roman?: string;
-  english?: string;
-  question?: string;
-  options?: string[];
-  answer?: string;
+// --- Type Definitions for the Diverse JSON Structure ---
+
+type BaseUnit = {
+  lessons: any[];
 };
 
-type Lesson = {
-  id: string;
-  title: string;
-  cards: Card[];
+type UnitVariant1 = BaseUnit & { id: string; title: string };
+type UnitVariant2 = BaseUnit & { unit_number: number; unit_name: string; stage?: string };
+type UnitVariant3 = BaseUnit & { unit_id: string; unit_title: string; unit_description?: string };
+
+type AnyUnit = UnitVariant1 | UnitVariant2 | UnitVariant3;
+
+type BaseLesson = {
+  // Common fields if any
 };
 
-type Unit = {
-  id: string;
-  title: string;
-  lessons: Lesson[];
-};
+type LessonVariant1 = BaseLesson & { id: string; title: string; cards: any[] };
+type LessonVariant2 = BaseLesson & { lesson_number: number; lesson_name: string; objectives: string[]; cards: any[] };
+type LessonVariant3 = BaseLesson & { lesson_id: string; lesson_title: string; goals: string[]; vocabulary: any[]; phrases: any[]; exercises: any };
+type LessonVariant4 = BaseLesson & { lesson_id: string; lesson_title: string; lesson_objective: string; screens: any[] };
 
-type Stage = {
-  id: number;
-  name: string;
-  level: string;
-  units: Unit[];
-};
+type AnyLesson = LessonVariant1 | LessonVariant2 | LessonVariant3 | LessonVariant4;
 
 type Curriculum = {
   course: {
     language: string;
-    stages: Stage[];
+    stages: {
+      id: number;
+      name: string;
+      units: AnyUnit[];
+    }[];
   };
 };
+
+// --- Helper Functions ---
+
+const getUnitTitle = (u: AnyUnit): string => {
+  if ('title' in u) return u.title;
+  if ('unit_name' in u) return u.unit_name;
+  if ('unit_title' in u) return u.unit_title;
+  return "Untitled Unit";
+};
+
+const getLessonTitle = (l: AnyLesson): string => {
+  if ('title' in l) return l.title;
+  if ('lesson_name' in l) return l.lesson_name;
+  if ('lesson_title' in l) return l.lesson_title;
+  return "Untitled Lesson";
+};
+
+const normalize = (s: string) => s.trim();
 
 const main = async () => {
   try {
     console.log("Seeding database");
 
-    // Delete all existing data sequentially to avoid deadlocks
+    // Delete all existing data
     await db.delete(schema.userProgress);
     await db.delete(schema.userSubscription);
     await db.delete(schema.challengeOptions);
@@ -69,7 +83,6 @@ const main = async () => {
     const courseId = courses[0].id;
 
     // Read and parse the JSON file
-    // Trying both filenames just in case
     let curriculumData: Curriculum;
     try {
       const data = fs.readFileSync(path.join(process.cwd(), "urdu_curriculum.json"), "utf8");
@@ -80,37 +93,79 @@ const main = async () => {
       curriculumData = JSON.parse(data);
     }
 
+    // 1. Build Global Word Map
+    const wordMap = new Map<string, { roman: string; english: string }>();
+    const englishMap = new Map<string, { roman: string; urdu: string }>(); // Reverse lookup by English
+
+    const addToMap = (urdu: string, roman: string, english: string) => {
+      if (urdu && roman && english) {
+        wordMap.set(normalize(urdu), { roman, english });
+        // Also create reverse lookup by English
+        const normalizedEnglish = english.trim().toLowerCase();
+        englishMap.set(normalizedEnglish, { roman, urdu });
+      }
+    };
+
+    // Scan entire curriculum to populate map
+    for (const stage of curriculumData.course.stages) {
+      for (const unit of stage.units) {
+        if (!unit.lessons || !Array.isArray(unit.lessons)) {
+          console.log("Problematic Unit:", JSON.stringify(unit, null, 2));
+          continue;
+        }
+        for (const lesson of unit.lessons as AnyLesson[]) {
+          // Variant 1 & 2: cards
+          if ('cards' in lesson && Array.isArray(lesson.cards)) {
+            for (const card of lesson.cards) {
+              if (card.type === "word" || card.type === "phrase" || card.type === "reading") {
+                addToMap(card.urdu, card.roman, card.english);
+              }
+              if (card.items) { // contrast/match types
+                card.items.forEach((item: any) => addToMap(item.urdu, item.roman, item.english || ""));
+              }
+            }
+          }
+          // Variant 3: vocabulary & phrases
+          if ('vocabulary' in lesson && Array.isArray(lesson.vocabulary)) {
+            lesson.vocabulary.forEach((v: any) => addToMap(v.urdu, v.roman, v.english));
+          }
+          if ('phrases' in lesson && Array.isArray(lesson.phrases)) {
+            lesson.phrases.forEach((p: any) => addToMap(p.urdu, p.roman, p.english));
+          }
+          // Variant 4: screens
+          if ('screens' in lesson && Array.isArray(lesson.screens)) {
+            for (const screen of lesson.screens) {
+              if (screen.type === "vocabulary") {
+                addToMap(screen.urdu_text, screen.roman, screen.english_text);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    console.log(`Built word map with ${wordMap.size} entries.`);
+
+    // Sets to track assets
+    const audioAssets = new Set<string>();
+    const imageAssets = new Set<string>();
+
+    const registerAsset = (type: 'audio' | 'image', path: string) => {
+      if (type === 'audio') audioAssets.add(path);
+      if (type === 'image') imageAssets.add(path);
+    };
+
     let unitOrder = 1;
-    // Pre-calculate IDs to maintain relationships without waiting for DB
-    // Actually, we need DB IDs for foreign keys. 
-    // Batch inserting with foreign keys is tricky if we need the IDs back.
-    // Drizzle's `returning()` works with batch inserts but mapping them back to children is complex.
-    // Strategy: Insert Units in batch, get IDs, then Lessons, etc.
-    // But we have a hierarchy.
-    // Optimized approach:
-    // 1. Insert all Units for the course.
-    // 2. Insert all Lessons for all Units.
-    // 3. Insert all Challenges for all Lessons.
-    // 4. Insert all Options for all Challenges.
-
-    // To do this, we need to generate IDs client-side or handle mapping.
-    // Since we can't easily generate serial IDs client-side without collision risk (unless we reset sequence),
-    // we will stick to per-Unit or per-Lesson batching which is a middle ground.
-    // Or just parallelize?
-
-    // Let's try to batch at the Lesson level.
-    // For each Unit, insert all Lessons in one go.
-    // For each Lesson, insert all Challenges in one go.
-    // For each Challenge, insert all Options in one go.
 
     for (const stage of curriculumData.course.stages) {
       for (const unitJson of stage.units) {
-        // Insert Unit
+        const unitTitle = getUnitTitle(unitJson);
+
         const unit = await db
           .insert(schema.units)
           .values({
             courseId: courseId,
-            title: unitJson.title,
+            title: unitTitle,
             description: `Stage ${stage.id} - ${stage.name}`,
             order: unitOrder++,
           })
@@ -119,148 +174,191 @@ const main = async () => {
         const unitId = unit[0].id;
         let lessonOrder = 1;
 
-        // INJECTED: "Nouns" Lesson from Bolo_WIP (with Assets)
-        // Only inject for the very first unit of the first stage
-        if (stage.id === 1 && unitOrder === 2) { // unitOrder was incremented, so 2 means the first unit
-          const nounsLesson = await db
+
+        // Demo lesson removed to prevent interference with curriculum structure
+
+        if (!unitJson.lessons || !Array.isArray(unitJson.lessons)) {
+          console.log("Problematic Unit in Seeding Loop:", JSON.stringify(unitJson, null, 2));
+          continue;
+        }
+        for (const lessonJson of unitJson.lessons as AnyLesson[]) {
+          const lessonTitle = getLessonTitle(lessonJson);
+
+          const lesson = await db
             .insert(schema.lessons)
             .values({
               unitId: unitId,
-              title: "Basics: Nouns (Demo)",
+              title: lessonTitle,
               order: lessonOrder++,
             })
             .returning();
 
-          const nounsLessonId = nounsLesson[0].id;
-
-          // Challenge 1: Select Man
-          const c1 = await db.insert(schema.challenges).values({
-            lessonId: nounsLessonId,
-            type: "SELECT",
-            order: 1,
-            question: 'Which one of these is "a man"?',
-          }).returning();
-
-          await db.insert(schema.challengeOptions).values([
-            { challengeId: c1[0].id, imageSrc: "/man.svg", correct: true, text: "aadmi", audioSrc: "/sound/pk_man.mp3" },
-            { challengeId: c1[0].id, imageSrc: "/woman.svg", correct: false, text: "aurat", audioSrc: "/sound/pk_woman.mp3" },
-            { challengeId: c1[0].id, imageSrc: "/boy.svg", correct: false, text: "larka", audioSrc: "/sound/pk_boy.mp3" },
-          ]);
-
-          // Challenge 2: Assist Man
-          const c2 = await db.insert(schema.challenges).values({
-            lessonId: nounsLessonId,
-            type: "ASSIST",
-            order: 2,
-            question: '"a man"',
-          }).returning();
-
-          await db.insert(schema.challengeOptions).values([
-            { challengeId: c2[0].id, correct: true, text: "aadmi", audioSrc: "/sound/pk_man.mp3" },
-            { challengeId: c2[0].id, correct: false, text: "aurat", audioSrc: "/sound/pk_woman.mp3" },
-            { challengeId: c2[0].id, correct: false, text: "larka", audioSrc: "/sound/pk_boy.mp3" },
-          ]);
-
-          // Challenge 3: Select Woman
-          const c3 = await db.insert(schema.challenges).values({
-            lessonId: nounsLessonId,
-            type: "SELECT",
-            order: 3,
-            question: 'Which one of these is "a woman"?',
-          }).returning();
-
-          await db.insert(schema.challengeOptions).values([
-            { challengeId: c3[0].id, imageSrc: "/man.svg", correct: false, text: "aadmi", audioSrc: "/sound/pk_man.mp3" },
-            { challengeId: c3[0].id, imageSrc: "/woman.svg", correct: true, text: "aurat", audioSrc: "/sound/pk_woman.mp3" },
-            { challengeId: c3[0].id, imageSrc: "/boy.svg", correct: false, text: "larka", audioSrc: "/sound/pk_boy.mp3" },
-          ]);
-        }
-
-        // Prepare Lessons
-        const lessonsData = unitJson.lessons.map(l => ({
-          unitId: unitId,
-          title: l.title,
-          order: lessonOrder++,
-        }));
-
-        if (lessonsData.length === 0) continue;
-
-        const insertedLessons = await db
-          .insert(schema.lessons)
-          .values(lessonsData)
-          .returning();
-
-        // Map original lessons to inserted lessons to process challenges
-        // We assume order is preserved or we match by title/order.
-        // Since we insert in order, `insertedLessons` should match `unitJson.lessons`.
-
-        for (let i = 0; i < insertedLessons.length; i++) {
-          const lessonId = insertedLessons[i].id;
-          const lessonJson = unitJson.lessons[i];
+          const lessonId = lesson[0].id;
           let challengeOrder = 1;
-
-          const lessonVocabulary = lessonJson.cards
-            .filter((c) => c.type === "word" || c.type === "sentence")
-            .map((c) => c.english!);
-
           const challengesData: any[] = [];
-          const optionsDataMap: { [key: number]: any[] } = {}; // Map index in challengesData to options
+          const optionsDataMap: { [key: number]: any[] } = {};
 
-          for (const card of lessonJson.cards) {
-            if (card.type === "quiz") {
-              challengesData.push({
-                lessonId: lessonId,
-                type: "SELECT",
-                question: card.question!,
-                order: challengeOrder++,
-              });
+          // --- Content Extraction Logic ---
 
-              const challengeIndex = challengesData.length - 1;
-              optionsDataMap[challengeIndex] = [];
+          // Strategy: Convert everything into a standard "Card" format for processing
+          // Standard Card: { type: 'SELECT' | 'ASSIST', question: string, options: { text, correct, audio?, image? }[] }
 
-              if (card.options && card.answer) {
-                for (const optionText of card.options) {
-                  optionsDataMap[challengeIndex].push({
-                    text: optionText,
-                    correct: optionText === card.answer,
-                  });
-                }
+          const processedCards: { type: "SELECT" | "ASSIST", question: string, options: any[] }[] = [];
+
+          // 1. Handle 'cards' array (Variant 1 & 2)
+          if ('cards' in lessonJson && Array.isArray(lessonJson.cards)) {
+            const vocabulary = lessonJson.cards
+              .filter((c: any) => c.type === "word" || c.type === "phrase" || c.type === "sentence")
+              .map((c: any) => c.english);
+
+            for (const card of lessonJson.cards) {
+              if (card.type === "quiz") {
+                processedCards.push({
+                  type: "SELECT",
+                  question: card.question,
+                  options: card.options.map((opt: string) => ({
+                    text: opt,
+                    correct: opt === card.answer,
+                    // Asset lookup happens later
+                  }))
+                });
+              } else if (card.type === "word" || card.type === "phrase" || card.type === "sentence") {
+                // Create ASSIST challenge for word, phrase, and sentence types
+                const correctAnswer = card.english;
+                const distractors = vocabulary
+                  .filter((w: string) => w !== correctAnswer)
+                  .sort(() => 0.5 - Math.random())
+                  .slice(0, 2);
+
+                while (distractors.length < 2) distractors.push("Thing"); // Fallback
+
+                const allOptions = [correctAnswer, ...distractors].sort(() => 0.5 - Math.random());
+
+                processedCards.push({
+                  type: "ASSIST",
+                  question: `What is "${card.urdu}"?`,
+                  options: allOptions.map(opt => ({
+                    text: opt,
+                    correct: opt === correctAnswer
+                  }))
+                });
               }
-            } else if (card.type === "word" || card.type === "sentence") {
-              challengesData.push({
-                lessonId: lessonId,
+              // Skip 'exercise' type cards for now as they require different handling
+            }
+          }
+
+          // 2. Handle 'vocabulary' & 'phrases' (Variant 3)
+          if ('vocabulary' in lessonJson && Array.isArray(lessonJson.vocabulary)) {
+            const vocabList = lessonJson.vocabulary;
+            const englishList = vocabList.map((v: any) => v.english);
+
+            for (const v of vocabList) {
+              const distractors = englishList
+                .filter((e: string) => e !== v.english)
+                .sort(() => 0.5 - Math.random())
+                .slice(0, 2);
+              while (distractors.length < 2) distractors.push("Other");
+
+              const allOptions = [v.english, ...distractors].sort(() => 0.5 - Math.random());
+
+              processedCards.push({
                 type: "ASSIST",
-                question: `What is "${card.urdu}"?`,
-                order: challengeOrder++,
+                question: `What is "${v.urdu}"?`,
+                options: allOptions.map(opt => ({
+                  text: opt,
+                  correct: opt === v.english
+                }))
               });
+            }
+          }
 
-              const challengeIndex = challengesData.length - 1;
-              optionsDataMap[challengeIndex] = [];
-
-              const correctAnswer = card.english!;
-              const otherWords = lessonVocabulary.filter((w) => w !== correctAnswer);
-              const distractors = otherWords.sort(() => 0.5 - Math.random()).slice(0, 2);
-
-              if (distractors.length < 2) {
-                if (!distractors.includes("House")) distractors.push("House");
-                if (!distractors.includes("Book") && !distractors.includes(correctAnswer)) distractors.push("Book");
-                while (distractors.length < 2) {
-                  distractors.push("Thing");
-                }
-              }
-
-              const allOptions = [correctAnswer, ...distractors].sort(() => 0.5 - Math.random());
-
-              for (const optionText of allOptions) {
-                optionsDataMap[challengeIndex].push({
-                  text: optionText,
-                  correct: optionText === correctAnswer,
-                  audioSrc: null,
+          // 3. Handle 'screens' (Variant 4)
+          if ('screens' in lessonJson && Array.isArray(lessonJson.screens)) {
+            for (const screen of lessonJson.screens) {
+              if (screen.type === "multiple_choice") {
+                processedCards.push({
+                  type: "SELECT",
+                  question: screen.question,
+                  options: screen.options.map((o: any) => ({
+                    text: o.text,
+                    correct: o.correct
+                  }))
+                });
+              } else if (screen.type === "vocabulary") {
+                // Treat as ASSIST
+                processedCards.push({
+                  type: "ASSIST",
+                  question: `What is "${screen.urdu_text}"?`,
+                  options: [
+                    { text: screen.english_text, correct: true },
+                    { text: "Something else", correct: false }, // Simplified distractor for now
+                    { text: "Unknown", correct: false }
+                  ].sort(() => 0.5 - Math.random())
                 });
               }
             }
           }
 
+          // --- Process Generated Cards ---
+          for (const card of processedCards) {
+            challengesData.push({
+              lessonId: lessonId,
+              type: card.type,
+              question: card.question,
+              order: challengeOrder++,
+            });
+
+            const challengeIndex = challengesData.length - 1;
+            optionsDataMap[challengeIndex] = [];
+
+            for (const opt of card.options) {
+              // Asset Generation Logic
+              let audioSrc = null;
+              let imageSrc = null;
+
+              // Try to find metadata for the text (either Urdu or English)
+              // If text is Urdu, look it up directly.
+              // If text is English, we might need to reverse lookup or just use the English text for image.
+
+              // Case 1: Option is Urdu (e.g. Quiz answers)
+              let meta = wordMap.get(normalize(opt.text));
+
+              // Case 2: Option is English (e.g. Assist answers)
+              if (!meta) {
+                // Try reverse lookup by English
+                const englishMeta = englishMap.get(opt.text.trim().toLowerCase());
+                if (englishMeta) {
+                  meta = { roman: englishMeta.roman, english: opt.text };
+                }
+              }
+
+              if (meta) {
+                // Found metadata
+                const safeRoman = meta.roman.toLowerCase().replace(/[^a-z0-9]/g, "_").replace(/_+/g, "_");
+                const safeEnglish = meta.english.toLowerCase().replace(/ /g, "_").replace(/[^a-z0-9_]/g, "");
+
+                audioSrc = `/sound/${safeRoman}.mp3`;
+                imageSrc = `/${safeEnglish}.svg`;
+              } else {
+                // Assume English text for image generation
+                const safeName = opt.text.toLowerCase().replace(/ /g, "_").replace(/[^a-z0-9_]/g, "");
+                imageSrc = `/ ${safeName}.svg`;
+                // No audio for English options usually, or we'd need a TTS
+              }
+
+              if (audioSrc) registerAsset('audio', audioSrc);
+              if (imageSrc) registerAsset('image', imageSrc);
+
+              optionsDataMap[challengeIndex].push({
+                text: opt.text,
+                correct: opt.correct,
+                audioSrc: audioSrc,
+                imageSrc: imageSrc,
+              });
+            }
+          }
+
+          // Batch Insert Challenges & Options
           if (challengesData.length > 0) {
             const insertedChallenges = await db
               .insert(schema.challenges)
@@ -282,7 +380,6 @@ const main = async () => {
             });
 
             if (allOptionsToInsert.length > 0) {
-              // Batch insert options (chunks of 1000 to avoid limits)
               const chunkSize = 1000;
               for (let j = 0; j < allOptionsToInsert.length; j += chunkSize) {
                 await db.insert(schema.challengeOptions)
@@ -295,6 +392,14 @@ const main = async () => {
     }
 
     console.log("Database seeded successfully with Urdu curriculum");
+
+    console.log("\n--- ASSET REPORT ---");
+    console.log("Required Audio Files:");
+    Array.from(audioAssets).sort().forEach(a => console.log(a));
+    console.log("\nRequired Image Files:");
+    Array.from(imageAssets).sort().forEach(i => console.log(i));
+    console.log("--------------------\n");
+
   } catch (error) {
     console.error(error);
     throw new Error("Failed to seed database");
