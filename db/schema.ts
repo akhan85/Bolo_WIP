@@ -61,6 +61,8 @@ export const lessonsRelations = relations(lessons, ({ one, many }) => ({
   challenges: many(challenges),
 }));
 
+// LEARN: introduce a new item (no wrong answer). Its single option holds the
+// meaning and picture.
 // SELECT / ASSIST: pick one option.
 // WORD_BANK: tap the correct options in order to build a sentence.
 // MATCH: pair each option's text with its `pair`.
@@ -69,6 +71,7 @@ export const challengesEnum = pgEnum("type", [
   "ASSIST",
   "WORD_BANK",
   "MATCH",
+  "LEARN",
 ]);
 
 export const challenges = pgTable("challenges", {

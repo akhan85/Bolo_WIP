@@ -29,6 +29,10 @@ export const WordBank = ({
   );
   const byId = new Map(options.map((option) => [option.id, option]));
   const locked = disabled || status !== "none";
+  // Urdu script builds right to left; romanized (speaking) lessons left to right
+  const dir = options.some((option) => /[\u0600-\u06FF]/.test(option.text))
+    ? "rtl"
+    : "ltr";
 
   const add = (id: number) => {
     // Functional updates so quick taps can't overwrite each other
@@ -41,9 +45,9 @@ export const WordBank = ({
 
   return (
     <div className="flex flex-col gap-y-8">
-      {/* Answer line - Urdu reads right to left */}
+      {/* Answer line */}
       <div
-        dir="rtl"
+        dir={dir}
         lang="ur"
         className="flex min-h-[64px] flex-wrap items-center gap-2 border-b-2 pb-2 lg:min-h-[76px]"
       >
@@ -66,7 +70,7 @@ export const WordBank = ({
       </div>
 
       {/* Word bank - tapped words leave a grey gap behind */}
-      <div dir="rtl" lang="ur" className="flex flex-wrap justify-center gap-2">
+      <div dir={dir} lang="ur" className="flex flex-wrap justify-center gap-2">
         {bank.map((option) =>
           selected.includes(option.id) ? (
             <span

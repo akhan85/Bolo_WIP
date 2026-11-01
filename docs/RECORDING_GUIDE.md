@@ -6,6 +6,8 @@ Bolo plays a recording when a question appears (the 🔊 button in the speech bu
 
 Open **[docs/assets/audio-todo.md](assets/audio-todo.md)**. It lists every missing file, split into three priorities:
 
+**Start with the "Start Here" sections** at the top of each priority. Beginners learn those lessons by listening, so they benefit most from audio.
+
 | Priority | What | Why first |
 |---|---|---|
 | 1 | Letters & single words | Short to record, and each one is reused across many questions |

@@ -7,7 +7,8 @@ import type { Item, Lesson, Unit } from "./load";
 // out which audio / image files each one should use.
 //
 // Lesson flow, per lesson:
-//   1. Recognise  - see/hear each new Urdu item, pick its English meaning
+//   1. Learn → Recognise - each new item is introduced on a teaching card,
+//                   then immediately tested (pick its English meaning)
 //   2. Match      - pair the lesson's words with their meanings
 //   3. Produce    - see the English, pick the right Urdu word, or build the
 //                   Urdu phrase/sentence from a word bank
@@ -25,7 +26,7 @@ export type BuiltOption = {
 // WORD_BANK options are stored in answer order (correct words first, then
 // the extra distractor words), so the app can rebuild the right sentence.
 export type BuiltChallenge = {
-  type: "SELECT" | "ASSIST" | "WORD_BANK" | "MATCH";
+  type: "SELECT" | "ASSIST" | "WORD_BANK" | "MATCH" | "LEARN";
   question: string;
   hint: string | null;
   audioSrc: string | null;
@@ -55,6 +56,11 @@ const OPTIONS_PER_CHALLENGE = 3;
 const MATCH_PAIRS = 5;
 const WORD_BANK_MAX_WORDS = 8;
 const WORD_BANK_EXTRA_WORDS = 3;
+// Keeps lessons to a manageable length for beginners
+const MAX_PRODUCE = 5;
+const MAX_DIALOGUE_LINES = 3;
+
+const isUrduScript = (s?: string) => !!s && /[\u0600-\u06FF]/.test(s);
 
 // Splits an Urdu phrase into word tiles, dropping punctuation.
 export const tokenize = (urdu: string) =>
@@ -131,6 +137,14 @@ export const createBuilder = (units: Unit[]) => {
     u.lessons.flatMap((l) => [...l.items, ...l.lines])
   );
   const byUrdu = new Map(allItems.map((i) => [i.urdu, i]));
+  const courseLessons = units.flatMap((u) => u.lessons);
+
+  // Everything taught before this lesson, most recent first
+  const taughtBefore = (lesson: Lesson) =>
+    courseLessons
+      .slice(0, courseLessons.indexOf(lesson))
+      .reverse()
+      .flatMap((l) => [...l.items, ...l.lines]);
 
   const audioFor = (i: Item, usedIn: string): string | null => {
     // Name by pronunciation; fall back to the meaning if there's no roman.
@@ -143,11 +157,13 @@ export const createBuilder = (units: Unit[]) => {
     if (!file) return null;
     if (exists(file)) return file;
 
+    // Speaking lessons swap the fields; list the script as "Urdu" either way
+    const swapped = !isUrduScript(i.urdu) && isUrduScript(i.roman);
     if (!missingAudio.has(file))
       missingAudio.set(file, {
         file,
-        urdu: i.urdu,
-        roman: i.roman,
+        urdu: swapped ? i.roman! : i.urdu,
+        roman: swapped ? i.urdu : i.roman,
         english: i.english,
         kind: i.kind,
         usedIn,
@@ -188,6 +204,9 @@ export const createBuilder = (units: Unit[]) => {
       !same(c.urdu, target.urdu) &&
       !same(c.english, target.english) &&
       !same(c[field], target[field]) &&
+      // Never mix Urdu script with romanized options
+      (field !== "urdu" ||
+        isUrduScript(c.urdu) === isUrduScript(target.urdu)) &&
       !picked.some((p) => same(p[field], c[field]));
 
     for (const strictGroup of [true, false]) {
@@ -209,8 +228,9 @@ export const createBuilder = (units: Unit[]) => {
     const usedIn = `${unit.title} › ${lesson.title}`;
     const random = rng(usedIn);
     const lessonPool = [...lesson.items, ...lesson.lines];
-    const unitPool = unit.lessons.flatMap((l) => [...l.items, ...l.lines]);
-    const pools = [lessonPool, unitPool, allItems];
+    // Wrong answers come from this lesson, then earlier lessons; later
+    // lessons are only a last resort, so choices are words the learner knows.
+    const pools = [lessonPool, taughtBefore(lesson), allItems];
 
     const urduOption = (i: Item, correct: boolean): BuiltOption => ({
       text: i.urdu,
@@ -225,6 +245,22 @@ export const createBuilder = (units: Unit[]) => {
       correct,
       audioSrc: null,
       imageSrc: i.kind === "letter" ? null : imageFor(i, usedIn),
+    });
+
+    // Teaching card: no wrong answer, just meet the new item.
+    const learn = (i: Item): BuiltChallenge => ({
+      type: "LEARN",
+      question: i.urdu,
+      hint: i.roman ?? null,
+      audioSrc: audioFor(i, usedIn),
+      options: [
+        {
+          text: i.english ?? i.roman ?? "",
+          correct: true,
+          audioSrc: null,
+          imageSrc: imageFor(i, usedIn),
+        },
+      ],
     });
 
     const recognise = (i: Item): BuiltChallenge | null => {
@@ -302,21 +338,17 @@ export const createBuilder = (units: Unit[]) => {
 
     // Pair up to five of the lesson's words with their meanings.
     const match = (): BuiltChallenge | null => {
-      if (!lesson.items.length) return null;
+      // Only this lesson's items - never words the learner hasn't met yet
       const pairs: Item[] = [];
-      for (const pool of [lesson.items, unitPool]) {
-        for (const c of shuffle(pool, random)) {
-          if (pairs.length >= MATCH_PAIRS) break;
-          if (
-            c.english &&
-            (c.kind === "word" || c.kind === "letter") &&
-            !pairs.some(
-              (p) => same(p.urdu, c.urdu) || same(p.english, c.english)
-            )
-          )
-            pairs.push(c);
-        }
-        if (pairs.length >= 3 && pool === lesson.items) break;
+      for (const c of shuffle(lesson.items, random)) {
+        if (pairs.length >= MATCH_PAIRS) break;
+        if (
+          c.english &&
+          c.kind !== "sentence" &&
+          c.kind !== "reading" &&
+          !pairs.some((p) => same(p.urdu, c.urdu) || same(p.english, c.english))
+        )
+          pairs.push(c);
       }
       if (pairs.length < 3) return null;
       return {
@@ -374,10 +406,13 @@ export const createBuilder = (units: Unit[]) => {
     });
 
     return [
-      ...lesson.items.map(recognise),
+      // Review lessons revisit known items, so they skip the teaching cards
+      ...lesson.items.flatMap((i) =>
+        lesson.review ? [recognise(i)] : [learn(i), recognise(i)]
+      ),
       match(),
-      ...shuffle(lesson.items, random).map(produce),
-      ...lesson.lines.map(recognise),
+      ...shuffle(lesson.items, random).slice(0, MAX_PRODUCE).map(produce),
+      ...lesson.lines.slice(0, MAX_DIALOGUE_LINES).map(recognise),
       // A quiz whose answer isn't among its options would leave the learner stuck.
       ...lesson.quizzes.filter((q) => q.options.includes(q.answer)).map(check),
     ].filter((c): c is BuiltChallenge => !!c);

@@ -1,6 +1,8 @@
 import fs from "fs";
 import path from "path";
 
+import { audioSlug } from "./build";
+
 // The curriculum files were written at different times in different shapes.
 // This module flattens all of them into one predictable structure so the
 // seed script and the asset report never have to care about the variants.
@@ -27,6 +29,7 @@ export type Lesson = {
   items: Item[]; // new vocabulary / phrases to learn
   lines: Item[]; // dialogue lines (practised in context)
   quizzes: Quiz[];
+  review?: boolean; // revisits earlier items - no teaching cards
 };
 
 export type Unit = {
@@ -54,7 +57,7 @@ const kindFor = (
     return "sentence";
   if (type === "phrase") return "phrase";
   // A single Urdu letter, ignoring joiners, do-chashmi heh and vowel marks
-  if (urdu.replace(/[\sـھ\u064B-\u0652\u0670]/g, "").length === 1)
+  if (urdu.replace(/[\s\u0640\u06BE\u064B-\u0652\u0670]/g, "").length <= 1)
     return "letter";
   return urdu.trim().includes(" ") ? "phrase" : "word";
 };
@@ -171,28 +174,76 @@ const normalizeLesson = (l: any): Lesson => {
   (l.dialogue ?? []).forEach((t: any) => push(lines, item(t, "sentence")));
   for (const q of l.quiz ?? []) quizzes.push(q);
 
-  return { title, items, lines, quizzes };
+  // Speaking lessons are taught through pronunciation: the romanized text is
+  // what learners read and tap, and the Urdu script is shown as the hint.
+  // Audio stays named after the pronunciation.
+  if (l.mode === "speaking") {
+    const toSpeaking = (i: Item): Item =>
+      i.roman
+        ? {
+            ...i,
+            urdu: i.roman,
+            roman: i.urdu,
+            audio: i.audio ?? `${audioSlug(i.roman)}.mp3`,
+          }
+        : i;
+    return {
+      title,
+      items: items.map(toSpeaking),
+      lines: lines.map(toSpeaking),
+      quizzes,
+      review: !!l.review,
+    };
+  }
+
+  return { title, items, lines, quizzes, review: !!l.review };
+};
+
+// Beginners can take in about six new things at once, so bigger lessons are
+// split into numbered parts. Dialogue and quiz go with the last part.
+const MAX_NEW_ITEMS = 6;
+
+const splitLesson = (lesson: Lesson): Lesson[] => {
+  if (lesson.items.length <= MAX_NEW_ITEMS + 1) return [lesson];
+
+  const parts = Math.ceil(lesson.items.length / MAX_NEW_ITEMS);
+  const size = Math.ceil(lesson.items.length / parts);
+  return Array.from({ length: parts }, (_, p) => {
+    const last = p === parts - 1;
+    return {
+      ...lesson,
+      title: `${lesson.title} (${p + 1})`,
+      items: lesson.items.slice(p * size, (p + 1) * size),
+      lines: last ? lesson.lines : [],
+      quizzes: last ? lesson.quizzes : [],
+    };
+  });
 };
 
 const normalizeUnit = (u: any, stageLabel: string): Unit => ({
   title: u.title ?? u.unit_name ?? u.unit_title ?? "Untitled Unit",
   description: u.description ?? u.unit_description ?? stageLabel,
-  lessons: (u.lessons ?? []).map(normalizeLesson),
+  lessons: (u.lessons ?? []).map(normalizeLesson).flatMap(splitLesson),
 });
 
 // Some units are wrapped as `{ stage, units: [...] }` - unwrap them.
 const flattenUnits = (units: any[]): any[] =>
   units.flatMap((u) => (Array.isArray(u.units) ? flattenUnits(u.units) : [u]));
 
+// Course order is by stage id (Start Here is stage 0, before the original
+// Stage 1). A curriculum file can list `replacesUnits` - titles of older units
+// it supersedes, which are then left out of the course.
 export const loadCurriculum = (): Unit[] => {
-  const units: Unit[] = [];
+  const stages: { id: number; units: Unit[] }[] = [];
+  const replaced = new Set<string>();
 
   const stage1 = JSON.parse(fs.readFileSync(STAGE_1_FILE, "utf8"));
   for (const stage of stage1.course.stages) {
     const label = `Stage ${stage.id} - ${stage.name}`;
-    flattenUnits(stage.units).forEach((u) =>
-      units.push(normalizeUnit(u, label))
-    );
+    stages.push({
+      id: stage.id,
+      units: flattenUnits(stage.units).map((u) => normalizeUnit(u, label)),
+    });
   }
 
   if (fs.existsSync(CURRICULUM_DIR)) {
@@ -206,9 +257,16 @@ export const loadCurriculum = (): Unit[] => {
         fs.readFileSync(path.join(CURRICULUM_DIR, file), "utf8")
       );
       const label = `Stage ${data.stage.id} - ${data.stage.name}`;
-      data.units.forEach((u: any) => units.push(normalizeUnit(u, label)));
+      (data.stage.replacesUnits ?? []).forEach((t: string) => replaced.add(t));
+      stages.push({
+        id: data.stage.id,
+        units: data.units.map((u: any) => normalizeUnit(u, label)),
+      });
     }
   }
 
-  return units;
+  return stages
+    .sort((a, b) => a.id - b.id)
+    .flatMap((s) => s.units)
+    .filter((u) => !replaced.has(u.title));
 };

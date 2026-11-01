@@ -10,6 +10,7 @@ type FooterProps = {
   disabled?: boolean;
   lessonId?: number;
   solution?: string; // shown when the learner gets it wrong
+  checkLabel?: string; // replaces "Check", e.g. "Continue" on teaching cards
 };
 
 export const Footer = ({
@@ -18,6 +19,7 @@ export const Footer = ({
   disabled,
   lessonId,
   solution,
+  checkLabel,
 }: FooterProps) => {
   useKey("Enter", onCheck, {}, [onCheck]);
   const isMobile = useMedia("(max-width: 1024px)");
@@ -46,7 +48,7 @@ export const Footer = ({
               {solution && (
                 <p className="text-sm font-normal lg:text-base">
                   Correct answer:{" "}
-                  <span dir="rtl" lang="ur" className="text-lg lg:text-xl">
+                  <span dir="auto" lang="ur" className="text-lg lg:text-xl">
                     {solution}
                   </span>
                 </p>
@@ -73,7 +75,7 @@ export const Footer = ({
           size={isMobile ? "sm" : "lg"}
           variant={status === "wrong" ? "danger" : "secondary"}
         >
-          {status === "none" && "Check"}
+          {status === "none" && (checkLabel ?? "Check")}
           {status === "correct" && "Next"}
           {status === "wrong" && "Retry"}
           {status === "completed" && "Continue"}

@@ -1,0 +1,403 @@
+{
+  "stage": {
+    "id": 0,
+    "name": "Start Here",
+    "level": "Absolute beginner",
+    "description": "For learners who have never studied Urdu. Speak first: useful phrases and words taught through pronunciation, then the alphabet three or four letters at a time, always using words the learner already knows.",
+    "replacesUnits": ["Alphabet & Sounds"]
+  },
+  "units": [
+    {
+      "title": "Start Here: First Words",
+      "description": "Say hello, thank you and introduce yourself",
+      "lessons": [
+        {
+          "title": "Hello!",
+          "mode": "speaking",
+          "objectives": [
+            "Greet someone and reply to a greeting",
+            "Say thank you and goodbye"
+          ],
+          "notes": "Speaking lessons show the pronunciation in large letters with the Urdu script underneath. Learners don't need to read the script yet; they just get used to seeing it.",
+          "vocab": [
+            { "urdu": "السلام علیکم", "roman": "assalam-o-alaikum", "english": "hello (peace be upon you)" },
+            { "urdu": "وعلیکم السلام", "roman": "wa alaikum assalam", "english": "hello (the reply)" },
+            { "urdu": "شکریہ", "roman": "shukriya", "english": "thank you" },
+            { "urdu": "خدا حافظ", "roman": "khuda hafiz", "english": "goodbye" }
+          ],
+          "quiz": [
+            { "question": "Someone says \"assalam-o-alaikum\". What do you say back?", "options": ["wa alaikum assalam", "khuda hafiz", "shukriya"], "answer": "wa alaikum assalam" },
+            { "question": "How do you say goodbye?", "options": ["khuda hafiz", "shukriya", "assalam-o-alaikum"], "answer": "khuda hafiz" }
+          ]
+        },
+        {
+          "title": "Yes, No & Sorry",
+          "mode": "speaking",
+          "objectives": [
+            "Say yes and no politely",
+            "Apologise and say 'no problem'"
+          ],
+          "notes": "جی (jee) is the polite 'yes', and adding it before any answer sounds respectful. معاف کیجیے works for both 'sorry' and 'excuse me'.",
+          "vocab": [
+            { "urdu": "جی", "roman": "jee", "english": "yes (polite)" },
+            { "urdu": "نہیں", "roman": "nahin", "english": "no" },
+            { "urdu": "ٹھیک ہے", "roman": "theek hai", "english": "okay" },
+            { "urdu": "معاف کیجیے", "roman": "maaf kijiye", "english": "sorry / excuse me" },
+            { "urdu": "کوئی بات نہیں", "roman": "koi baat nahin", "english": "no problem" }
+          ],
+          "quiz": [
+            { "question": "Someone says \"shukriya\" to you. A friendly reply is...", "options": ["koi baat nahin", "khuda hafiz", "nahin"], "answer": "koi baat nahin" },
+            { "question": "Which one is a polite 'yes'?", "options": ["jee", "nahin", "maaf kijiye"], "answer": "jee" }
+          ]
+        },
+        {
+          "title": "How Are You?",
+          "mode": "speaking",
+          "objectives": [
+            "Ask how someone is (to a man or a woman)",
+            "Say you're fine and ask back"
+          ],
+          "notes": "Urdu changes the question depending on who you're talking to: kaise to a man, kaisi to a woman. الحمدللہ (alhamdulillah, 'thank God') is the most common way to say you're well.",
+          "vocab": [
+            { "urdu": "آپ کیسے ہیں؟", "roman": "aap kaise hain?", "english": "How are you? (to a man)" },
+            { "urdu": "آپ کیسی ہیں؟", "roman": "aap kaisi hain?", "english": "How are you? (to a woman)" },
+            { "urdu": "میں ٹھیک ہوں", "roman": "main theek hoon", "english": "I'm fine" },
+            { "urdu": "اور آپ؟", "roman": "aur aap?", "english": "And you?" },
+            { "urdu": "الحمدللہ", "roman": "alhamdulillah", "english": "thank God (I'm well)" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "السلام علیکم! آپ کیسے ہیں؟", "roman": "assalam-o-alaikum! aap kaise hain?", "english": "Hello! How are you?" },
+            { "speaker": "B", "urdu": "الحمدللہ، میں ٹھیک ہوں۔ اور آپ؟", "roman": "alhamdulillah, main theek hoon. aur aap?", "english": "I'm well, thank God. And you?" },
+            { "speaker": "A", "urdu": "میں بھی ٹھیک ہوں، شکریہ۔", "roman": "main bhi theek hoon, shukriya.", "english": "I'm fine too, thanks." }
+          ],
+          "quiz": [
+            { "question": "You want to ask a woman how she is. You say...", "options": ["aap kaisi hain?", "aap kaise hain?", "main theek hoon"], "answer": "aap kaisi hain?" },
+            { "question": "What does \"main theek hoon\" mean?", "options": ["I'm fine", "And you?", "No problem"], "answer": "I'm fine" }
+          ]
+        },
+        {
+          "title": "My Name Is...",
+          "mode": "speaking",
+          "objectives": [
+            "Say your name",
+            "Ask someone's name",
+            "Say 'nice to meet you'"
+          ],
+          "notes": "Encourage learners to say the sentences out loud with their own name in place of Ali or Sara.",
+          "vocab": [
+            { "urdu": "میرا نام", "roman": "mera naam", "english": "my name" },
+            { "urdu": "میرا نام علی ہے۔", "roman": "mera naam Ali hai.", "english": "My name is Ali." },
+            { "urdu": "آپ کا نام کیا ہے؟", "roman": "aap ka naam kya hai?", "english": "What is your name?" },
+            { "urdu": "آپ سے مل کر خوشی ہوئی۔", "roman": "aap se mil kar khushi hui.", "english": "Nice to meet you." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "آپ کا نام کیا ہے؟", "roman": "aap ka naam kya hai?", "english": "What is your name?" },
+            { "speaker": "B", "urdu": "میرا نام سارہ ہے۔", "roman": "mera naam Sara hai.", "english": "My name is Sara." },
+            { "speaker": "A", "urdu": "آپ سے مل کر خوشی ہوئی۔", "roman": "aap se mil kar khushi hui.", "english": "Nice to meet you." }
+          ],
+          "quiz": [
+            { "question": "What does \"mera naam\" mean?", "options": ["my name", "your name", "nice to meet you"], "answer": "my name" },
+            { "question": "How do you ask someone's name?", "options": ["aap ka naam kya hai?", "aap kaise hain?", "mera naam Ali hai."], "answer": "aap ka naam kya hai?" }
+          ]
+        },
+        {
+          "title": "Review: My First Conversation",
+          "mode": "speaking",
+          "review": true,
+          "objectives": [
+            "Hold a short conversation from hello to goodbye"
+          ],
+          "notes": "Review lesson: nothing new, just everything from this unit together in one conversation.",
+          "vocab": [
+            { "urdu": "السلام علیکم", "roman": "assalam-o-alaikum", "english": "hello (peace be upon you)" },
+            { "urdu": "شکریہ", "roman": "shukriya", "english": "thank you" },
+            { "urdu": "آپ کیسے ہیں؟", "roman": "aap kaise hain?", "english": "How are you? (to a man)" },
+            { "urdu": "آپ کا نام کیا ہے؟", "roman": "aap ka naam kya hai?", "english": "What is your name?" },
+            { "urdu": "خدا حافظ", "roman": "khuda hafiz", "english": "goodbye" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "السلام علیکم! میرا نام علی ہے۔", "roman": "assalam-o-alaikum! mera naam Ali hai.", "english": "Hello! My name is Ali." },
+            { "speaker": "B", "urdu": "وعلیکم السلام! میرا نام سارہ ہے۔", "roman": "wa alaikum assalam! mera naam Sara hai.", "english": "Hello! My name is Sara." },
+            { "speaker": "A", "urdu": "آپ سے مل کر خوشی ہوئی۔ خدا حافظ!", "roman": "aap se mil kar khushi hui. khuda hafiz!", "english": "Nice to meet you. Goodbye!" }
+          ],
+          "quiz": [
+            { "question": "Put the conversation in order. What comes first?", "options": ["assalam-o-alaikum", "khuda hafiz", "koi baat nahin"], "answer": "assalam-o-alaikum" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Start Here: Everyday Words",
+      "description": "Family, food and drink, and counting to five",
+      "lessons": [
+        {
+          "title": "Family",
+          "mode": "speaking",
+          "objectives": ["Name close family members", "Introduce a family member"],
+          "notes": "Elders are spoken about respectfully with ہیں (hain) even when it's one person: yeh meri ammi hain.",
+          "vocab": [
+            { "urdu": "امی", "roman": "ammi", "english": "mum" },
+            { "urdu": "ابو", "roman": "abbu", "english": "dad" },
+            { "urdu": "بھائی", "roman": "bhai", "english": "brother" },
+            { "urdu": "بہن", "roman": "behan", "english": "sister" },
+            { "urdu": "یہ میری امی ہیں۔", "roman": "yeh meri ammi hain.", "english": "This is my mum." }
+          ],
+          "quiz": [
+            { "question": "What does \"bhai\" mean?", "options": ["brother", "sister", "dad"], "answer": "brother" }
+          ]
+        },
+        {
+          "title": "Food & Drink",
+          "mode": "speaking",
+          "objectives": ["Name everyday food and drinks", "Ask for something politely"],
+          "notes": "mujhe ... chahiye ('I need...') is one of the most useful patterns in Urdu; learners meet it properly in Stage 2.",
+          "vocab": [
+            { "urdu": "پانی", "roman": "paani", "english": "water", "image": "/images/water.svg" },
+            { "urdu": "چائے", "roman": "chai", "english": "tea", "image": "/images/tea.svg" },
+            { "urdu": "روٹی", "roman": "roti", "english": "flatbread (roti)", "image": "/images/roti.svg" },
+            { "urdu": "دودھ", "roman": "doodh", "english": "milk", "image": "/images/milk.svg" },
+            { "urdu": "مجھے پانی چاہیے۔", "roman": "mujhe paani chahiye.", "english": "I need water." }
+          ],
+          "quiz": [
+            { "question": "You're thirsty. What do you ask for?", "options": ["paani", "roti", "behan"], "answer": "paani" }
+          ]
+        },
+        {
+          "title": "Counting to Five",
+          "mode": "speaking",
+          "objectives": ["Count from one to five", "Order two of something"],
+          "notes": "Numbers go before the thing being counted: do chai (two teas).",
+          "vocab": [
+            { "urdu": "ایک", "roman": "ek", "english": "one (1)" },
+            { "urdu": "دو", "roman": "do", "english": "two (2)" },
+            { "urdu": "تین", "roman": "teen", "english": "three (3)" },
+            { "urdu": "چار", "roman": "chaar", "english": "four (4)" },
+            { "urdu": "پانچ", "roman": "paanch", "english": "five (5)" }
+          ],
+          "quiz": [
+            { "question": "do + teen = ?", "options": ["paanch", "chaar", "ek"], "answer": "paanch" },
+            { "question": "How do you say 'two teas'?", "options": ["do chai", "ek chai", "chai do chai"], "answer": "do chai" }
+          ]
+        },
+        {
+          "title": "Review: At the Tea Stall",
+          "mode": "speaking",
+          "review": true,
+          "objectives": ["Order tea politely, from greeting to thanks"],
+          "notes": "Review lesson: everyday words from this unit mixed with greetings from Unit 1.",
+          "vocab": [
+            { "urdu": "چائے", "roman": "chai", "english": "tea", "image": "/images/tea.svg" },
+            { "urdu": "دو", "roman": "do", "english": "two (2)" },
+            { "urdu": "پانی", "roman": "paani", "english": "water", "image": "/images/water.svg" },
+            { "urdu": "شکریہ", "roman": "shukriya", "english": "thank you" },
+            { "urdu": "بھائی", "roman": "bhai", "english": "brother" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "السلام علیکم بھائی! دو چائے دیجیے۔", "roman": "assalam-o-alaikum bhai! do chai dijiye.", "english": "Hello, brother! Two teas, please." },
+            { "speaker": "B", "urdu": "جی، ضرور۔", "roman": "jee, zaroor.", "english": "Yes, of course." },
+            { "speaker": "A", "urdu": "شکریہ!", "roman": "shukriya!", "english": "Thank you!" }
+          ],
+          "quiz": [
+            { "question": "In Pakistan it's friendly to call a shopkeeper...", "options": ["bhai", "ammi", "do"], "answer": "bhai" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Start Here: Reading the Alphabet",
+      "description": "The Urdu letters, three or four at a time",
+      "lessons": [
+        {
+          "title": "First Letters: ا ب پ",
+          "objectives": ["Recognise ا ب پ and their sounds", "Read your first words: آپ and باپ", "Know that Urdu reads right to left"],
+          "notes": "Urdu is written right to left and most letters join to the next one, so their shape shrinks inside a word. ب and پ are the same shape with one dot below vs three dots below. آ is alif with a wavy line (madd) on top for a long 'aa'.",
+          "vocab": [
+            { "urdu": "ا", "roman": "alif", "english": "a / aa sound", "image": "/a.svg" },
+            { "urdu": "ب", "roman": "be", "english": "b sound", "image": "/b.svg" },
+            { "urdu": "پ", "roman": "pe", "english": "p sound", "image": "/p.svg" },
+            { "urdu": "آپ", "roman": "aap", "english": "you (respectful)" },
+            { "urdu": "باپ", "roman": "baap", "english": "father" }
+          ],
+          "quiz": [
+            { "question": "Urdu is read from...", "options": ["right to left", "left to right", "top to bottom"], "answer": "right to left" },
+            { "question": "Which letter has three dots below?", "options": ["پ", "ب", "ا"], "answer": "پ" }
+          ]
+        },
+        {
+          "title": "Letters: ت ٹ ث",
+          "objectives": ["Recognise ت ٹ ث", "Hear the difference between soft ت and hard ٹ", "Read بات and تب"],
+          "notes": "Same body as ب, different dots: ت has two dots on top, ث three dots on top, and ٹ a small ط on top. ت is soft (tongue touching the teeth); ٹ is hard (tongue curled back). ث is only used in words borrowed from Arabic and sounds like s.",
+          "vocab": [
+            { "urdu": "ت", "roman": "te", "english": "t sound (soft)", "image": "/t.svg" },
+            { "urdu": "ٹ", "roman": "ṭe", "english": "ṭ sound (hard)", "image": "/retroflex_t.svg" },
+            { "urdu": "ث", "roman": "se", "english": "s sound (Arabic letter)", "image": "/s_.svg" },
+            { "urdu": "بات", "roman": "baat", "english": "talk / matter" },
+            { "urdu": "تب", "roman": "tab", "english": "then" }
+          ],
+          "quiz": [
+            { "question": "Which letter is the hard ṭ (tongue curled back)?", "options": ["ٹ", "ت", "ث"], "answer": "ٹ" },
+            { "question": "How do you read بات?", "options": ["baat", "baap", "aap"], "answer": "baat" }
+          ]
+        },
+        {
+          "title": "Letters: ج چ خ",
+          "objectives": ["Recognise ج چ خ", "Read چاچا and تاج"],
+          "notes": "These three share a hook shape: ج has one dot inside, چ three dots inside, خ one dot on top. خ is a throaty kh, like the 'ch' in Scottish 'loch'.",
+          "vocab": [
+            { "urdu": "ج", "roman": "jeem", "english": "j sound", "image": "/j.svg" },
+            { "urdu": "چ", "roman": "che", "english": "ch sound", "image": "/ch.svg" },
+            { "urdu": "خ", "roman": "khe", "english": "kh sound (throaty)", "image": "/kh.svg" },
+            { "urdu": "چاچا", "roman": "chacha", "english": "uncle (dad's younger brother)" },
+            { "urdu": "تاج", "roman": "taaj", "english": "crown" }
+          ],
+          "quiz": [
+            { "question": "Which letter has three dots inside?", "options": ["چ", "ج", "خ"], "answer": "چ" }
+          ]
+        },
+        {
+          "title": "Letters: د ڈ ر",
+          "objectives": ["Recognise د ڈ ر", "Know that these letters never join to the next letter", "Read دادا and رات"],
+          "notes": "د ڈ ر (and ا, ز, و) never join to the letter after them, which is why words like دادا have little gaps inside. د is soft d, ڈ is hard (tongue curled back).",
+          "vocab": [
+            { "urdu": "د", "roman": "daal", "english": "d sound (soft)" },
+            { "urdu": "ڈ", "roman": "ḍaal", "english": "ḍ sound (hard)" },
+            { "urdu": "ر", "roman": "re", "english": "r sound" },
+            { "urdu": "دادا", "roman": "dada", "english": "grandfather (dad's father)" },
+            { "urdu": "رات", "roman": "raat", "english": "night" }
+          ],
+          "quiz": [
+            { "question": "Why does دادا have gaps inside it?", "options": ["د and ا never join to the next letter", "It is two words", "It is a typing mistake"], "answer": "د and ا never join to the next letter" }
+          ]
+        },
+        {
+          "title": "Letters: ز س ش",
+          "objectives": ["Recognise ز س ش", "Read سات, بس and شاباش"],
+          "notes": "ز looks like ر with a dot. س is a wavy line with three teeth; ش is the same with three dots on top.",
+          "vocab": [
+            { "urdu": "ز", "roman": "ze", "english": "z sound" },
+            { "urdu": "س", "roman": "seen", "english": "s sound", "image": "/s.svg" },
+            { "urdu": "ش", "roman": "sheen", "english": "sh sound" },
+            { "urdu": "سات", "roman": "saat", "english": "seven (7)" },
+            { "urdu": "بس", "roman": "bas", "english": "bus / enough" },
+            { "urdu": "شاباش", "roman": "shabash", "english": "well done!" }
+          ],
+          "quiz": [
+            { "question": "Which letter makes the 'sh' sound?", "options": ["ش", "س", "ز"], "answer": "ش" }
+          ]
+        },
+        {
+          "title": "Letters: ک گ ل",
+          "objectives": ["Recognise ک گ ل", "Read colour words لال and کالا"],
+          "notes": "گ is ک with an extra line on top. ل is a tall hook. With these, learners can read colour words they will use in Stage 2.",
+          "vocab": [
+            { "urdu": "ک", "roman": "kaaf", "english": "k sound" },
+            { "urdu": "گ", "roman": "gaaf", "english": "g sound" },
+            { "urdu": "ل", "roman": "laam", "english": "l sound" },
+            { "urdu": "لال", "roman": "laal", "english": "red", "image": "/images/red.svg" },
+            { "urdu": "کالا", "roman": "kaala", "english": "black", "image": "/images/black.svg" },
+            { "urdu": "گاجر", "roman": "gaajar", "english": "carrot" }
+          ],
+          "quiz": [
+            { "question": "Which letter is ک with an extra line on top?", "options": ["گ", "ل", "ک"], "answer": "گ" }
+          ]
+        },
+        {
+          "title": "Letters: م ن و",
+          "objectives": ["Recognise م ن و", "Know that و can be a consonant (w/v) or a vowel (oo/o)", "Read نام and آم"],
+          "notes": "و does double duty: w or v at the start of a word, and the vowels oo / o / au inside words (نو = nau, nine).",
+          "vocab": [
+            { "urdu": "م", "roman": "meem", "english": "m sound" },
+            { "urdu": "ن", "roman": "noon", "english": "n sound" },
+            { "urdu": "و", "roman": "wao", "english": "w / v / oo sound" },
+            { "urdu": "نام", "roman": "naam", "english": "name" },
+            { "urdu": "آم", "roman": "aam", "english": "mango", "image": "/images/mango.svg" },
+            { "urdu": "نو", "roman": "nau", "english": "nine (9)" }
+          ],
+          "quiz": [
+            { "question": "How do you read نام?", "options": ["naam", "aam", "nau"], "answer": "naam" }
+          ]
+        },
+        {
+          "title": "Letters: ی ے ہ",
+          "objectives": ["Recognise ی ے ہ", "Read the everyday words یہ, ہے and بیٹا"],
+          "notes": "ی (choti ye) is y or ee; ے (bari ye) only appears at the end of a word and sounds like e / ay. ہ (choti he) is a plain h. With these, learners can read یہ ہے (this is) - the start of real sentences.",
+          "vocab": [
+            { "urdu": "ی", "roman": "choti ye", "english": "y / ee sound" },
+            { "urdu": "ے", "roman": "bari ye", "english": "e / ay sound (end of word)" },
+            { "urdu": "ہ", "roman": "choti he", "english": "h sound" },
+            { "urdu": "یہ", "roman": "yeh", "english": "this" },
+            { "urdu": "ہے", "roman": "hai", "english": "is" },
+            { "urdu": "بیٹا", "roman": "beta", "english": "son / child" }
+          ],
+          "quiz": [
+            { "question": "ے (bari ye) appears...", "options": ["only at the end of a word", "only at the start of a word", "anywhere"], "answer": "only at the end of a word" }
+          ]
+        },
+        {
+          "title": "Letters: ف ق غ",
+          "objectives": ["Recognise ف ق غ", "Practise the deep sounds ق and غ", "Read فون and قلم"],
+          "notes": "ق is a k made deep in the throat; غ is a gargled gh, like a French r. Both come from Arabic and Persian words.",
+          "vocab": [
+            { "urdu": "ف", "roman": "fe", "english": "f sound" },
+            { "urdu": "ق", "roman": "qaaf", "english": "q sound (deep k)" },
+            { "urdu": "غ", "roman": "ghain", "english": "gh sound (gargled)" },
+            { "urdu": "فون", "roman": "fon", "english": "phone" },
+            { "urdu": "قلم", "roman": "qalam", "english": "pen", "image": "/images/pen.svg" }
+          ],
+          "quiz": [
+            { "question": "Which letter is a k made deep in the throat?", "options": ["ق", "ک", "ف"], "answer": "ق" }
+          ]
+        },
+        {
+          "title": "Letters: ں ھ ڑ",
+          "objectives": ["Recognise ں ھ ڑ", "Read the essential words نہیں, گھر and بڑا"],
+          "notes": "ں (noon ghunna) is a nasal n at the end of a word, with no dot. ھ (do-chashmi he) adds a puff of breath to the letter before it: گھ = gh, بھ = bh. ڑ is a flapped r, tongue curled back.",
+          "vocab": [
+            { "urdu": "ں", "roman": "noon ghunna", "english": "nasal n (end of word)" },
+            { "urdu": "ھ", "roman": "do-chashmi he", "english": "adds a breath (bh, gh, kh)" },
+            { "urdu": "ڑ", "roman": "ṛe", "english": "ṛ sound (flapped r)" },
+            { "urdu": "نہیں", "roman": "nahin", "english": "no" },
+            { "urdu": "گھر", "roman": "ghar", "english": "home", "image": "/images/house.svg" },
+            { "urdu": "بڑا", "roman": "baṛa", "english": "big" }
+          ],
+          "quiz": [
+            { "question": "How do you read گھر?", "options": ["ghar", "gaar", "har"], "answer": "ghar" }
+          ]
+        },
+        {
+          "title": "Same Sound, Different Letter: h, s, t",
+          "objectives": ["Recognise ح ص ط", "Understand that some letters share a sound with letters you know", "Read حال, صاف and طوطا"],
+          "notes": "Urdu kept the spelling of Arabic words, so some sounds have more than one letter. ح sounds like ہ (h), ص like س (s), ط like ت (t). Learners only need to recognise them; the sound is one they already know.",
+          "vocab": [
+            { "urdu": "ح", "roman": "baṛi he", "english": "h sound (Arabic letter)", "image": "/breathy_h.svg" },
+            { "urdu": "ص", "roman": "suaad", "english": "s sound (Arabic letter, heavy)" },
+            { "urdu": "ط", "roman": "toay", "english": "t sound (Arabic letter)" },
+            { "urdu": "حال", "roman": "haal", "english": "condition (as in 'how are things')" },
+            { "urdu": "صاف", "roman": "saaf", "english": "clean" },
+            { "urdu": "طوطا", "roman": "tota", "english": "parrot" }
+          ],
+          "quiz": [
+            { "question": "ط sounds the same as...", "options": ["ت", "ب", "ش"], "answer": "ت" }
+          ]
+        },
+        {
+          "title": "Same Sound, Different Letter: z and ع",
+          "objectives": ["Recognise ذ ض ظ ع", "Read عید, ضرور and ذرا", "Finish the alphabet!"],
+          "notes": "ذ ض ظ all sound like ز (z). ع is usually silent in Urdu or adds a slight catch in the throat. Two rare letters, ژ (zh, as in 'measure') and ء (hamza, a pause), come up later. This lesson completes the alphabet.",
+          "vocab": [
+            { "urdu": "ذ", "roman": "zaal", "english": "z sound (like ز)" },
+            { "urdu": "ض", "roman": "zuaad", "english": "z sound (heavy)" },
+            { "urdu": "ظ", "roman": "zoay", "english": "z sound (rare)" },
+            { "urdu": "ع", "roman": "ain", "english": "silent / throat catch" },
+            { "urdu": "عید", "roman": "Eid", "english": "Eid (festival)" },
+            { "urdu": "ضرور", "roman": "zaroor", "english": "of course / definitely" }
+          ],
+          "quiz": [
+            { "question": "ذ, ض and ظ all sound like...", "options": ["z", "s", "d"], "answer": "z" },
+            { "question": "How do you read عید?", "options": ["Eid", "zaroor", "haal"], "answer": "Eid" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -33,6 +33,10 @@ export const ChallengeEdit = () => {
               id: "MATCH",
               name: "MATCH",
             },
+            {
+              id: "LEARN",
+              name: "LEARN",
+            },
           ]}
         />
         <ReferenceInput source="lessonId" reference="lessons" />

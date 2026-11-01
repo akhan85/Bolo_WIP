@@ -36,6 +36,20 @@ export const upsertChallengeProgress = async (challengeId: number) => {
 
   const isPractice = !!existingChallengeProgress;
 
+  // Teaching cards just record that the item was seen: no hearts, no XP.
+  if (challenge.type === "LEARN") {
+    if (!isPractice)
+      await db.insert(challengeProgress).values({
+        challengeId,
+        userId,
+        completed: true,
+      });
+
+    revalidatePath("/learn");
+    revalidatePath(`/lesson/${lessonId}`);
+    return;
+  }
+
   if (
     currentUserProgress.hearts === 0 &&
     !isPractice &&

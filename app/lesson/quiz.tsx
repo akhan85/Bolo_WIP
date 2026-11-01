@@ -18,6 +18,7 @@ import { usePracticeModal } from "@/store/use-practice-modal";
 import { Challenge } from "./challenge";
 import { Footer } from "./footer";
 import { Header } from "./header";
+import { LearnCard } from "./learn-card";
 import { MatchPairs } from "./match-pairs";
 import { QuestionBubble } from "./question-bubble";
 import { ResultCard } from "./result-card";
@@ -100,11 +101,13 @@ export const Quiz = ({
 
   // Whether the learner has given an answer that can be checked
   const hasAnswer =
-    challenge?.type === "WORD_BANK"
-      ? builtWords.length > 0
-      : challenge?.type === "MATCH"
-        ? allMatched
-        : !!selectedOption;
+    challenge?.type === "LEARN"
+      ? true
+      : challenge?.type === "WORD_BANK"
+        ? builtWords.length > 0
+        : challenge?.type === "MATCH"
+          ? allMatched
+          : !!selectedOption;
 
   const resetAnswer = () => {
     setSelectedOption(undefined);
@@ -156,6 +159,26 @@ export const Quiz = ({
       return;
     }
 
+    const countProgress = () => {
+      if (countedIds.has(challenge.id)) return;
+      setCountedIds((prev) => new Set(prev).add(challenge.id));
+      setPercentage((prev) => Math.min(prev + 100 / challenges.length, 100));
+    };
+
+    // Teaching cards: record that it was seen and move straight on.
+    if (challenge.type === "LEARN") {
+      startTransition(() => {
+        upsertChallengeProgress(challenge.id)
+          .then(() => {
+            countProgress();
+            onNext();
+            resetAnswer();
+          })
+          .catch(() => toast.error("Something went wrong. Please try again."));
+      });
+      return;
+    }
+
     if (isAnswerCorrect()) {
       startTransition(() => {
         upsertChallengeProgress(challenge.id)
@@ -167,12 +190,7 @@ export const Quiz = ({
 
             void correctControls.play();
             setStatus("correct");
-            if (!countedIds.has(challenge.id)) {
-              setCountedIds((prev) => new Set(prev).add(challenge.id));
-              setPercentage((prev) =>
-                Math.min(prev + 100 / challenges.length, 100)
-              );
-            }
+            countProgress();
 
             // This is a practice
             if (initialPercentage === 100) {
@@ -233,7 +251,10 @@ export const Quiz = ({
           </h1>
 
           <div className="flex w-full items-center gap-x-4">
-            <ResultCard variant="points" value={challenges.length * 10} />
+            <ResultCard
+              variant="points"
+              value={challenges.filter((c) => c.type !== "LEARN").length * 10}
+            />
             <ResultCard
               variant="hearts"
               value={userSubscription?.isActive ? Infinity : hearts}
@@ -251,11 +272,17 @@ export const Quiz = ({
   }
 
   const title =
-    challenge.type === "ASSIST"
-      ? "What does this mean?"
-      : challenge.type === "WORD_BANK"
-        ? "Write this in Urdu"
-        : challenge.question;
+    challenge.type === "LEARN"
+      ? learnTitle(challenge.question)
+      : challenge.type === "ASSIST"
+        ? learnTitle(challenge.question) === "New letter"
+          ? "What sound does this letter make?"
+          : "What does this mean?"
+        : challenge.type === "WORD_BANK"
+          ? /[\u0600-\u06FF]/.test(options[0]?.text ?? "")
+            ? "Write this in Urdu"
+            : "Say this in Urdu"
+          : challenge.question;
 
   return (
     <>
@@ -293,7 +320,9 @@ export const Quiz = ({
                 <QuestionBubble question={challenge.question} />
               )}
 
-              {challenge.type === "WORD_BANK" ? (
+              {challenge.type === "LEARN" ? (
+                <LearnCard challenge={challenge} meaning={options[0]} />
+              ) : challenge.type === "WORD_BANK" ? (
                 <WordBank
                   key={challenge.id}
                   challengeId={challenge.id}
@@ -330,6 +359,7 @@ export const Quiz = ({
         disabled={pending || !hasAnswer}
         status={status}
         onCheck={onContinue}
+        checkLabel={challenge.type === "LEARN" ? "Continue" : undefined}
         solution={
           challenge.type === "WORD_BANK" && status === "wrong"
             ? wordBankAnswer(options).join(" ")
@@ -338,4 +368,11 @@ export const Quiz = ({
       />
     </>
   );
+};
+
+const learnTitle = (text: string) => {
+  // A single Urdu letter, ignoring vowel marks and joiners
+  if (text.replace(/\s|\u0640|\u06BE|\u0670|[\u064B-\u0652]/g, "").length === 1)
+    return "New letter";
+  return text.trim().includes(" ") ? "New phrase" : "New word";
 };
