@@ -1,0 +1,5730 @@
+[
+  {
+    "file": "/sound/assalam_o_alaikum.mp3",
+    "urdu": "السلام علیکم",
+    "roman": "assalam-o-alaikum",
+    "english": "hello (peace be upon you)",
+    "kind": "phrase",
+    "usedIn": "Start Here: First Words › Hello!",
+    "md5": "0897683676f1d4103b360df19c6996aa"
+  },
+  {
+    "file": "/sound/wa_alaikum_assalam.mp3",
+    "urdu": "وعلیکم السلام",
+    "roman": "wa alaikum assalam",
+    "english": "hello (the reply)",
+    "kind": "phrase",
+    "usedIn": "Start Here: First Words › Hello!",
+    "md5": "4ad2d41a83196d396a08ac7711776d31"
+  },
+  {
+    "file": "/sound/shukriya.mp3",
+    "urdu": "شکریہ",
+    "roman": "shukriya",
+    "english": "thank you",
+    "kind": "word",
+    "usedIn": "Start Here: First Words › Hello!",
+    "md5": "068b6c02e3e17f4d9d067f77234645b6"
+  },
+  {
+    "file": "/sound/khuda_hafiz.mp3",
+    "urdu": "خدا حافظ",
+    "roman": "khuda hafiz",
+    "english": "goodbye",
+    "kind": "phrase",
+    "usedIn": "Start Here: First Words › Hello!",
+    "md5": "e931c461e8086acd5b6f005c2dfb9010"
+  },
+  {
+    "file": "/sound/do.mp3",
+    "urdu": "دو",
+    "roman": "do",
+    "english": "two (2)",
+    "kind": "word",
+    "usedIn": "Start Here: First Words › Hello!",
+    "md5": "a592f9aa47ba0541346cc95cbd05b972"
+  },
+  {
+    "file": "/sound/chai.mp3",
+    "urdu": "چائے",
+    "roman": "chai",
+    "english": "tea",
+    "kind": "word",
+    "usedIn": "Start Here: First Words › Hello!",
+    "md5": "8b22644c594fb10c99932bfe12e3bbb6"
+  },
+  {
+    "file": "/sound/jee.mp3",
+    "urdu": "جی",
+    "roman": "jee",
+    "english": "yes (polite)",
+    "kind": "word",
+    "usedIn": "Start Here: First Words › Yes, No & Sorry",
+    "md5": "4ed8945d77ec05296c38201f2f21f829"
+  },
+  {
+    "file": "/sound/nahin.mp3",
+    "urdu": "نہیں",
+    "roman": "nahin",
+    "english": "no",
+    "kind": "word",
+    "usedIn": "Start Here: First Words › Yes, No & Sorry",
+    "md5": "9b3fc9538d00f709788ef0d1b8d8cd9f"
+  },
+  {
+    "file": "/sound/theek_hai.mp3",
+    "urdu": "ٹھیک ہے",
+    "roman": "theek hai",
+    "english": "okay",
+    "kind": "phrase",
+    "usedIn": "Start Here: First Words › Yes, No & Sorry",
+    "md5": "a6dbd45342103c4ccb441195b0bc71b4"
+  },
+  {
+    "file": "/sound/maaf_kijiye.mp3",
+    "urdu": "معاف کیجیے",
+    "roman": "maaf kijiye",
+    "english": "sorry / excuse me",
+    "kind": "phrase",
+    "usedIn": "Start Here: First Words › Yes, No & Sorry",
+    "md5": "215bdb266f3ede186f91830711e02b3b"
+  },
+  {
+    "file": "/sound/koi_baat_nahin.mp3",
+    "urdu": "کوئی بات نہیں",
+    "roman": "koi baat nahin",
+    "english": "no problem",
+    "kind": "phrase",
+    "usedIn": "Start Here: First Words › Yes, No & Sorry",
+    "md5": "8de211d974480af258350ca38b46a489"
+  },
+  {
+    "file": "/sound/aap_kaise_hain.mp3",
+    "urdu": "آپ کیسے ہیں؟",
+    "roman": "aap kaise hain?",
+    "english": "How are you? (to a man)",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › How Are You?",
+    "md5": "5713d670a42c4b44dbe4b9ccde5a36dc"
+  },
+  {
+    "file": "/sound/aap_kaisi_hain.mp3",
+    "urdu": "آپ کیسی ہیں؟",
+    "roman": "aap kaisi hain?",
+    "english": "How are you? (to a woman)",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › How Are You?",
+    "md5": "d1537ac31a6f4fe55451951ff1ddc72a"
+  },
+  {
+    "file": "/sound/main_theek_hoon.mp3",
+    "urdu": "میں ٹھیک ہوں",
+    "roman": "main theek hoon",
+    "english": "I'm fine",
+    "kind": "phrase",
+    "usedIn": "Start Here: First Words › How Are You?",
+    "md5": "7c21f7a7d3f6be84e86f1bfcf7c4a654"
+  },
+  {
+    "file": "/sound/aur_aap.mp3",
+    "urdu": "اور آپ؟",
+    "roman": "aur aap?",
+    "english": "And you?",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › How Are You?",
+    "md5": "2b99ae79a3e041546467e872b2a623dd"
+  },
+  {
+    "file": "/sound/alhamdulillah.mp3",
+    "urdu": "الحمدللہ",
+    "roman": "alhamdulillah",
+    "english": "thank God (I'm well)",
+    "kind": "word",
+    "usedIn": "Start Here: First Words › How Are You?",
+    "md5": "c24c20b2e0214d4e323a60cfde3cc497"
+  },
+  {
+    "file": "/sound/assalam_o_alaikum_aap_kaise_hain.mp3",
+    "urdu": "السلام علیکم! آپ کیسے ہیں؟",
+    "roman": "assalam-o-alaikum! aap kaise hain?",
+    "english": "Hello! How are you?",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › How Are You?",
+    "md5": "5efb1adfeca5c672c621551d35cc7a61"
+  },
+  {
+    "file": "/sound/alhamdulillah_main_theek_hoon_aur_aap.mp3",
+    "urdu": "الحمدللہ، میں ٹھیک ہوں۔ اور آپ؟",
+    "roman": "alhamdulillah, main theek hoon. aur aap?",
+    "english": "I'm well, thank God. And you?",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › How Are You?",
+    "md5": "fd5bda33731ad7716429c7ea82c5a0d2"
+  },
+  {
+    "file": "/sound/main_bhi_theek_hoon_shukriya.mp3",
+    "urdu": "میں بھی ٹھیک ہوں، شکریہ۔",
+    "roman": "main bhi theek hoon, shukriya.",
+    "english": "I'm fine too, thanks.",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › How Are You?",
+    "md5": "d00f815e748c850216e4033e6a9815c3"
+  },
+  {
+    "file": "/sound/mera_naam.mp3",
+    "urdu": "میرا نام",
+    "roman": "mera naam",
+    "english": "my name",
+    "kind": "phrase",
+    "usedIn": "Start Here: First Words › My Name Is...",
+    "md5": "1f2c804e9b2ed52010d44b4bab9b50d9"
+  },
+  {
+    "file": "/sound/mera_naam_ali_hai.mp3",
+    "urdu": "میرا نام علی ہے۔",
+    "roman": "mera naam Ali hai.",
+    "english": "My name is Ali.",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › My Name Is...",
+    "md5": "7b721f2cb1c78069d19c094048fe30e1"
+  },
+  {
+    "file": "/sound/aap_ka_naam_kya_hai.mp3",
+    "urdu": "آپ کا نام کیا ہے؟",
+    "roman": "aap ka naam kya hai?",
+    "english": "What is your name?",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › My Name Is...",
+    "md5": "173655a77d8e9ca5af3fc69e0306235c"
+  },
+  {
+    "file": "/sound/aap_se_mil_kar_khushi_hui.mp3",
+    "urdu": "آپ سے مل کر خوشی ہوئی۔",
+    "roman": "aap se mil kar khushi hui.",
+    "english": "Nice to meet you.",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › My Name Is...",
+    "md5": "bc34a400f35f618d98f6a7bf88ba0ffa"
+  },
+  {
+    "file": "/sound/mera_naam_sara_hai.mp3",
+    "urdu": "میرا نام سارہ ہے۔",
+    "roman": "mera naam Sara hai.",
+    "english": "My name is Sara.",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › My Name Is...",
+    "md5": "163b01a279c121188fa01399fcd9f4c8"
+  },
+  {
+    "file": "/sound/assalam_o_alaikum_mera_naam_ali_hai.mp3",
+    "urdu": "السلام علیکم! میرا نام علی ہے۔",
+    "roman": "assalam-o-alaikum! mera naam Ali hai.",
+    "english": "Hello! My name is Ali.",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › Review: My First Conversation",
+    "md5": "20a02d80f917ed7815c81265a5fc2e2c"
+  },
+  {
+    "file": "/sound/wa_alaikum_assalam_mera_naam_sara_hai.mp3",
+    "urdu": "وعلیکم السلام! میرا نام سارہ ہے۔",
+    "roman": "wa alaikum assalam! mera naam Sara hai.",
+    "english": "Hello! My name is Sara.",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › Review: My First Conversation",
+    "md5": "62ef15b2d7ca0f815cceeb1559ed4a1d"
+  },
+  {
+    "file": "/sound/aap_se_mil_kar_khushi_hui_khuda_hafiz.mp3",
+    "urdu": "آپ سے مل کر خوشی ہوئی۔ خدا حافظ!",
+    "roman": "aap se mil kar khushi hui. khuda hafiz!",
+    "english": "Nice to meet you. Goodbye!",
+    "kind": "sentence",
+    "usedIn": "Start Here: First Words › Review: My First Conversation",
+    "md5": "726f70e1f286b43b74d67c5b014d6be2"
+  },
+  {
+    "file": "/sound/ammi.mp3",
+    "urdu": "امی",
+    "roman": "ammi",
+    "english": "mum",
+    "kind": "word",
+    "usedIn": "Start Here: Everyday Words › Family",
+    "md5": "b8eada93a0c18b33ec10037e90db3a23"
+  },
+  {
+    "file": "/sound/abbu.mp3",
+    "urdu": "ابو",
+    "roman": "abbu",
+    "english": "dad",
+    "kind": "word",
+    "usedIn": "Start Here: Everyday Words › Family",
+    "md5": "e64d9f46464f4b1d19b1464983e00040"
+  },
+  {
+    "file": "/sound/bhai.mp3",
+    "urdu": "بھائی",
+    "roman": "bhai",
+    "english": "brother",
+    "kind": "word",
+    "usedIn": "Start Here: Everyday Words › Family",
+    "md5": "27f91ce8f7c6ba5cde008dc7e32e87c0"
+  },
+  {
+    "file": "/sound/behan.mp3",
+    "urdu": "بہن",
+    "roman": "behan",
+    "english": "sister",
+    "kind": "word",
+    "usedIn": "Start Here: Everyday Words › Family",
+    "md5": "37b2f2ac4656cb27b881af2ebd7b2fe7"
+  },
+  {
+    "file": "/sound/yeh_meri_ammi_hain.mp3",
+    "urdu": "یہ میری امی ہیں۔",
+    "roman": "yeh meri ammi hain.",
+    "english": "This is my mum.",
+    "kind": "sentence",
+    "usedIn": "Start Here: Everyday Words › Family",
+    "md5": "15b4f06278f0ac9d227b5ee3f52769de"
+  },
+  {
+    "file": "/sound/paani.mp3",
+    "urdu": "پانی",
+    "roman": "paani",
+    "english": "water",
+    "kind": "word",
+    "usedIn": "Start Here: Everyday Words › Food & Drink",
+    "md5": "98c81efa8d54044a68b6e88a0f60df07"
+  },
+  {
+    "file": "/sound/roti.mp3",
+    "urdu": "روٹی",
+    "roman": "roti",
+    "english": "flatbread (roti)",
+    "kind": "word",
+    "usedIn": "Start Here: Everyday Words › Food & Drink",
+    "md5": "797402c439d79c0cd4145a4886cface5"
+  },
+  {
+    "file": "/sound/doodh.mp3",
+    "urdu": "دودھ",
+    "roman": "doodh",
+    "english": "milk",
+    "kind": "word",
+    "usedIn": "Start Here: Everyday Words › Food & Drink",
+    "md5": "909d514084f99c82586300a884ccac09"
+  },
+  {
+    "file": "/sound/mujhe_paani_chahiye.mp3",
+    "urdu": "مجھے پانی چاہیے۔",
+    "roman": "mujhe paani chahiye.",
+    "english": "I need water.",
+    "kind": "sentence",
+    "usedIn": "Start Here: Everyday Words › Food & Drink",
+    "md5": "444f9a4e99be7dd839549a728c21e54d"
+  },
+  {
+    "file": "/sound/ek.mp3",
+    "urdu": "ایک",
+    "roman": "ek",
+    "english": "one (1)",
+    "kind": "word",
+    "usedIn": "Start Here: Everyday Words › Counting to Five",
+    "md5": "680683d8ba967494c2cf7e537feb8441"
+  },
+  {
+    "file": "/sound/teen.mp3",
+    "urdu": "تین",
+    "roman": "teen",
+    "english": "three (3)",
+    "kind": "word",
+    "usedIn": "Start Here: Everyday Words › Counting to Five",
+    "md5": "4bf622a34cd0640757ce0b506c1b8380"
+  },
+  {
+    "file": "/sound/chaar.mp3",
+    "urdu": "چار",
+    "roman": "chaar",
+    "english": "four (4)",
+    "kind": "word",
+    "usedIn": "Start Here: Everyday Words › Counting to Five",
+    "md5": "81a4d7d90015a8dcd9c84e0e0c6d691f"
+  },
+  {
+    "file": "/sound/paanch.mp3",
+    "urdu": "پانچ",
+    "roman": "paanch",
+    "english": "five (5)",
+    "kind": "word",
+    "usedIn": "Start Here: Everyday Words › Counting to Five",
+    "md5": "99887713c43255bd70486ef384f169ee"
+  },
+  {
+    "file": "/sound/assalam_o_alaikum_bhai_do_chai_dijiye.mp3",
+    "urdu": "السلام علیکم بھائی! دو چائے دیجیے۔",
+    "roman": "assalam-o-alaikum bhai! do chai dijiye.",
+    "english": "Hello, brother! Two teas, please.",
+    "kind": "sentence",
+    "usedIn": "Start Here: Everyday Words › Review: At the Tea Stall",
+    "md5": "ccb7d1049c3e305f0acb5f8fa465f3c8"
+  },
+  {
+    "file": "/sound/jee_zaroor.mp3",
+    "urdu": "جی، ضرور۔",
+    "roman": "jee, zaroor.",
+    "english": "Yes, of course.",
+    "kind": "sentence",
+    "usedIn": "Start Here: Everyday Words › Review: At the Tea Stall",
+    "md5": "a69101a6167c6b7e4e489b8be1aec022"
+  },
+  {
+    "file": "/sound/aap.mp3",
+    "urdu": "آپ",
+    "roman": "aap",
+    "english": "you (respectful)",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › First Letters: ا ب پ",
+    "md5": "5f8d236b4e87e3eff89d41ae2968f506"
+  },
+  {
+    "file": "/sound/baap.mp3",
+    "urdu": "باپ",
+    "roman": "baap",
+    "english": "father",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › First Letters: ا ب پ",
+    "md5": "fbcf0c19823e4c95c1bd1fe277324e78"
+  },
+  {
+    "file": "/sound/parhna.mp3",
+    "urdu": "پڑھنا",
+    "roman": "parhna",
+    "english": "to study / read",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › First Letters: ا ب پ",
+    "md5": "465d6c6b2241da50b974e5c95c9cf0b7"
+  },
+  {
+    "file": "/sound/tte.mp3",
+    "urdu": "ٹ",
+    "roman": "ṭe",
+    "english": "ṭ sound (hard)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ت ٹ ث",
+    "md5": "0fe43f7469e243fc97812501aaab36d7"
+  },
+  {
+    "file": "/sound/baat.mp3",
+    "urdu": "بات",
+    "roman": "baat",
+    "english": "talk / matter",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ت ٹ ث",
+    "md5": "4009ed2c50f0d7f929a44823db4890d3"
+  },
+  {
+    "file": "/sound/tab.mp3",
+    "urdu": "تب",
+    "roman": "tab",
+    "english": "then",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ت ٹ ث",
+    "md5": "34d7408846bd99e14a174ca4594e609e"
+  },
+  {
+    "file": "/sound/tt.mp3",
+    "urdu": "ٹ",
+    "roman": "ṭ",
+    "english": "retroflex T",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ت ٹ ث",
+    "md5": "3012c9e3495e75fb9ff03d099698a8fb"
+  },
+  {
+    "file": "/sound/khe.mp3",
+    "urdu": "خ",
+    "roman": "khe",
+    "english": "kh sound (throaty)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ج چ خ",
+    "md5": "c314533c54740c1199e62d92667becd0"
+  },
+  {
+    "file": "/sound/chacha.mp3",
+    "urdu": "چاچا",
+    "roman": "chacha",
+    "english": "uncle (dad's younger brother)",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ج چ خ",
+    "md5": "ddfb686eb2a7924bd979057f5b2f8a7f"
+  },
+  {
+    "file": "/sound/taaj.mp3",
+    "urdu": "تاج",
+    "roman": "taaj",
+    "english": "crown",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ج چ خ",
+    "md5": "1e0198ec92965c4d3f3b17099a95e9b9"
+  },
+  {
+    "file": "/sound/daal.mp3",
+    "urdu": "د",
+    "roman": "daal",
+    "english": "d sound (soft)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: د ڈ ر",
+    "md5": "d481eb23d5b4f5a6144b6f1fd62639b9"
+  },
+  {
+    "file": "/sound/ddaal.mp3",
+    "urdu": "ڈ",
+    "roman": "ḍaal",
+    "english": "ḍ sound (hard)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: د ڈ ر",
+    "md5": "a8c42582cf8e1a6fe12877370fcc32c9"
+  },
+  {
+    "file": "/sound/re.mp3",
+    "urdu": "ر",
+    "roman": "re",
+    "english": "r sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: د ڈ ر",
+    "md5": "190e9914b034dd44daf0c06a50d71620"
+  },
+  {
+    "file": "/sound/dada.mp3",
+    "urdu": "دادا",
+    "roman": "dada",
+    "english": "grandfather (dad's father)",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: د ڈ ر",
+    "md5": "1ee855c8326e4a567ec0450ccb6ea3ee"
+  },
+  {
+    "file": "/sound/raat.mp3",
+    "urdu": "رات",
+    "roman": "raat",
+    "english": "night",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: د ڈ ر",
+    "md5": "95845c4ba5b721a38c1b3f3c88e64a70"
+  },
+  {
+    "file": "/sound/ze.mp3",
+    "urdu": "ز",
+    "roman": "ze",
+    "english": "z sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ز س ش",
+    "md5": "e053eb9b47759ae7d8681e7cd2b22a6b"
+  },
+  {
+    "file": "/sound/seen.mp3",
+    "urdu": "س",
+    "roman": "seen",
+    "english": "s sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ز س ش",
+    "md5": "61302b2b2009a1e53c3ef350feaf6261"
+  },
+  {
+    "file": "/sound/sheen.mp3",
+    "urdu": "ش",
+    "roman": "sheen",
+    "english": "sh sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ز س ش",
+    "md5": "a184c947898362412e797555c26ef466"
+  },
+  {
+    "file": "/sound/saat.mp3",
+    "urdu": "سات",
+    "roman": "saat",
+    "english": "seven (7)",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ز س ش",
+    "md5": "a3b38b22d8851ceafd81bd4f2a2124d4"
+  },
+  {
+    "file": "/sound/bas.mp3",
+    "urdu": "بس",
+    "roman": "bas",
+    "english": "bus / enough",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ز س ش",
+    "md5": "0c136572179e886a32e1e28f412b1f43"
+  },
+  {
+    "file": "/sound/shabash.mp3",
+    "urdu": "شاباش",
+    "roman": "shabash",
+    "english": "well done!",
+    "kind": "sentence",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ز س ش",
+    "md5": "00df76029de25ea2bea342dabb4d7eef"
+  },
+  {
+    "file": "/sound/main_kitaab_parh_raha_hoon.mp3",
+    "urdu": "میں کتاب پڑھ رہا ہوں۔",
+    "roman": "main kitaab parh raha hoon",
+    "english": "I am reading a book.",
+    "kind": "sentence",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ز س ش",
+    "md5": "781539ecbf4b4765fbe3d2478e4bd1bf"
+  },
+  {
+    "file": "/sound/tumhara_naam_kya_hai.mp3",
+    "urdu": "تمہارا نام کیا ہے؟",
+    "roman": "tumhara naam kya hai?",
+    "english": "What is your name? (informal)",
+    "kind": "sentence",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ز س ش",
+    "md5": "8fc1b1c6ab2b627cef16c539d4ac9ba8"
+  },
+  {
+    "file": "/sound/s.mp3",
+    "urdu": "س",
+    "roman": "s",
+    "kind": "reading",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ز س ش",
+    "md5": "606903d60be1fa68bd2eea65ab7162a4"
+  },
+  {
+    "file": "/sound/z.mp3",
+    "urdu": "ز",
+    "roman": "z",
+    "kind": "reading",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ز س ش",
+    "md5": "831e766008d0b7689a877b8fe5466854"
+  },
+  {
+    "file": "/sound/kaaf.mp3",
+    "urdu": "ک",
+    "roman": "kaaf",
+    "english": "k sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ک گ ل",
+    "md5": "c4e3c34d3b51e0594cebb97dca602dc7"
+  },
+  {
+    "file": "/sound/gaaf.mp3",
+    "urdu": "گ",
+    "roman": "gaaf",
+    "english": "g sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ک گ ل",
+    "md5": "63b0e4f995561d78f1b90fea54d8e147"
+  },
+  {
+    "file": "/sound/laam.mp3",
+    "urdu": "ل",
+    "roman": "laam",
+    "english": "l sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ک گ ل",
+    "md5": "9a8d31174a9703bfeaae7ed1eb72d408"
+  },
+  {
+    "file": "/sound/laal.mp3",
+    "urdu": "لال",
+    "roman": "laal",
+    "english": "red",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ک گ ل",
+    "md5": "54197f6157fddfd66eaf309f6f8af241"
+  },
+  {
+    "file": "/sound/kaala.mp3",
+    "urdu": "کالا",
+    "roman": "kaala",
+    "english": "black",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ک گ ل",
+    "md5": "414332ce1232850d8a43cc04272d77a2"
+  },
+  {
+    "file": "/sound/gaajar.mp3",
+    "urdu": "گاجر",
+    "roman": "gaajar",
+    "english": "carrot",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ک گ ل",
+    "md5": "a518ae34d9b8a9a17aba00845e201293"
+  },
+  {
+    "file": "/sound/meem.mp3",
+    "urdu": "م",
+    "roman": "meem",
+    "english": "m sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: م ن و",
+    "md5": "eb7ed0a60bb9be1bd8eb93d469048997"
+  },
+  {
+    "file": "/sound/noon.mp3",
+    "urdu": "ن",
+    "roman": "noon",
+    "english": "n sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: م ن و",
+    "md5": "51b63c602b4b573baf900cc1a7c69444"
+  },
+  {
+    "file": "/sound/wao.mp3",
+    "urdu": "و",
+    "roman": "wao",
+    "english": "w / v / oo sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: م ن و",
+    "md5": "1873e4af383cd4b1d5c4ab259179f1a7"
+  },
+  {
+    "file": "/sound/naam.mp3",
+    "urdu": "نام",
+    "roman": "naam",
+    "english": "name",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: م ن و",
+    "md5": "e6359086173d9aa6cde9fdbae8571d56"
+  },
+  {
+    "file": "/sound/aam.mp3",
+    "urdu": "آم",
+    "roman": "aam",
+    "english": "mango",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: م ن و",
+    "md5": "65abf1bca5d81ca5a7b6881ff33d47d3"
+  },
+  {
+    "file": "/sound/nau.mp3",
+    "urdu": "نو",
+    "roman": "nau",
+    "english": "nine (9)",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: م ن و",
+    "md5": "bf56b1daffae39dfde8da67df680f4d1"
+  },
+  {
+    "file": "/sound/choti_ye.mp3",
+    "urdu": "ی",
+    "roman": "choti ye",
+    "english": "y / ee sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ی ے ہ",
+    "md5": "a71b9419e1e0225a39ad70b2e538d2ca"
+  },
+  {
+    "file": "/sound/bari_ye.mp3",
+    "urdu": "ے",
+    "roman": "bari ye",
+    "english": "e / ay sound (end of word)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ی ے ہ",
+    "md5": "1a27d886ac982fe14d987fe0e458f177"
+  },
+  {
+    "file": "/sound/choti_he.mp3",
+    "urdu": "ہ",
+    "roman": "choti he",
+    "english": "h sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ی ے ہ",
+    "md5": "032ecc62edd6870e5eeee115db65ae2b"
+  },
+  {
+    "file": "/sound/yeh.mp3",
+    "urdu": "یہ",
+    "roman": "yeh",
+    "english": "this",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ی ے ہ",
+    "md5": "9c4f15d3bc0c38c195cd0e0583f77d96"
+  },
+  {
+    "file": "/sound/hai.mp3",
+    "urdu": "ہے",
+    "roman": "hai",
+    "english": "is",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ی ے ہ",
+    "md5": "109c1e89b4ff05ed139dbdf6f9f8f4e2"
+  },
+  {
+    "file": "/sound/beta.mp3",
+    "urdu": "بیٹا",
+    "roman": "beta",
+    "english": "son / child",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ی ے ہ",
+    "md5": "b7e52002349087b1e6d2e908ea6f3da3"
+  },
+  {
+    "file": "/sound/fe.mp3",
+    "urdu": "ف",
+    "roman": "fe",
+    "english": "f sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ف ق غ",
+    "md5": "848a0561fcc6a067955d1fe39875cb59"
+  },
+  {
+    "file": "/sound/qaaf.mp3",
+    "urdu": "ق",
+    "roman": "qaaf",
+    "english": "q sound (deep k)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ف ق غ",
+    "md5": "fb5ec977aebc259a91679febf3b163ac"
+  },
+  {
+    "file": "/sound/ghain.mp3",
+    "urdu": "غ",
+    "roman": "ghain",
+    "english": "gh sound (gargled)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ف ق غ",
+    "md5": "df1537d49129b4c868df84c509443ad4"
+  },
+  {
+    "file": "/sound/fon.mp3",
+    "urdu": "فون",
+    "roman": "fon",
+    "english": "phone",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ف ق غ",
+    "md5": "b02f3112b2b50c82005d9c0e273e3de1"
+  },
+  {
+    "file": "/sound/qalam.mp3",
+    "urdu": "قلم",
+    "roman": "qalam",
+    "english": "pen",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ف ق غ",
+    "md5": "fc21fb5a208c77ad7d696f16c763d944"
+  },
+  {
+    "file": "/sound/q.mp3",
+    "urdu": "ق",
+    "roman": "q",
+    "english": "deep q/k sound",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ف ق غ",
+    "md5": "67696bf57920770b5f3a1db03e12f8aa"
+  },
+  {
+    "file": "/sound/noon_ghunna.mp3",
+    "urdu": "ں",
+    "roman": "noon ghunna",
+    "english": "nasal n (end of word)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ں ھ ڑ",
+    "md5": "793da49ccc89fb00a40cdb10df1ac2cb"
+  },
+  {
+    "file": "/sound/do_chashmi_he.mp3",
+    "urdu": "ھ",
+    "roman": "do-chashmi he",
+    "english": "adds a breath (bh, gh, kh)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ں ھ ڑ",
+    "md5": "13e507661c526f8ba32e037c150d2375"
+  },
+  {
+    "file": "/sound/rre.mp3",
+    "urdu": "ڑ",
+    "roman": "ṛe",
+    "english": "ṛ sound (flapped r)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ں ھ ڑ",
+    "md5": "1787b8f91ff777bc089097be4ffdf240"
+  },
+  {
+    "file": "/sound/ghar.mp3",
+    "urdu": "گھر",
+    "roman": "ghar",
+    "english": "home",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ں ھ ڑ",
+    "md5": "dd3e7e13dc36bcef18935beda990efc2"
+  },
+  {
+    "file": "/sound/barra.mp3",
+    "urdu": "بڑا",
+    "roman": "baṛa",
+    "english": "big",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Letters: ں ھ ڑ",
+    "md5": "3384b585b7ade840d3e785d5006696a2"
+  },
+  {
+    "file": "/sound/barri_he.mp3",
+    "urdu": "ح",
+    "roman": "baṛi he",
+    "english": "h sound (Arabic letter)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: h, s, t",
+    "md5": "d05227946bd43034758140b175baad0b"
+  },
+  {
+    "file": "/sound/suaad.mp3",
+    "urdu": "ص",
+    "roman": "suaad",
+    "english": "s sound (Arabic letter, heavy)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: h, s, t",
+    "md5": "b9864ee030a5821eae11ccc0fe2721eb"
+  },
+  {
+    "file": "/sound/toay.mp3",
+    "urdu": "ط",
+    "roman": "toay",
+    "english": "t sound (Arabic letter)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: h, s, t",
+    "md5": "5f039ab3d8455ceca38ae3c227ca217e"
+  },
+  {
+    "file": "/sound/haal.mp3",
+    "urdu": "حال",
+    "roman": "haal",
+    "english": "condition (as in 'how are things')",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: h, s, t",
+    "md5": "97eb88179da9ba563ce9196f8fe0dcdb"
+  },
+  {
+    "file": "/sound/saaf.mp3",
+    "urdu": "صاف",
+    "roman": "saaf",
+    "english": "clean",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: h, s, t",
+    "md5": "9cf6ba0857c8c28f5fe26297c0b13c25"
+  },
+  {
+    "file": "/sound/tota.mp3",
+    "urdu": "طوطا",
+    "roman": "tota",
+    "english": "parrot",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: h, s, t",
+    "md5": "05f821a19ff795203b008fac602657f6"
+  },
+  {
+    "file": "/sound/zaal.mp3",
+    "urdu": "ذ",
+    "roman": "zaal",
+    "english": "z sound (like ز)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: z and ع",
+    "md5": "c1fec66bb3a1548e2e706fcce8c7511b"
+  },
+  {
+    "file": "/sound/zuaad.mp3",
+    "urdu": "ض",
+    "roman": "zuaad",
+    "english": "z sound (heavy)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: z and ع",
+    "md5": "fde92a46c52db7cb47c681fc9138983f"
+  },
+  {
+    "file": "/sound/zoay.mp3",
+    "urdu": "ظ",
+    "roman": "zoay",
+    "english": "z sound (rare)",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: z and ع",
+    "md5": "55048508ce3c1b8f189e67699cf4e2a0"
+  },
+  {
+    "file": "/sound/ain.mp3",
+    "urdu": "ع",
+    "roman": "ain",
+    "english": "silent / throat catch",
+    "kind": "letter",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: z and ع",
+    "md5": "6d5eb984566e0b123e19b1ae21575b69"
+  },
+  {
+    "file": "/sound/eid.mp3",
+    "urdu": "عید",
+    "roman": "Eid",
+    "english": "Eid (festival)",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: z and ع",
+    "md5": "fdefcbf46d999f0541c6ca174a2cb2a1"
+  },
+  {
+    "file": "/sound/zaroor.mp3",
+    "urdu": "ضرور",
+    "roman": "zaroor",
+    "english": "of course / definitely",
+    "kind": "word",
+    "usedIn": "Start Here: Reading the Alphabet › Same Sound, Different Letter: z and ع",
+    "md5": "c7ea395e7335b29ffed32648f333a633"
+  },
+  {
+    "file": "/sound/b_forms.mp3",
+    "urdu": "بـ ـبـ ـب",
+    "roman": "b (forms)",
+    "english": "b (all forms)",
+    "kind": "phrase",
+    "usedIn": "Joining Letters & Basic Reading › Connecting Letters Basics",
+    "md5": "b58b5689a7af0bce9426ebacddd7587f"
+  },
+  {
+    "file": "/sound/m_forms.mp3",
+    "urdu": "مـ ـمـ ـم",
+    "roman": "m (forms)",
+    "english": "m (all forms)",
+    "kind": "phrase",
+    "usedIn": "Joining Letters & Basic Reading › Connecting Letters Basics",
+    "md5": "a2709195713104cbace0efe51e024aed"
+  },
+  {
+    "file": "/sound/r.mp3",
+    "urdu": "ر",
+    "roman": "r",
+    "english": "Non-connecting letter",
+    "kind": "letter",
+    "usedIn": "Joining Letters & Basic Reading › Connecting Letters Basics",
+    "md5": "058a40b060316f64dcc86dd21d11ad51"
+  },
+  {
+    "file": "/sound/ba.mp3",
+    "urdu": "با",
+    "roman": "ba",
+    "kind": "reading",
+    "usedIn": "Joining Letters & Basic Reading › Connecting Letters Basics",
+    "md5": "4add84729ed503d96032f5fb3cfbfc29"
+  },
+  {
+    "file": "/sound/bee.mp3",
+    "urdu": "بی",
+    "roman": "bee",
+    "kind": "reading",
+    "usedIn": "Joining Letters & Basic Reading › Connecting Letters Basics",
+    "md5": "f16ffab8b8915619a8f897a6a525d067"
+  },
+  {
+    "file": "/sound/tum.mp3",
+    "urdu": "تم",
+    "roman": "tum",
+    "english": "you",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Connecting Letters Basics",
+    "md5": "7aa004653cd0d93e5bf346020427793c"
+  },
+  {
+    "file": "/sound/bo.mp3",
+    "urdu": "بو",
+    "roman": "bo",
+    "kind": "reading",
+    "usedIn": "Joining Letters & Basic Reading › Connecting Letters Basics",
+    "md5": "5d9d8539e8f17c9707fa423589520579"
+  },
+  {
+    "file": "/sound/maa.mp3",
+    "urdu": "ما",
+    "roman": "maa",
+    "english": "mother (root form)",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Two-Letter Words",
+    "md5": "c4228ac1e16489d84fd31cc49fc8b49f"
+  },
+  {
+    "file": "/sound/baa.mp3",
+    "urdu": "با",
+    "roman": "baa",
+    "english": "arm (root)",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Two-Letter Words",
+    "md5": "8d36d5cd97521370c27167b58ca3dca8"
+  },
+  {
+    "file": "/sound/no.mp3",
+    "urdu": "نو",
+    "roman": "no",
+    "english": "nine",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Two-Letter Words",
+    "md5": "fe57e10e0906e32a81ad2861c7db911a"
+  },
+  {
+    "file": "/sound/bus.mp3",
+    "urdu": "بس",
+    "roman": "bus",
+    "english": "enough",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Two-Letter Words",
+    "md5": "82a51d3636f539af43a709f7cd128d86"
+  },
+  {
+    "file": "/sound/safar.mp3",
+    "urdu": "سفر",
+    "roman": "safar",
+    "english": "travel",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Three-Letter Words",
+    "md5": "2917ddf8c55893e8bed2f9d8667c285c"
+  },
+  {
+    "file": "/sound/sheher.mp3",
+    "urdu": "شہر",
+    "roman": "sheher",
+    "english": "city",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Three-Letter Words",
+    "md5": "038afec46ccba51cebac0ba79811b248"
+  },
+  {
+    "file": "/sound/kutub.mp3",
+    "urdu": "کتب",
+    "roman": "kutub",
+    "english": "books (plural)",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Three-Letter Words",
+    "md5": "1b3db32ff8ce1913bac281bdd8ad9479"
+  },
+  {
+    "file": "/sound/mith.mp3",
+    "urdu": "مٹھ",
+    "roman": "mith",
+    "english": "sweet",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Three-Letter Words",
+    "md5": "3c08d20b93d4f668b5dab834a876c6ad"
+  },
+  {
+    "file": "/sound/dil.mp3",
+    "urdu": "دل",
+    "roman": "dil",
+    "english": "heart",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Short Vowels in Connected Words",
+    "md5": "8e4f5ad67c19c605908bc33d6e45c73b"
+  },
+  {
+    "file": "/sound/kit.mp3",
+    "urdu": "کت",
+    "roman": "kit",
+    "english": "cut (root)",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Short Vowels in Connected Words",
+    "md5": "63fc9ef1d6277d7a1803569bda8bdeda"
+  },
+  {
+    "file": "/sound/par.mp3",
+    "urdu": "پر",
+    "roman": "par",
+    "english": "on",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Short Vowels in Connected Words",
+    "md5": "f667ccefeb8612d127484ca00b0808f2"
+  },
+  {
+    "file": "/sound/dar.mp3",
+    "urdu": "در",
+    "roman": "dar",
+    "english": "door (root)",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Short Vowels in Connected Words",
+    "md5": "2a3f43d980898dd4aaee6e36f9469057"
+  },
+  {
+    "file": "/sound/gul.mp3",
+    "urdu": "گل",
+    "roman": "gul",
+    "english": "flower",
+    "kind": "word",
+    "usedIn": "Joining Letters & Basic Reading › Short Vowels in Connected Words",
+    "md5": "737fbc5689c1053e02229cbdce509aee"
+  },
+  {
+    "file": "/sound/main_ghar_ja_raha_hoon.mp3",
+    "urdu": "میں گھر جا رہا ہوں۔",
+    "roman": "main ghar ja raha hoon.",
+    "english": "I am going home.",
+    "kind": "sentence",
+    "usedIn": "Joining Letters & Basic Reading › Basic Sentence Reading",
+    "md5": "6ce736043921e451219c7116cbea29a4"
+  },
+  {
+    "file": "/sound/woh_kitaab_parh_rahi_hai.mp3",
+    "urdu": "وہ کتاب پڑھ رہی ہے۔",
+    "roman": "woh kitaab parh rahi hai.",
+    "english": "She is reading a book.",
+    "kind": "sentence",
+    "usedIn": "Joining Letters & Basic Reading › Basic Sentence Reading",
+    "md5": "bab21561224b4965132553fcb8f422f4"
+  },
+  {
+    "file": "/sound/tum_paani_pee_rahe_ho.mp3",
+    "urdu": "تم پانی پی رہے ہو؟",
+    "roman": "tum paani pee rahe ho?",
+    "english": "Are you drinking water?",
+    "kind": "sentence",
+    "usedIn": "Joining Letters & Basic Reading › Basic Sentence Reading",
+    "md5": "20b4b78b7a3acac72d9750d98991835a"
+  },
+  {
+    "file": "/sound/yeh_mera_ghar_hai.mp3",
+    "urdu": "یہ میرا گھر ہے۔",
+    "roman": "yeh mera ghar hai.",
+    "english": "This is my house.",
+    "kind": "sentence",
+    "usedIn": "Joining Letters & Basic Reading › Basic Sentence Reading",
+    "md5": "816927f3dd4cad2f9a903d2ccc8838cf"
+  },
+  {
+    "file": "/sound/hum_school_ja_rahe_hain.mp3",
+    "urdu": "ہم سکول جا رہے ہیں۔",
+    "roman": "hum school ja rahe hain.",
+    "english": "We are going to school.",
+    "kind": "sentence",
+    "usedIn": "Joining Letters & Basic Reading › Basic Sentence Reading",
+    "md5": "4829f9a14901949918cc8b0469a52eea"
+  },
+  {
+    "file": "/sound/bh.mp3",
+    "urdu": "بھ",
+    "roman": "bh",
+    "english": "bh sound",
+    "kind": "letter",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Aspiration Sounds (Do-Chashmi Heh)",
+    "md5": "b0dc543c4e8433c5c912898c29a9aa9c"
+  },
+  {
+    "file": "/sound/ph.mp3",
+    "urdu": "پھ",
+    "roman": "ph",
+    "english": "ph sound (air burst)",
+    "kind": "letter",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Aspiration Sounds (Do-Chashmi Heh)",
+    "md5": "f72b85426f7f0295af42bbca2d41ac2c"
+  },
+  {
+    "file": "/sound/th.mp3",
+    "urdu": "تھ",
+    "roman": "th",
+    "english": "th sound",
+    "kind": "letter",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Aspiration Sounds (Do-Chashmi Heh)",
+    "md5": "278eeaa6f5ce3e0b0fab5d18394903f2"
+  },
+  {
+    "file": "/sound/tth.mp3",
+    "urdu": "ٹھ",
+    "roman": "ṭh",
+    "english": "retroflex aspirated ṭh",
+    "kind": "letter",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Aspiration Sounds (Do-Chashmi Heh)",
+    "md5": "8ed783dbe501c4344715cd521745da3d"
+  },
+  {
+    "file": "/sound/jh.mp3",
+    "urdu": "جھ",
+    "roman": "jh",
+    "english": "jh sound",
+    "kind": "letter",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Aspiration Sounds (Do-Chashmi Heh)",
+    "md5": "7f4a1940ef0e42f39256573e541551b9"
+  },
+  {
+    "file": "/sound/dd.mp3",
+    "urdu": "ڈ",
+    "roman": "ḍ",
+    "english": "retroflex D",
+    "kind": "letter",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Retroflex Sounds (ٹ، ڈ، ڑ) (1)",
+    "md5": "ab9c91cf4bf38d00c56860d336bb542c"
+  },
+  {
+    "file": "/sound/rr.mp3",
+    "urdu": "ڑ",
+    "roman": "ṛ",
+    "english": "retroflex R (unique Urdu sound)",
+    "kind": "letter",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Retroflex Sounds (ٹ، ڈ، ڑ) (1)",
+    "md5": "3dae09cb289d6b10a77b81235266c66a"
+  },
+  {
+    "file": "/sound/d.mp3",
+    "urdu": "د",
+    "roman": "d",
+    "kind": "reading",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Retroflex Sounds (ٹ، ڈ، ڑ) (1)",
+    "md5": "4cabc288dbe55bd20607694ee44684c7"
+  },
+  {
+    "file": "/sound/ttaa.mp3",
+    "urdu": "ٹا",
+    "roman": "ṭaa",
+    "kind": "reading",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Retroflex Sounds (ٹ، ڈ، ڑ) (2)",
+    "md5": "83251c66471fe26d3f96785818e5f4dc"
+  },
+  {
+    "file": "/sound/ddo.mp3",
+    "urdu": "ڈو",
+    "roman": "ḍo",
+    "kind": "reading",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Retroflex Sounds (ٹ، ڈ، ڑ) (2)",
+    "md5": "f1fff9795ccdfca6558659614c5cb579"
+  },
+  {
+    "file": "/sound/rra.mp3",
+    "urdu": "ڑا",
+    "roman": "ṛa",
+    "kind": "reading",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Retroflex Sounds (ٹ، ڈ، ڑ) (2)",
+    "md5": "1701bc9841137448cdd41a96a8883904"
+  },
+  {
+    "file": "/sound/gh.mp3",
+    "urdu": "غ",
+    "roman": "gh",
+    "english": "gh sound (soft gargle)",
+    "kind": "letter",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Deep Throat Sounds (خ، غ، ق)",
+    "md5": "8eb72dfe396e59525d8541fd07c25e23"
+  },
+  {
+    "file": "/sound/khoob.mp3",
+    "urdu": "خوب",
+    "roman": "khoob",
+    "english": "beautiful/well",
+    "kind": "word",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Deep Throat Sounds (خ، غ، ق)",
+    "md5": "74a2a8fc4dc7b7d86acbfd0dfb3639d1"
+  },
+  {
+    "file": "/sound/gham.mp3",
+    "urdu": "غم",
+    "roman": "gham",
+    "english": "sorrow",
+    "kind": "word",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Deep Throat Sounds (خ، غ، ق)",
+    "md5": "8fc5c232bd0877f24c4e7472c9329cd5"
+  },
+  {
+    "file": "/sound/ss.mp3",
+    "urdu": "ص",
+    "roman": "ṣ",
+    "kind": "reading",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Soft vs Hard Consonant Pairs (1)",
+    "md5": "fe659b523b04af9521fbe8883d8fa1ac"
+  },
+  {
+    "file": "/sound/hh.mp3",
+    "urdu": "ح",
+    "roman": "ḥ",
+    "kind": "reading",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Soft vs Hard Consonant Pairs (1)",
+    "md5": "b00f6e77aa20312f19c33b089519b049"
+  },
+  {
+    "file": "/sound/h.mp3",
+    "urdu": "ہ",
+    "roman": "h",
+    "kind": "reading",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Soft vs Hard Consonant Pairs (1)",
+    "md5": "d4b1cbd22bbc19abcd292a5da60741bb"
+  },
+  {
+    "file": "/sound/hasan.mp3",
+    "urdu": "حسن",
+    "roman": "hasan",
+    "english": "beauty",
+    "kind": "word",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Soft vs Hard Consonant Pairs (2)",
+    "md5": "edff059c77413eb701098e5200d19228"
+  },
+  {
+    "file": "/sound/zulm.mp3",
+    "urdu": "ظلم",
+    "roman": "zulm",
+    "english": "oppression",
+    "kind": "word",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Soft vs Hard Consonant Pairs (2)",
+    "md5": "3394c9b5bcfcbdcae53cf0ae2c38b10d"
+  },
+  {
+    "file": "/sound/ghar_khoob_saaf_hai.mp3",
+    "urdu": "گھر خوب صاف ہے۔",
+    "roman": "ghar khoob saaf hai.",
+    "english": "The house is very clean.",
+    "kind": "sentence",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Combined Sound Reading Practice",
+    "md5": "cba0bf82e7e0c0d4e387bad32decdc7a"
+  },
+  {
+    "file": "/sound/qalam_toot_gaya.mp3",
+    "urdu": "قلم ٹوٹ گیا۔",
+    "roman": "qalam toot gaya.",
+    "english": "The pen broke.",
+    "kind": "sentence",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Combined Sound Reading Practice",
+    "md5": "95c9a38889ca01781deeaa13fe65498f"
+  },
+  {
+    "file": "/sound/woh_gham_mein_hai.mp3",
+    "urdu": "وہ غم میں ہے۔",
+    "roman": "woh gham mein hai.",
+    "english": "He is in sorrow.",
+    "kind": "sentence",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Combined Sound Reading Practice",
+    "md5": "67a410b095e4fcc53585bd7dcb52ed61"
+  },
+  {
+    "file": "/sound/bachcha_phool_tor_raha_hai.mp3",
+    "urdu": "بچہ پھول توڑ رہا ہے۔",
+    "roman": "bachcha phool tor raha hai.",
+    "english": "The child is picking a flower.",
+    "kind": "sentence",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Combined Sound Reading Practice",
+    "md5": "65bc402ce5a72991e416944c376b25bc"
+  },
+  {
+    "file": "/sound/hum_ghar_ja_rahe_hain.mp3",
+    "urdu": "ہم گھر جا رہے ہیں۔",
+    "roman": "hum ghar ja rahe hain.",
+    "english": "We are going home.",
+    "kind": "sentence",
+    "usedIn": "Basic Sounds & Pronunciation Mechanics › Combined Sound Reading Practice",
+    "md5": "ecbea863e78c86a145d901d1e2298f3d"
+  },
+  {
+    "file": "/sound/assalamu_alaikum.mp3",
+    "urdu": "السلام علیکم",
+    "roman": "assalamu alaikum",
+    "english": "Peace be upon you",
+    "kind": "phrase",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Greetings & Cultural Norms",
+    "md5": "ac6462f094999386fd43f58c5f91be68"
+  },
+  {
+    "file": "/sound/hello.mp3",
+    "urdu": "ہیلو",
+    "roman": "hello",
+    "english": "Hello",
+    "kind": "phrase",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Greetings & Cultural Norms",
+    "md5": "b8b2d5b1898469407a75d3429ce1e462"
+  },
+  {
+    "file": "/sound/salaam.mp3",
+    "urdu": "سلام",
+    "roman": "salaam",
+    "english": "Hi / Peace",
+    "kind": "phrase",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Greetings & Cultural Norms",
+    "md5": "7a9f602107dc51e66299affe40c4011b"
+  },
+  {
+    "file": "/sound/tum_kaise_ho.mp3",
+    "urdu": "تم کیسے ہو؟",
+    "roman": "tum kaise ho?",
+    "english": "How are you? (informal to male)",
+    "kind": "sentence",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › How Are You? (Formal & Informal)",
+    "md5": "d5f5192ec64c10ecac89b3eb8613b8b2"
+  },
+  {
+    "file": "/sound/tum_kaisi_ho.mp3",
+    "urdu": "تم کیسی ہو؟",
+    "roman": "tum kaisi ho?",
+    "english": "How are you? (informal to female)",
+    "kind": "sentence",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › How Are You? (Formal & Informal)",
+    "md5": "d291fbcd4d1594c03feea96cc5f3ac2f"
+  },
+  {
+    "file": "/sound/mera_naam_ahmed_hai.mp3",
+    "urdu": "میرا نام احمد ہے۔",
+    "roman": "mera naam Ahmed hai.",
+    "english": "My name is Ahmed.",
+    "kind": "sentence",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Introducing Yourself",
+    "md5": "2a8fd21ca72dc786fba842f1535bbeb9"
+  },
+  {
+    "file": "/sound/mera_naam_sarah_hai.mp3",
+    "urdu": "میرا نام سارہ ہے۔",
+    "roman": "mera naam Sarah hai.",
+    "english": "My name is Sarah.",
+    "kind": "sentence",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Introducing Yourself",
+    "md5": "e4641b8612bd28cfe0b30d5d17933c65"
+  },
+  {
+    "file": "/sound/mera_naam_fatima_hai.mp3",
+    "urdu": "میرا نام فاطمہ ہے۔",
+    "roman": "mera naam Fatima hai.",
+    "english": "My name is Fatima.",
+    "kind": "sentence",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Introducing Yourself",
+    "md5": "c95405399cf65c8887b681d4d649f05d"
+  },
+  {
+    "file": "/sound/meherbani.mp3",
+    "urdu": "مہربانی",
+    "roman": "meherbani",
+    "english": "Kindness / Please",
+    "kind": "phrase",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Politeness: Thank You, Sorry, Please",
+    "md5": "e5fa87defd633cd354fb05a1a2c18313"
+  },
+  {
+    "file": "/sound/maaf_keejiye.mp3",
+    "urdu": "معاف کیجیے",
+    "roman": "maaf keejiye",
+    "english": "Sorry / Excuse me (formal)",
+    "kind": "phrase",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Politeness: Thank You, Sorry, Please",
+    "md5": "db59f288bc83e326c0e53db06335d07b"
+  },
+  {
+    "file": "/sound/koi_baat_nahi.mp3",
+    "urdu": "کوئی بات نہیں",
+    "roman": "koi baat nahi",
+    "english": "No problem",
+    "kind": "phrase",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Politeness: Thank You, Sorry, Please",
+    "md5": "9d674e5703b1af6f8eab2cb53b763873"
+  },
+  {
+    "file": "/sound/barah_e_karam.mp3",
+    "urdu": "براہِ کرم",
+    "roman": "barah-e-karam",
+    "english": "Please (very formal/literary)",
+    "kind": "phrase",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Politeness: Thank You, Sorry, Please",
+    "md5": "8074a3bc41751a45262df3ee9a644e63"
+  },
+  {
+    "file": "/sound/excuse_me_i_m_sorry.mp3",
+    "urdu": "معاف کیجیے",
+    "english": "Excuse me / I’m sorry.",
+    "kind": "sentence",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Politeness: Thank You, Sorry, Please",
+    "md5": "fe3c70a2ddd47385c1cad7bbdf7afccc"
+  },
+  {
+    "file": "/sound/no_problem_it_s_okay.mp3",
+    "urdu": "کوئی بات نہیں",
+    "english": "No problem / It’s okay.",
+    "kind": "sentence",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Politeness: Thank You, Sorry, Please",
+    "md5": "8f3c015441b95245f1cbda727eb81f28"
+  },
+  {
+    "file": "/sound/mera_naam_sara_hai_aur_main_theek_hoon.mp3",
+    "urdu": "میرا نام سارا ہے اور میں ٹھیک ہوں۔",
+    "roman": "mera naam Sara hai aur main theek hoon.",
+    "english": "My name is Sara and I am fine.",
+    "kind": "sentence",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Mini Conversations: Putting It All Together",
+    "md5": "b2d9c7635d90e42c04145480df9d0ffd"
+  },
+  {
+    "file": "/sound/woh_bohat_meharban_hai.mp3",
+    "urdu": "وہ بہت مہربان ہے۔",
+    "roman": "woh bohat meharban hai.",
+    "english": "She is very kind.",
+    "kind": "sentence",
+    "usedIn": "Greetings, Introductions & Basic Social Phrases › Mini Conversations: Putting It All Together",
+    "md5": "97d4794deb90324b2350d929849720c8"
+  },
+  {
+    "file": "/sound/kya.mp3",
+    "urdu": "کیا",
+    "roman": "kya",
+    "english": "what",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (1)",
+    "md5": "9a93be03ef641e1e67ec4f2c8adfbaee"
+  },
+  {
+    "file": "/sound/kahan.mp3",
+    "urdu": "کہاں",
+    "roman": "kahan",
+    "english": "where",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (1)",
+    "md5": "6deab75a37f490975a002b7222fc875a"
+  },
+  {
+    "file": "/sound/kab.mp3",
+    "urdu": "کب",
+    "roman": "kab",
+    "english": "when",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (1)",
+    "md5": "55ecb4be3dc945ac688d9dab4f3d5d14"
+  },
+  {
+    "file": "/sound/kyun.mp3",
+    "urdu": "کیوں",
+    "roman": "kyun",
+    "english": "why",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (1)",
+    "md5": "a3d52d62d2c26b4d25e927e63b0e6037"
+  },
+  {
+    "file": "/sound/kaise.mp3",
+    "urdu": "کیسے",
+    "roman": "kaise",
+    "english": "how",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (1)",
+    "md5": "7143d68f26df80b25d4a69229fe207e7"
+  },
+  {
+    "file": "/sound/kaun.mp3",
+    "urdu": "کون",
+    "roman": "kaun",
+    "english": "who",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (2)",
+    "md5": "e4b5dfdc40831ed7fb59a8a404b3375c"
+  },
+  {
+    "file": "/sound/kis_ka.mp3",
+    "urdu": "کس کا",
+    "roman": "kis ka",
+    "english": "whose",
+    "kind": "phrase",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (2)",
+    "md5": "f447f1232c096091ed48590094dd06b0"
+  },
+  {
+    "file": "/sound/kis_se.mp3",
+    "urdu": "کس سے",
+    "roman": "kis se",
+    "english": "from whom",
+    "kind": "phrase",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (2)",
+    "md5": "312fcc50ffee14851460fdc06518adf0"
+  },
+  {
+    "file": "/sound/kaun_sa.mp3",
+    "urdu": "کون سا",
+    "roman": "kaun sa",
+    "english": "which",
+    "kind": "phrase",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (2)",
+    "md5": "5707792b99e236413c8037082b2da273"
+  },
+  {
+    "file": "/sound/kis_liye.mp3",
+    "urdu": "کس لئے",
+    "roman": "kis liye",
+    "english": "for what / why",
+    "kind": "phrase",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (2)",
+    "md5": "78b4d570490726b58cccd180c1f03873"
+  },
+  {
+    "file": "/sound/ye_kya_hai.mp3",
+    "urdu": "یہ کیا ہے؟",
+    "roman": "Ye kya hai?",
+    "english": "What is this?",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (3)",
+    "md5": "a463596802071740ccfc7803b4ec472c"
+  },
+  {
+    "file": "/sound/aap_kahan_ja_rahe_hain.mp3",
+    "urdu": "آپ کہاں جا رہے ہیں؟",
+    "roman": "Aap kahan ja rahe hain?",
+    "english": "Where are you going?",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (3)",
+    "md5": "b37b4ada718f1154f9e9718a08ff19d8"
+  },
+  {
+    "file": "/sound/aap_kab_aayenge.mp3",
+    "urdu": "آپ کب آئیں گے؟",
+    "roman": "Aap kab aayenge?",
+    "english": "When will you come?",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (3)",
+    "md5": "6c92d27c83dc6969feb857d4ed8d8c56"
+  },
+  {
+    "file": "/sound/ye_kyun_ho_raha_hai.mp3",
+    "urdu": "یہ کیوں ہو رہا ہے؟",
+    "roman": "Ye kyun ho raha hai?",
+    "english": "Why is this happening?",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (3)",
+    "md5": "bf1e44dffa2844b65468e597f1a0670d"
+  },
+  {
+    "file": "/sound/woh_kaun_hai.mp3",
+    "urdu": "وہ کون ہے؟",
+    "roman": "Woh kaun hai?",
+    "english": "Who is that?",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (4)",
+    "md5": "5e403ac1093a624e831a60a1dc32738d"
+  },
+  {
+    "file": "/sound/ye_kis_ka_hai.mp3",
+    "urdu": "یہ کس کا ہے؟",
+    "roman": "Ye kis ka hai?",
+    "english": "Whose is this?",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (4)",
+    "md5": "5f6daef7c585737e8ff6e71b0c8b5b1f"
+  },
+  {
+    "file": "/sound/aap_kis_se_baat_kar_rahe_hain.mp3",
+    "urdu": "آپ کس سے بات کر رہے ہیں؟",
+    "roman": "Aap kis se baat kar rahe hain?",
+    "english": "Who are you talking to?",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (4)",
+    "md5": "2817ab32b7e0afe00fefe75921b0ad43"
+  },
+  {
+    "file": "/sound/kaun_sa_rang_acha_hai.mp3",
+    "urdu": "کون سا رنگ اچھا ہے؟",
+    "roman": "Kaun sa rang acha hai?",
+    "english": "Which color is good?",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (4)",
+    "md5": "bf267aec5bd3a845cdb5d5d8ddffee68"
+  },
+  {
+    "file": "/sound/aap_ye_kyun_chahtay_hain.mp3",
+    "urdu": "آپ یہ کیوں چاہتے ہیں؟",
+    "roman": "Aap ye kyun chahtay hain?",
+    "english": "Why do you want this?",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (4)",
+    "md5": "03c68ff821577634cab6626a756a4a04"
+  },
+  {
+    "file": "/sound/ye_mera_phone_hai.mp3",
+    "urdu": "یہ میرا فون ہے۔",
+    "roman": "Ye mera phone hai.",
+    "english": "This is my phone.",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › WH-Questions (کیا / کہاں / کب / کیسے) (4)",
+    "md5": "86494ac6e06947f605d2c5bee218e9aa"
+  },
+  {
+    "file": "/sound/karna.mp3",
+    "urdu": "کرنا",
+    "roman": "karna",
+    "english": "to do",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (1)",
+    "md5": "70f63cb48c7254bcf919c3ea7564ec78"
+  },
+  {
+    "file": "/sound/jana.mp3",
+    "urdu": "جانا",
+    "roman": "jana",
+    "english": "to go",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (1)",
+    "md5": "f077a563e51cb4359236e7707d48af0b"
+  },
+  {
+    "file": "/sound/aana.mp3",
+    "urdu": "آنا",
+    "roman": "aana",
+    "english": "to come",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (1)",
+    "md5": "a3218fd9c1d1504c0a0b122aed83b9ab"
+  },
+  {
+    "file": "/sound/khana.mp3",
+    "urdu": "کھانا",
+    "roman": "khana",
+    "english": "to eat",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (1)",
+    "md5": "16d8a71d7d3df31c2a89788504118ccb"
+  },
+  {
+    "file": "/sound/peena.mp3",
+    "urdu": "پینا",
+    "roman": "peena",
+    "english": "to drink",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (1)",
+    "md5": "6f431205ae7a294eac3ef3659d7fda64"
+  },
+  {
+    "file": "/sound/likhna.mp3",
+    "urdu": "لکھنا",
+    "roman": "likhna",
+    "english": "to write",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (2)",
+    "md5": "1727395e9c451b672ee2b5b6378e0918"
+  },
+  {
+    "file": "/sound/dekhna.mp3",
+    "urdu": "دیکھنا",
+    "roman": "dekhna",
+    "english": "to see / watch",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (2)",
+    "md5": "d432e5a5e8203895b4944b93fca8ce62"
+  },
+  {
+    "file": "/sound/chalna.mp3",
+    "urdu": "چلنا",
+    "roman": "chalna",
+    "english": "to walk",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (2)",
+    "md5": "18a58256b2dbb079a243af04786f97b3"
+  },
+  {
+    "file": "/sound/sona.mp3",
+    "urdu": "سونا",
+    "roman": "sona",
+    "english": "to sleep",
+    "kind": "word",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (2)",
+    "md5": "0586107e65276f3fcd92feccccc1cec1"
+  },
+  {
+    "file": "/sound/main_parh_raha_hoon.mp3",
+    "urdu": "میں پڑھ رہا ہوں۔",
+    "roman": "Main parh raha hoon.",
+    "english": "I am studying.",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (3)",
+    "md5": "66e7a1c91dcc690b18687a853c2492ce"
+  },
+  {
+    "file": "/sound/main_likh_raha_hoon.mp3",
+    "urdu": "میں لکھ رہا ہوں۔",
+    "roman": "Main likh raha hoon.",
+    "english": "I am writing.",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (3)",
+    "md5": "38b33f6655c54b7af19fc03d3bb427ed"
+  },
+  {
+    "file": "/sound/main_khana_kha_raha_hoon.mp3",
+    "urdu": "میں کھانا کھا رہا ہوں۔",
+    "roman": "Main khana kha raha hoon.",
+    "english": "I am eating food.",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (3)",
+    "md5": "3a6ae793c7f9103771467158d5fb023a"
+  },
+  {
+    "file": "/sound/main_paani_pee_raha_hoon.mp3",
+    "urdu": "میں پانی پی رہا ہوں۔",
+    "roman": "Main paani pee raha hoon.",
+    "english": "I am drinking water.",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (3)",
+    "md5": "628d56b1e0c0c739f099770688eacf34"
+  },
+  {
+    "file": "/sound/woh_ja_raha_hai.mp3",
+    "urdu": "وہ جا رہا ہے۔",
+    "roman": "Woh ja raha hai.",
+    "english": "He is going.",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (3)",
+    "md5": "707dddb6841be3c101f708dc38cb33c1"
+  },
+  {
+    "file": "/sound/woh_aa_rahi_hai.mp3",
+    "urdu": "وہ آ رہی ہے۔",
+    "roman": "Woh aa rahi hai.",
+    "english": "She is coming.",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (4)",
+    "md5": "bec6d15181d2559cb207e0dcb1e3dc69"
+  },
+  {
+    "file": "/sound/hum_dekh_rahe_hain.mp3",
+    "urdu": "ہم دیکھ رہے ہیں۔",
+    "roman": "Hum dekh rahe hain.",
+    "english": "We are watching.",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (4)",
+    "md5": "4446c68f292002e7960ffe32c3595d31"
+  },
+  {
+    "file": "/sound/aap_chal_rahe_hain.mp3",
+    "urdu": "آپ چل رہے ہیں۔",
+    "roman": "Aap chal rahe hain.",
+    "english": "You are walking.",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (4)",
+    "md5": "bf80c6c4de4e218484aebf3eff4ef1fc"
+  },
+  {
+    "file": "/sound/woh_so_rahi_hai.mp3",
+    "urdu": "وہ سو رہی ہے۔",
+    "roman": "Woh so rahi hai.",
+    "english": "She is sleeping.",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (4)",
+    "md5": "9d35b5b74d9e8101ca3b1dd6b5a9610b"
+  },
+  {
+    "file": "/sound/main_kaam_kar_raha_hoon.mp3",
+    "urdu": "میں کام کر رہا ہوں۔",
+    "roman": "Main kaam kar raha hoon.",
+    "english": "I am working.",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (4)",
+    "md5": "0cf005d1601f2c630e71cd54c4afc192"
+  },
+  {
+    "file": "/sound/aap_kya_kar_rahe_hain.mp3",
+    "urdu": "آپ کیا کر رہے ہیں؟",
+    "roman": "Aap kya kar rahe hain?",
+    "english": "What are you doing?",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (4)",
+    "md5": "b0ac19999b952bce0447feb1f4428364"
+  },
+  {
+    "file": "/sound/woh_kahan_ja_raha_hai.mp3",
+    "urdu": "وہ کہاں جا رہا ہے؟",
+    "roman": "Woh kahan ja raha hai?",
+    "english": "Where is he going?",
+    "kind": "sentence",
+    "usedIn": "Basic Questions & Simple Sentences (Part 2) › Verb Basics (Present Continuous) (4)",
+    "md5": "a1be13af5ab7703df320476c9354c7c3"
+  },
+  {
+    "file": "/sound/chawal.mp3",
+    "urdu": "چاول",
+    "roman": "chawal",
+    "english": "rice",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (1)",
+    "md5": "12ac1909d3381694b60e74832b14d985"
+  },
+  {
+    "file": "/sound/pani.mp3",
+    "urdu": "پانی",
+    "roman": "pani",
+    "english": "water",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (1)",
+    "md5": "d1fd4fb01290a1b2a2cd5e0e476acd9b"
+  },
+  {
+    "file": "/sound/chini.mp3",
+    "urdu": "چینی",
+    "roman": "chini",
+    "english": "sugar",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (2)",
+    "md5": "8507e494de39e9bb55f0fe7fc1452f8b"
+  },
+  {
+    "file": "/sound/namak.mp3",
+    "urdu": "نمک",
+    "roman": "namak",
+    "english": "salt",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (2)",
+    "md5": "5859c52419d3213b3317a507bc5a8744"
+  },
+  {
+    "file": "/sound/murghi.mp3",
+    "urdu": "مرغی",
+    "roman": "murghi",
+    "english": "chicken",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (2)",
+    "md5": "e538561932a26650bbaa21bef5e93183"
+  },
+  {
+    "file": "/sound/sabzi.mp3",
+    "urdu": "سبزی",
+    "roman": "sabzi",
+    "english": "vegetables",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (2)",
+    "md5": "91ab7a4f4387af0f22c653949cfb4f60"
+  },
+  {
+    "file": "/sound/phal.mp3",
+    "urdu": "پھل",
+    "roman": "phal",
+    "english": "fruits",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (2)",
+    "md5": "62455ecda11ab2eb27446cc05c74c900"
+  },
+  {
+    "file": "/sound/mujhe_pani_chahiye.mp3",
+    "urdu": "مجھے پانی چاہئے۔",
+    "roman": "Mujhe pani chahiye.",
+    "english": "I need water.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (3)",
+    "md5": "e391f754fdec13e30f52b47c9fb24b9a"
+  },
+  {
+    "file": "/sound/mujhe_bhook_lag_rahi_hai.mp3",
+    "urdu": "مجھے بھوک لگ رہی ہے۔",
+    "roman": "Mujhe bhook lag rahi hai.",
+    "english": "I am feeling hungry.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (3)",
+    "md5": "8df49170f9499a654f6a2ccb48e4c8e8"
+  },
+  {
+    "file": "/sound/mujhe_pyaas_lagi_hai.mp3",
+    "urdu": "مجھے پیاس لگی ہے۔",
+    "roman": "Mujhe pyaas lagi hai.",
+    "english": "I am thirsty.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (3)",
+    "md5": "51d2d1afa067e95a123756aa8fef1c9e"
+  },
+  {
+    "file": "/sound/khana_bohot_maze_ka_hai.mp3",
+    "urdu": "کھانا بہت مزے کا ہے۔",
+    "roman": "Khana bohot maze ka hai.",
+    "english": "The food is very delicious.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (3)",
+    "md5": "eb4c26dbc222c7d874a28aeac1e03056"
+  },
+  {
+    "file": "/sound/mujhe_chai_pasand_hai.mp3",
+    "urdu": "مجھے چائے پسند ہے۔",
+    "roman": "Mujhe chai pasand hai.",
+    "english": "I like tea.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (3)",
+    "md5": "0f2cf60f64135f2a191ec74a5a117226"
+  },
+  {
+    "file": "/sound/namak_thora_barha_dein.mp3",
+    "urdu": "نمک تھوڑا بڑھا دیں۔",
+    "roman": "Namak thora barha dein.",
+    "english": "Please add a little more salt.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (4)",
+    "md5": "32469d3aad2532c9c059514688dbc249"
+  },
+  {
+    "file": "/sound/aap_kya_khana_chahenge.mp3",
+    "urdu": "آپ کیا کھانا چاہیں گے؟",
+    "roman": "Aap kya khana chahenge?",
+    "english": "What would you like to eat?",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (4)",
+    "md5": "497ffd39741be9f4a0b0f5188193a6a9"
+  },
+  {
+    "file": "/sound/main_chawal_loonga.mp3",
+    "urdu": "میں چاول لوں گا۔",
+    "roman": "Main chawal loonga.",
+    "english": "I will take rice.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (4)",
+    "md5": "b5cf06dc22d012520d6f2260b3c43823"
+  },
+  {
+    "file": "/sound/mujhe_murghi_dein.mp3",
+    "urdu": "مجھے مرغی دیں۔",
+    "roman": "Mujhe murghi dein.",
+    "english": "Give me chicken.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (4)",
+    "md5": "8a0dc85edb934542ca0d10ec2ea29f63"
+  },
+  {
+    "file": "/sound/plate_aur_chamach_dein.mp3",
+    "urdu": "پلیٹ اور چمچ دیں۔",
+    "roman": "Plate aur chamach dein.",
+    "english": "Give a plate and spoon.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (4)",
+    "md5": "7b879f20fbdaf6d5a94b44f0a0177cd6"
+  },
+  {
+    "file": "/sound/mujhe_chawal_chahiye.mp3",
+    "urdu": "مجھے چاول چاہئے۔",
+    "roman": "Mujhe chawal chahiye.",
+    "english": "I need rice.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (4)",
+    "md5": "b734eed21f7df6fd1fb6deda9c2cca0a"
+  },
+  {
+    "file": "/sound/khana_kaisa_hai.mp3",
+    "urdu": "کھانا کیسا ہے؟",
+    "roman": "Khana kaisa hai?",
+    "english": "How is the food?",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Food & Eating Basics (4)",
+    "md5": "e27c313c9b64b17ff15977579a893614"
+  },
+  {
+    "file": "/sound/kamra.mp3",
+    "urdu": "کمرہ",
+    "roman": "kamra",
+    "english": "room",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (1)",
+    "md5": "6bc181d8db49a67f7c06c190bf9558cb"
+  },
+  {
+    "file": "/sound/bawarchi_khana.mp3",
+    "urdu": "باورچی خانہ",
+    "roman": "bawarchi khana",
+    "english": "kitchen",
+    "kind": "phrase",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (1)",
+    "md5": "8f5a947c4be838986b3a599de191c6b2"
+  },
+  {
+    "file": "/sound/bistar.mp3",
+    "urdu": "بستر",
+    "roman": "bistar",
+    "english": "bed",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (1)",
+    "md5": "71aa49e9de4640e4d827f1f91cbe2c51"
+  },
+  {
+    "file": "/sound/kursi.mp3",
+    "urdu": "کرسی",
+    "roman": "kursi",
+    "english": "chair",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (1)",
+    "md5": "b7f32033baa10110a80c63bdb542bc64"
+  },
+  {
+    "file": "/sound/mez.mp3",
+    "urdu": "میز",
+    "roman": "mez",
+    "english": "table",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (1)",
+    "md5": "1c92b232f5a5bf7825cec985dca2728d"
+  },
+  {
+    "file": "/sound/darwaza.mp3",
+    "urdu": "دروازہ",
+    "roman": "darwaza",
+    "english": "door",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (2)",
+    "md5": "d70d7a3f66c0cc9a248170311c191bcb"
+  },
+  {
+    "file": "/sound/khidki.mp3",
+    "urdu": "کھڑکی",
+    "roman": "khidki",
+    "english": "window",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (2)",
+    "md5": "311ee3e59f47f6b555f845d16a856146"
+  },
+  {
+    "file": "/sound/roshni.mp3",
+    "urdu": "روشنی",
+    "roman": "roshni",
+    "english": "light",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (2)",
+    "md5": "ef30345b0744ed71ad6b9070dff86639"
+  },
+  {
+    "file": "/sound/safai.mp3",
+    "urdu": "صفائی",
+    "roman": "safai",
+    "english": "cleaning",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (2)",
+    "md5": "dfa386e3df9e9ff703415ed295296153"
+  },
+  {
+    "file": "/sound/kapray.mp3",
+    "urdu": "کپڑے",
+    "roman": "kapray",
+    "english": "clothes",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (2)",
+    "md5": "04cf115628d32e3748534c9a467e7bca"
+  },
+  {
+    "file": "/sound/ye_mera_kamra_hai.mp3",
+    "urdu": "یہ میرا کمرہ ہے۔",
+    "roman": "Ye mera kamra hai.",
+    "english": "This is my room.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (3)",
+    "md5": "ccf13f2f97391bd934e8ecd465b3656f"
+  },
+  {
+    "file": "/sound/bawarchi_khanay_mein_chulha_hai.mp3",
+    "urdu": "باورچی خانے میں چولہا ہے۔",
+    "roman": "Bawarchi khanay mein chulha hai.",
+    "english": "There is a stove in the kitchen.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (3)",
+    "md5": "59c082944044f6dfe110385eaef049ad"
+  },
+  {
+    "file": "/sound/main_kapray_dho_raha_hoon.mp3",
+    "urdu": "میں کپڑے دھو رہا ہوں۔",
+    "roman": "Main kapray dho raha hoon.",
+    "english": "I am washing clothes.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (3)",
+    "md5": "0b8fa6698e5eb0b18197a0b7ad1f0663"
+  },
+  {
+    "file": "/sound/main_kamra_saaf_kar_raha_hoon.mp3",
+    "urdu": "میں کمرہ صاف کر رہا ہوں۔",
+    "roman": "Main kamra saaf kar raha hoon.",
+    "english": "I am cleaning the room.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (3)",
+    "md5": "ed7f7c820aa130836952ede71a46b9aa"
+  },
+  {
+    "file": "/sound/darwaza_kholo.mp3",
+    "urdu": "دروازہ کھولو۔",
+    "roman": "Darwaza kholo.",
+    "english": "Open the door.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (3)",
+    "md5": "3d6cea66e8f51c5b694e67d4113e9d8f"
+  },
+  {
+    "file": "/sound/khidki_band_karo.mp3",
+    "urdu": "کھڑکی بند کرو۔",
+    "roman": "Khidki band karo.",
+    "english": "Close the window.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (4)",
+    "md5": "399513164f6ab332809ebad3117b91b9"
+  },
+  {
+    "file": "/sound/roshni_jala_do.mp3",
+    "urdu": "روشنی جلا دو۔",
+    "roman": "Roshni jala do.",
+    "english": "Turn on the light.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (4)",
+    "md5": "51e31a3809356ea57c4f87ecde88d85c"
+  },
+  {
+    "file": "/sound/baith_jayein.mp3",
+    "urdu": "بیٹھ جائیں۔",
+    "roman": "Baith jayein.",
+    "english": "Please sit.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (4)",
+    "md5": "69947c42296559ac9ebecdccc2667ace"
+  },
+  {
+    "file": "/sound/chalo_khana_khanay.mp3",
+    "urdu": "چلو کھانا کھانے۔",
+    "roman": "Chalo khana khanay.",
+    "english": "Let's eat.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (4)",
+    "md5": "9156b678323ed277e844a5b40aae618d"
+  },
+  {
+    "file": "/sound/main_aaram_kar_raha_hoon.mp3",
+    "urdu": "میں آرام کر رہا ہوں۔",
+    "roman": "Main aaram kar raha hoon.",
+    "english": "I am resting.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › At Home: Rooms & Daily Activities (4)",
+    "md5": "eb34ddba30dfa570db7512d90a0966c0"
+  },
+  {
+    "file": "/sound/walid.mp3",
+    "urdu": "والد",
+    "roman": "walid",
+    "english": "father",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (1)",
+    "md5": "5ef086573e175d7f685c71d87f24d6d8"
+  },
+  {
+    "file": "/sound/walida.mp3",
+    "urdu": "والدہ",
+    "roman": "walida",
+    "english": "mother",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (1)",
+    "md5": "aaa6e0e0f7c01542f17a1d3058b8e5da"
+  },
+  {
+    "file": "/sound/behen.mp3",
+    "urdu": "بہن",
+    "roman": "behen",
+    "english": "sister",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (1)",
+    "md5": "581239156b8219abbea1cc54f1b7e438"
+  },
+  {
+    "file": "/sound/dadi.mp3",
+    "urdu": "دادی",
+    "roman": "dadi",
+    "english": "grandmother (paternal)",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (2)",
+    "md5": "6c27a21c4a5471739a80b3e5bfd62c47"
+  },
+  {
+    "file": "/sound/nana.mp3",
+    "urdu": "نانا",
+    "roman": "nana",
+    "english": "grandfather (maternal)",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (2)",
+    "md5": "de64d002040e53c4d63cea0a8af9dc13"
+  },
+  {
+    "file": "/sound/nani.mp3",
+    "urdu": "نانی",
+    "roman": "nani",
+    "english": "grandmother (maternal)",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (2)",
+    "md5": "6526eab750898de2cec2552508f7b8be"
+  },
+  {
+    "file": "/sound/beti.mp3",
+    "urdu": "بیٹی",
+    "roman": "beti",
+    "english": "daughter",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (2)",
+    "md5": "581a535c424c7613b672ff796c26003f"
+  },
+  {
+    "file": "/sound/ye_mere_walid_hain.mp3",
+    "urdu": "یہ میرے والد ہیں۔",
+    "roman": "Ye mere walid hain.",
+    "english": "This is my father.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (3)",
+    "md5": "3730e9d4c78c93733a3724789453dd4b"
+  },
+  {
+    "file": "/sound/ye_meri_walida_hain.mp3",
+    "urdu": "یہ میری والدہ ہیں۔",
+    "roman": "Ye meri walida hain.",
+    "english": "This is my mother.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (3)",
+    "md5": "ebb00c8434428feb1171df09ec3456a3"
+  },
+  {
+    "file": "/sound/mera_bhai_chhota_hai.mp3",
+    "urdu": "میرا بھائی چھوٹا ہے۔",
+    "roman": "Mera bhai chhota hai.",
+    "english": "My brother is younger.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (3)",
+    "md5": "09b71c179d15e9472a3f7e80096e4120"
+  },
+  {
+    "file": "/sound/meri_behen_barri_hai.mp3",
+    "urdu": "میری بہن بڑی ہے۔",
+    "roman": "Meri behen barri hai.",
+    "english": "My sister is older.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (3)",
+    "md5": "66b3fa74618ad9f0c2dcf2212416924d"
+  },
+  {
+    "file": "/sound/mere_do_bachay_hain.mp3",
+    "urdu": "میرے دو بچے ہیں۔",
+    "roman": "Mere do bachay hain.",
+    "english": "I have two children.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (3)",
+    "md5": "694a7f70808068d2596fc61ca939e8dd"
+  },
+  {
+    "file": "/sound/woh_mere_dada_hain.mp3",
+    "urdu": "وہ میرے دادا ہیں۔",
+    "roman": "Woh mere dada hain.",
+    "english": "He is my grandfather.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (4)",
+    "md5": "75374f4d18e7c732568726cc593f1c30"
+  },
+  {
+    "file": "/sound/woh_meri_nani_hain.mp3",
+    "urdu": "وہ میری نانی ہیں۔",
+    "roman": "Woh meri nani hain.",
+    "english": "She is my grandmother.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (4)",
+    "md5": "6efcebeea200c79c4877b5088762bb06"
+  },
+  {
+    "file": "/sound/meri_beti_choti_hai.mp3",
+    "urdu": "میری بیٹی چھوٹی ہے۔",
+    "roman": "Meri beti choti hai.",
+    "english": "My daughter is young.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (4)",
+    "md5": "d2f8a34cf8c2e625a31cd35b5b5e4bb0"
+  },
+  {
+    "file": "/sound/woh_khoobsurat_hai.mp3",
+    "urdu": "وہ خوبصورت ہے۔",
+    "roman": "Woh khoobsurat hai.",
+    "english": "She/He is beautiful.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (4)",
+    "md5": "904a03b00de89582d4c8747b7373f408"
+  },
+  {
+    "file": "/sound/woh_lamba_hai.mp3",
+    "urdu": "وہ لمبا ہے۔",
+    "roman": "Woh lamba hai.",
+    "english": "He is tall.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (4)",
+    "md5": "167d14e3443b67a81dc8254462aa3941"
+  },
+  {
+    "file": "/sound/ye_kaun_hain.mp3",
+    "urdu": "یہ کون ہیں؟",
+    "roman": "Ye kaun hain?",
+    "english": "Who is this?",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (4)",
+    "md5": "3e8ba1d9c97a13c2da5db9e0de475bf1"
+  },
+  {
+    "file": "/sound/aap_ke_kitne_behen_bhai_hain.mp3",
+    "urdu": "آپ کے کتنے بہن بھائی ہیں؟",
+    "roman": "Aap ke kitne behen bhai hain?",
+    "english": "How many siblings do you have?",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Family Vocabulary & Descriptions (4)",
+    "md5": "bc68e26e7af4012bbe0462c7ee06ea72"
+  },
+  {
+    "file": "/sound/jaagna.mp3",
+    "urdu": "جاگنا",
+    "roman": "jaagna",
+    "english": "to wake up",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (1)",
+    "md5": "28dea56aa4ca2578cc09b5bab1003f9b"
+  },
+  {
+    "file": "/sound/nahana.mp3",
+    "urdu": "نہانا",
+    "roman": "nahana",
+    "english": "to shower",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (1)",
+    "md5": "ec1c0fca66c840378da05db320d0d0ab"
+  },
+  {
+    "file": "/sound/parhai_karna.mp3",
+    "urdu": "پڑھائی کرنا",
+    "roman": "parhai karna",
+    "english": "to study",
+    "kind": "phrase",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (1)",
+    "md5": "9b4c9c75444f9db0cb5b19ffe473f3d1"
+  },
+  {
+    "file": "/sound/khelna.mp3",
+    "urdu": "کھیلنا",
+    "roman": "khelna",
+    "english": "to play",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (1)",
+    "md5": "5354b4e398c4c5ebc51c1df54067bdef"
+  },
+  {
+    "file": "/sound/tayyar_hona.mp3",
+    "urdu": "تیار ہونا",
+    "roman": "tayyar hona",
+    "english": "to get ready",
+    "kind": "phrase",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (2)",
+    "md5": "2ecaac1fa94a831db0435c48858474cd"
+  },
+  {
+    "file": "/sound/kaam_karna.mp3",
+    "urdu": "کام کرنا",
+    "roman": "kaam karna",
+    "english": "to work",
+    "kind": "phrase",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (2)",
+    "md5": "08cea012839fbf1bf18fe754355802c3"
+  },
+  {
+    "file": "/sound/khana_pakana.mp3",
+    "urdu": "کھانا پکانا",
+    "roman": "khana pakana",
+    "english": "to cook food",
+    "kind": "phrase",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (2)",
+    "md5": "af76533d51c613180fe39fdea2266861"
+  },
+  {
+    "file": "/sound/safai_karna.mp3",
+    "urdu": "صفائی کرنا",
+    "roman": "safai karna",
+    "english": "to clean",
+    "kind": "phrase",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (2)",
+    "md5": "9861e8916fd0c48f72e777cdac248667"
+  },
+  {
+    "file": "/sound/main_subah_jaagta_hoon.mp3",
+    "urdu": "میں صبح جاگتا ہوں۔",
+    "roman": "Main subah jaagta hoon.",
+    "english": "I wake up in the morning.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (3)",
+    "md5": "6402776797f2fda54ec8acd771780d62"
+  },
+  {
+    "file": "/sound/main_nahaata_hoon.mp3",
+    "urdu": "میں نہاتا ہوں۔",
+    "roman": "Main nahaata hoon.",
+    "english": "I take a shower.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (3)",
+    "md5": "be98d82eca377deb292c2961e2195bc2"
+  },
+  {
+    "file": "/sound/main_school_jata_hoon.mp3",
+    "urdu": "میں اسکول جاتا ہوں۔",
+    "roman": "Main school jata hoon.",
+    "english": "I go to school.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (3)",
+    "md5": "de6b374d431f3aa4bf543c76c816785a"
+  },
+  {
+    "file": "/sound/main_dopehar_mein_khana_khata_hoon.mp3",
+    "urdu": "میں دوپہر میں کھانا کھاتا ہوں۔",
+    "roman": "Main dopehar mein khana khata hoon.",
+    "english": "I eat lunch in the afternoon.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (3)",
+    "md5": "d36b5605057151257d8847a52bc569e2"
+  },
+  {
+    "file": "/sound/main_shaam_ko_khelta_hoon.mp3",
+    "urdu": "میں شام کو کھیلتا ہوں۔",
+    "roman": "Main shaam ko khelta hoon.",
+    "english": "I play in the evening.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (3)",
+    "md5": "95f6f9e8636833544344ce68740baffa"
+  },
+  {
+    "file": "/sound/main_homework_karta_hoon.mp3",
+    "urdu": "میں ہوم ورک کرتا ہوں۔",
+    "roman": "Main homework karta hoon.",
+    "english": "I do homework.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (4)",
+    "md5": "55aa28594c00a252a944ff7dd55de2e9"
+  },
+  {
+    "file": "/sound/main_raat_ko_sota_hoon.mp3",
+    "urdu": "میں رات کو سوتا ہوں۔",
+    "roman": "Main raat ko sota hoon.",
+    "english": "I sleep at night.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (4)",
+    "md5": "dc0c7b2bc73399ddfc81b083d9b0ba61"
+  },
+  {
+    "file": "/sound/woh_jaldi_tayyar_hoti_hai.mp3",
+    "urdu": "وہ جلدی تیار ہوتی ہے۔",
+    "roman": "Woh jaldi tayyar hoti hai.",
+    "english": "She gets ready quickly.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (4)",
+    "md5": "d24e487d09f656e126389539f576ba57"
+  },
+  {
+    "file": "/sound/woh_daftar_jata_hai.mp3",
+    "urdu": "وہ دفتر جاتا ہے۔",
+    "roman": "Woh daftar jata hai.",
+    "english": "He goes to the office.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (4)",
+    "md5": "37b4ac5a37755b397e7479aafc360bdb"
+  },
+  {
+    "file": "/sound/hum_khelte_hain.mp3",
+    "urdu": "ہم کھیلتے ہیں۔",
+    "roman": "Hum khelte hain.",
+    "english": "We play.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (4)",
+    "md5": "c6c6ab28e2899f94570033b361554df8"
+  },
+  {
+    "file": "/sound/aap_kab_jaagtay_hain.mp3",
+    "urdu": "آپ کب جاگتے ہیں؟",
+    "roman": "Aap kab jaagtay hain?",
+    "english": "When do you wake up?",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (4)",
+    "md5": "bd929c6b61babbfe6be58539d80211d1"
+  },
+  {
+    "file": "/sound/main_saat_bajay_jaagta_hoon.mp3",
+    "urdu": "میں سات بجے جاگتا ہوں۔",
+    "roman": "Main saat bajay jaagta hoon.",
+    "english": "I wake up at 7.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (4)",
+    "md5": "8e0992b039c075e5348014d56463838e"
+  },
+  {
+    "file": "/sound/woh_school_jati_hai.mp3",
+    "urdu": "وہ اسکول جاتی ہے؟",
+    "roman": "Woh school jati hai?",
+    "english": "Does she go to school?",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Daily Routine (Present Tense) (4)",
+    "md5": "c0122cd333d6d9c60c851af9ab88ed24"
+  },
+  {
+    "file": "/sound/dukan.mp3",
+    "urdu": "دکان",
+    "roman": "dukan",
+    "english": "shop",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (1)",
+    "md5": "6647b480c92a40ae1f295d8aad732987"
+  },
+  {
+    "file": "/sound/qeemat.mp3",
+    "urdu": "قیمت",
+    "roman": "qeemat",
+    "english": "price",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (1)",
+    "md5": "27953aabd1d61e38fe7d963cb81ad23f"
+  },
+  {
+    "file": "/sound/paisa.mp3",
+    "urdu": "پیسہ",
+    "roman": "paisa",
+    "english": "money",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (1)",
+    "md5": "3ff40df96f0d5a92e9de406e09ea065b"
+  },
+  {
+    "file": "/sound/sasta.mp3",
+    "urdu": "سستا",
+    "roman": "sasta",
+    "english": "cheap",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (1)",
+    "md5": "38e9cee6ac0adf78d00f06e22fb8ac25"
+  },
+  {
+    "file": "/sound/mehnga.mp3",
+    "urdu": "مہنگا",
+    "roman": "mehnga",
+    "english": "expensive",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (1)",
+    "md5": "e9b633af938f0a68e141bd17f7427ad4"
+  },
+  {
+    "file": "/sound/kilo.mp3",
+    "urdu": "کلو",
+    "roman": "kilo",
+    "english": "kilogram",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (2)",
+    "md5": "dbbd1187db09f3bcaadab34e01f3f31f"
+  },
+  {
+    "file": "/sound/darjan.mp3",
+    "urdu": "درجن",
+    "roman": "darjan",
+    "english": "dozen",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (2)",
+    "md5": "b5fc1448f3fed9a6aa3372b80c064859"
+  },
+  {
+    "file": "/sound/bohot.mp3",
+    "urdu": "بہت",
+    "roman": "bohot",
+    "english": "very",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (2)",
+    "md5": "a79023612f3a22130b865d268fdc4290"
+  },
+  {
+    "file": "/sound/thora.mp3",
+    "urdu": "تھوڑا",
+    "roman": "thora",
+    "english": "a little",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (2)",
+    "md5": "93f5441ed69b226afd400d325dc656ff"
+  },
+  {
+    "file": "/sound/chhoot.mp3",
+    "urdu": "چھوٹ",
+    "roman": "chhoot",
+    "english": "discount",
+    "kind": "word",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (2)",
+    "md5": "b5d28a2fcec5cbbfffcccd90fbe43309"
+  },
+  {
+    "file": "/sound/ye_kitne_ka_hai.mp3",
+    "urdu": "یہ کتنے کا ہے؟",
+    "roman": "Ye kitne ka hai?",
+    "english": "How much is this?",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (3)",
+    "md5": "a0f9cb38f045b928a7a33ae0d3e6c1a5"
+  },
+  {
+    "file": "/sound/qeemat_kya_hai.mp3",
+    "urdu": "قیمت کیا ہے؟",
+    "roman": "Qeemat kya hai?",
+    "english": "What is the price?",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (3)",
+    "md5": "4d6f6a2f7a8fa337abea62061a5f6967"
+  },
+  {
+    "file": "/sound/kya_ye_sasta_hai.mp3",
+    "urdu": "کیا یہ سستا ہے؟",
+    "roman": "Kya ye sasta hai?",
+    "english": "Is this cheap?",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (3)",
+    "md5": "c8b7d50f815467e9a99450377dd8e989"
+  },
+  {
+    "file": "/sound/ye_bohot_mehnga_hai.mp3",
+    "urdu": "یہ بہت مہنگا ہے۔",
+    "roman": "Ye bohot mehnga hai.",
+    "english": "This is very expensive.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (3)",
+    "md5": "f2fcfcc2383a058f9709edd3a7e90359"
+  },
+  {
+    "file": "/sound/thora_kam_karein.mp3",
+    "urdu": "تھوڑا کم کریں۔",
+    "roman": "Thora kam karein.",
+    "english": "Reduce the price a little.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (3)",
+    "md5": "5e2d281c04d4f7c44b3419d87b269b5f"
+  },
+  {
+    "file": "/sound/mujhe_aik_kilo_chahiye.mp3",
+    "urdu": "مجھے ایک کلو چاہئے۔",
+    "roman": "Mujhe aik kilo chahiye.",
+    "english": "I need one kilogram.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (4)",
+    "md5": "1c8e159c52eee066e99605578567457a"
+  },
+  {
+    "file": "/sound/mujhe_aik_darjan_dein.mp3",
+    "urdu": "مجھے ایک درجن دیں۔",
+    "roman": "Mujhe aik darjan dein.",
+    "english": "Give me one dozen.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (4)",
+    "md5": "1d9bed032b52473571cc4610c92849ce"
+  },
+  {
+    "file": "/sound/kya_chhoot_milegi.mp3",
+    "urdu": "کیا چھوٹ ملے گی؟",
+    "roman": "Kya chhoot milegi?",
+    "english": "Will I get a discount?",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (4)",
+    "md5": "db41baa347c6aa45c90925a3094632e3"
+  },
+  {
+    "file": "/sound/ye_le_lein.mp3",
+    "urdu": "یہ لے لیں۔",
+    "roman": "Ye le lein.",
+    "english": "Take this.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (4)",
+    "md5": "ffeef2177c9035665f21ffd4329d0aca"
+  },
+  {
+    "file": "/sound/paisa_wapas_dein.mp3",
+    "urdu": "پیسہ واپس دیں۔",
+    "roman": "Paisa wapas dein.",
+    "english": "Give back the change.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (4)",
+    "md5": "06dc99a79cf63c1320c781551c107fcd"
+  },
+  {
+    "file": "/sound/do_sau_rupay.mp3",
+    "urdu": "دو سو روپے۔",
+    "roman": "Do sau rupay.",
+    "english": "Two hundred rupees.",
+    "kind": "sentence",
+    "usedIn": "Everyday Conversations (Food, Home, Family) › Shopping: Prices & Buying Things (4)",
+    "md5": "568f3b66a65c8d1e2aca80f4b01dad3c"
+  },
+  {
+    "file": "/sound/bajne.mp3",
+    "urdu": "بجنے",
+    "roman": "bajne",
+    "english": "o'clock",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (1)",
+    "md5": "df1d23bac9affc81b63f22cb84026aa7"
+  },
+  {
+    "file": "/sound/pone.mp3",
+    "urdu": "پونے",
+    "roman": "pone",
+    "english": "quarter to",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (1)",
+    "md5": "a8dd0f8adceea96b8962da69a52b67f9"
+  },
+  {
+    "file": "/sound/saarhay.mp3",
+    "urdu": "ساڑھے",
+    "roman": "saarhay",
+    "english": "half past",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (1)",
+    "md5": "43b7a977e6761fa19f338bddba2be872"
+  },
+  {
+    "file": "/sound/ghanta.mp3",
+    "urdu": "گھنٹہ",
+    "roman": "ghanta",
+    "english": "hour",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (1)",
+    "md5": "d1ccb18baad2d72c026096ede2996bb4"
+  },
+  {
+    "file": "/sound/minute.mp3",
+    "urdu": "منٹ",
+    "roman": "minute",
+    "english": "minute",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (1)",
+    "md5": "d0ce5f6f3edd1419089f7df35fe88b5a"
+  },
+  {
+    "file": "/sound/waqt.mp3",
+    "urdu": "وقت",
+    "roman": "waqt",
+    "english": "time",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (2)",
+    "md5": "5c1822d377609b07b82cd6bc30cf461d"
+  },
+  {
+    "file": "/sound/abhi.mp3",
+    "urdu": "ابھی",
+    "roman": "abhi",
+    "english": "right now",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (2)",
+    "md5": "756bab68ff28d63869c7ab03feff7128"
+  },
+  {
+    "file": "/sound/jaldi.mp3",
+    "urdu": "جلدی",
+    "roman": "jaldi",
+    "english": "early / hurry",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (2)",
+    "md5": "7992bde15c09b63a28c11fa52a6bb115"
+  },
+  {
+    "file": "/sound/der.mp3",
+    "urdu": "دیر",
+    "roman": "der",
+    "english": "late",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (2)",
+    "md5": "780aa3c548a0e842202261e1db236834"
+  },
+  {
+    "file": "/sound/kitne_bajay_hain.mp3",
+    "urdu": "کتنے بجے ہیں؟",
+    "roman": "Kitne bajay hain?",
+    "english": "What time is it?",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (2)",
+    "md5": "62ac3914b1997a2a369ff0a0d190967d"
+  },
+  {
+    "file": "/sound/chay_bajay_hain.mp3",
+    "urdu": "چھ بجے ہیں۔",
+    "roman": "Chay bajay hain.",
+    "english": "It is 6 o'clock.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (3)",
+    "md5": "027d3bc2987f6eee75301e4207f09610"
+  },
+  {
+    "file": "/sound/pone_saat_bajay_hain.mp3",
+    "urdu": "پونے سات بجے ہیں۔",
+    "roman": "Pone saat bajay hain.",
+    "english": "It’s quarter to 7.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (3)",
+    "md5": "23c95984f99dfc2b0efb5f99fe79f5bf"
+  },
+  {
+    "file": "/sound/saarhay_paanch_bajay_hain.mp3",
+    "urdu": "ساڑھے پانچ بجے ہیں۔",
+    "roman": "Saarhay paanch bajay hain.",
+    "english": "It’s 5:30.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (3)",
+    "md5": "2de03efc0fa51642a5bc10d66fb4bf9f"
+  },
+  {
+    "file": "/sound/saarhay_teen_bajay_hain.mp3",
+    "urdu": "ساڑھے تین بجے ہیں۔",
+    "roman": "Saarhay teen bajay hain.",
+    "english": "It’s half past 3.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (3)",
+    "md5": "ebc9e86108bd0f28b11f04baf1902ea7"
+  },
+  {
+    "file": "/sound/abhi_waqt_kya_hai.mp3",
+    "urdu": "ابھی وقت کیا ہے؟",
+    "roman": "Abhi waqt kya hai?",
+    "english": "What time is it now?",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Telling Time (گھڑی دیکھنا) (3)",
+    "md5": "f7d3c95f7200fa7cad961d11f567c5bf"
+  },
+  {
+    "file": "/sound/uthna.mp3",
+    "urdu": "اٹھنا",
+    "roman": "uthna",
+    "english": "to get up",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (1)",
+    "md5": "09bdc15359fee69e7fb01eb65187c073"
+  },
+  {
+    "file": "/sound/nahaana.mp3",
+    "urdu": "نہا نا",
+    "roman": "nahaana",
+    "english": "to shower",
+    "kind": "phrase",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (1)",
+    "md5": "b7c11017dbf7663f00d0b10d43bfdcab"
+  },
+  {
+    "file": "/sound/dopahar_ka_khana.mp3",
+    "urdu": "دوپہر کا کھانا",
+    "roman": "dopahar ka khana",
+    "english": "lunch",
+    "kind": "phrase",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (2)",
+    "md5": "27f6da1e7e65823d5109d380d2f2f8b2"
+  },
+  {
+    "file": "/sound/aaraam_karna.mp3",
+    "urdu": "آرام کرنا",
+    "roman": "aaraam karna",
+    "english": "to rest",
+    "kind": "phrase",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (2)",
+    "md5": "4331eca782a4e9823bfb0cf6a1361040"
+  },
+  {
+    "file": "/sound/wapas_aana.mp3",
+    "urdu": "واپس آنا",
+    "roman": "wapas aana",
+    "english": "to return",
+    "kind": "phrase",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (2)",
+    "md5": "e492ff193f1ef7bda4ef098090f644d0"
+  },
+  {
+    "file": "/sound/tehlna.mp3",
+    "urdu": "ٹہلنا",
+    "roman": "tehlna",
+    "english": "to walk",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (2)",
+    "md5": "9f4aece1519a9c357c56d3cb8ce9da41"
+  },
+  {
+    "file": "/sound/raat_ka_khana.mp3",
+    "urdu": "رات کا کھانا",
+    "roman": "raat ka khana",
+    "english": "dinner",
+    "kind": "phrase",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (2)",
+    "md5": "309e37e1bd3835849110e4287f45698a"
+  },
+  {
+    "file": "/sound/main_subah_jaldi_uthta_hoon.mp3",
+    "urdu": "میں صبح جلدی اٹھتا ہوں۔",
+    "roman": "Main subah jaldi uthta hoon.",
+    "english": "I get up early in the morning.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (3)",
+    "md5": "0c6760e76445f002ed30c2f954b84392"
+  },
+  {
+    "file": "/sound/main_naha_raha_hoon.mp3",
+    "urdu": "میں نہا رہا ہوں۔",
+    "roman": "Main naha raha hoon.",
+    "english": "I am taking a shower.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (3)",
+    "md5": "ab6ce3098c41bed7a26d932eb3a12712"
+  },
+  {
+    "file": "/sound/main_school_ja_raha_hoon.mp3",
+    "urdu": "میں اسکول جا رہا ہوں۔",
+    "roman": "Main school ja raha hoon.",
+    "english": "I am going to school.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (3)",
+    "md5": "27838dfaba2320d1c92eaa204e31a2bc"
+  },
+  {
+    "file": "/sound/main_kaam_kar_rahi_hoon.mp3",
+    "urdu": "میں کام کر رہی ہوں۔",
+    "roman": "Main kaam kar rahi hoon.",
+    "english": "I am working. (female)",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (3)",
+    "md5": "6229ea08825c9889f0caf7057e32b23a"
+  },
+  {
+    "file": "/sound/hum_khana_kha_rahe_hain.mp3",
+    "urdu": "ہم کھانا کھا رہے ہیں۔",
+    "roman": "Hum khana kha rahe hain.",
+    "english": "We are eating.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (3)",
+    "md5": "e9074e9b2e039b301f20651df46b5caf"
+  },
+  {
+    "file": "/sound/main_tayyar_ho_raha_hoon.mp3",
+    "urdu": "میں تیار ہو رہا ہوں۔",
+    "roman": "Main tayyar ho raha hoon.",
+    "english": "I am getting ready.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Daily Routine Verbs (میری روزمرہ زندگی) (3)",
+    "md5": "8e1cd0e4c26cf4a9c1501f55b4660ce2"
+  },
+  {
+    "file": "/sound/subah.mp3",
+    "urdu": "صبح",
+    "roman": "subah",
+    "english": "morning",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Morning & Evening Expressions (1)",
+    "md5": "d33ab10f89244daff744faec5d8085e0"
+  },
+  {
+    "file": "/sound/dopahar.mp3",
+    "urdu": "دوپہر",
+    "roman": "dopahar",
+    "english": "afternoon",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Morning & Evening Expressions (1)",
+    "md5": "6ae65ca58bf29af6ff7a64e150fe6d0e"
+  },
+  {
+    "file": "/sound/shaam.mp3",
+    "urdu": "شام",
+    "roman": "shaam",
+    "english": "evening",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Morning & Evening Expressions (1)",
+    "md5": "d44220abf2c2e3dc181a70098788d2b4"
+  },
+  {
+    "file": "/sound/har_roz.mp3",
+    "urdu": "ہر روز",
+    "roman": "har roz",
+    "english": "every day",
+    "kind": "phrase",
+    "usedIn": "Daily Routine & Time › Morning & Evening Expressions (1)",
+    "md5": "271ae303da590aa479810176f514c61f"
+  },
+  {
+    "file": "/sound/kabhi_kabhi.mp3",
+    "urdu": "کبھی کبھی",
+    "roman": "kabhi kabhi",
+    "english": "sometimes",
+    "kind": "phrase",
+    "usedIn": "Daily Routine & Time › Morning & Evening Expressions (1)",
+    "md5": "44e75d2fa55b4f344c33d8ed5263e850"
+  },
+  {
+    "file": "/sound/hamesha.mp3",
+    "urdu": "ہمیشہ",
+    "roman": "hamesha",
+    "english": "always",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Morning & Evening Expressions (2)",
+    "md5": "c7c663b5a2395c045ed4490a2dc02856"
+  },
+  {
+    "file": "/sound/aksar.mp3",
+    "urdu": "اکثر",
+    "roman": "aksar",
+    "english": "often",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Morning & Evening Expressions (2)",
+    "md5": "fe24e186e90da99ebdfeaa5bb89b676d"
+  },
+  {
+    "file": "/sound/main_har_roz_subah_chai_peeta_hoon.mp3",
+    "urdu": "میں ہر روز صبح چائے پیتا ہوں۔",
+    "roman": "Main har roz subah chai peeta hoon.",
+    "english": "I drink tea every morning.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Morning & Evening Expressions (2)",
+    "md5": "d7d9ac0c661393493677ee92bbe5a07a"
+  },
+  {
+    "file": "/sound/woh_shaam_ko_tehlta_hai.mp3",
+    "urdu": "وہ شام کو ٹہلتا ہے۔",
+    "roman": "Woh shaam ko tehlta hai.",
+    "english": "He takes a walk in the evening.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Morning & Evening Expressions (2)",
+    "md5": "0032badcbbcb2b0e08ccba1135808741"
+  },
+  {
+    "file": "/sound/main_raat_ko_parhti_hoon.mp3",
+    "urdu": "میں رات کو پڑھتی ہوں۔",
+    "roman": "Main raat ko parhti hoon.",
+    "english": "I study at night. (female)",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Morning & Evening Expressions (2)",
+    "md5": "3e224b090b909bd626f8ff44fb488597"
+  },
+  {
+    "file": "/sound/hum_aksar_shaam_ko_miltay_hain.mp3",
+    "urdu": "ہم اکثر شام کو ملتے ہیں۔",
+    "roman": "Hum aksar shaam ko miltay hain.",
+    "english": "We often meet in the evening.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Morning & Evening Expressions (2)",
+    "md5": "b58f401e5b0e1b909351dcc52ec2ca10"
+  },
+  {
+    "file": "/sound/kal.mp3",
+    "urdu": "کل",
+    "roman": "kal",
+    "english": "tomorrow / yesterday (context)",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Scheduling & Planning (1)",
+    "md5": "b9f2664298b966ab77b67d37fb7752ad"
+  },
+  {
+    "file": "/sound/baad.mp3",
+    "urdu": "بعد",
+    "roman": "baad",
+    "english": "after",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Scheduling & Planning (1)",
+    "md5": "bda82e5e6a82c1ebf8c9b3567260d90e"
+  },
+  {
+    "file": "/sound/pehlay.mp3",
+    "urdu": "پہلے",
+    "roman": "pehlay",
+    "english": "before",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Scheduling & Planning (1)",
+    "md5": "7b5d61f50f0c51bff48d4b733323d403"
+  },
+  {
+    "file": "/sound/milna.mp3",
+    "urdu": "ملنا",
+    "roman": "milna",
+    "english": "to meet",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Scheduling & Planning (1)",
+    "md5": "3949566608a617a8641aede1cd0e7f3b"
+  },
+  {
+    "file": "/sound/batana.mp3",
+    "urdu": "بتانا",
+    "roman": "batana",
+    "english": "to tell",
+    "kind": "word",
+    "usedIn": "Daily Routine & Time › Scheduling & Planning (2)",
+    "md5": "ffd3bdac88a6dce4e72a19158808be86"
+  },
+  {
+    "file": "/sound/hum_kab_milain_ge.mp3",
+    "urdu": "ہم کب ملیں گے؟",
+    "roman": "Hum kab milain ge?",
+    "english": "When will we meet?",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Scheduling & Planning (2)",
+    "md5": "786b0570cd9725c21df54985a62d905e"
+  },
+  {
+    "file": "/sound/main_kal_aaon_ga.mp3",
+    "urdu": "میں کل آؤں گا۔",
+    "roman": "Main kal aaon ga.",
+    "english": "I will come tomorrow.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Scheduling & Planning (2)",
+    "md5": "ba6dcbdafbf8ea82c50be0bfa3c33d6e"
+  },
+  {
+    "file": "/sound/woh_baad_mein_bataye_ga.mp3",
+    "urdu": "وہ بعد میں بتائے گا۔",
+    "roman": "Woh baad mein bataye ga.",
+    "english": "He will tell later.",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Scheduling & Planning (2)",
+    "md5": "ae8cec3b76222fd8cae94e0c2b2124e0"
+  },
+  {
+    "file": "/sound/aap_kab_jaain_ge.mp3",
+    "urdu": "آپ کب جائیں گے؟",
+    "roman": "Aap kab jaain ge?",
+    "english": "When will you go?",
+    "kind": "sentence",
+    "usedIn": "Daily Routine & Time › Scheduling & Planning (2)",
+    "md5": "fae79a08c11f3f1be5c62ab26b832014"
+  },
+  {
+    "file": "/sound/help.mp3",
+    "urdu": "مدد",
+    "english": "help",
+    "kind": "word",
+    "usedIn": "Everyday Communication › Asking for Help",
+    "md5": "6c036ee5ce4c30a28cbe3edb79715709"
+  },
+  {
+    "file": "/sound/please.mp3",
+    "urdu": "براہِ کرم",
+    "english": "please",
+    "kind": "phrase",
+    "usedIn": "Everyday Communication › Asking for Help",
+    "md5": "435684a06fca5d3b9def8f8e0c73bbda"
+  },
+  {
+    "file": "/sound/where.mp3",
+    "urdu": "کہاں",
+    "english": "where",
+    "kind": "word",
+    "usedIn": "Everyday Communication › Asking for Help",
+    "md5": "f027bf29d7c694fb243c22bf37d92c8f"
+  },
+  {
+    "file": "/sound/please_help_me.mp3",
+    "urdu": "براہِ کرم میری مدد کریں۔",
+    "english": "Please help me.",
+    "kind": "sentence",
+    "usedIn": "Everyday Communication › Asking for Help",
+    "md5": "90a34c3ce3686290fd1c6a9b67f68b44"
+  },
+  {
+    "file": "/sound/i_don_t_understand.mp3",
+    "urdu": "مجھے سمجھ نہیں آرہا۔",
+    "english": "I don't understand.",
+    "kind": "sentence",
+    "usedIn": "Everyday Communication › Asking for Help",
+    "md5": "3d2f66451d7df13ad9ecbb3124d5581b"
+  },
+  {
+    "file": "/sound/where_can_i_find_this.mp3",
+    "urdu": "مجھے یہ کہاں ملے گا؟",
+    "english": "Where can I find this?",
+    "kind": "sentence",
+    "usedIn": "Everyday Communication › Asking for Help",
+    "md5": "6c9d4422f5030c1d0ad77902f696644d"
+  },
+  {
+    "file": "/sound/how_much_is_this.mp3",
+    "urdu": "یہ کتنا ہے؟",
+    "english": "How much is this?",
+    "kind": "sentence",
+    "usedIn": "Everyday Communication › Buying Things",
+    "md5": "5cb8baf1dcf5e37dd4f13c6953b26aac"
+  },
+  {
+    "file": "/sound/do_you_have_a_cheaper_one.mp3",
+    "urdu": "کیا آپ کے پاس سستا والا ہے؟",
+    "english": "Do you have a cheaper one?",
+    "kind": "sentence",
+    "usedIn": "Everyday Communication › Buying Things",
+    "md5": "ddb4dc3ac319cf3d9d30f4d8bb91c93a"
+  },
+  {
+    "file": "/sound/i_want_to_buy_this.mp3",
+    "urdu": "مجھے یہ خریدنا ہے۔",
+    "english": "I want to buy this.",
+    "kind": "sentence",
+    "usedIn": "Everyday Communication › Buying Things",
+    "md5": "93afba63e629343efd690c2a30d15fec"
+  },
+  {
+    "file": "/sound/please_tell_me_the_way.mp3",
+    "urdu": "مجھے راستہ بتائیں۔",
+    "english": "Please tell me the way.",
+    "kind": "sentence",
+    "usedIn": "Everyday Communication › Asking for Directions",
+    "md5": "d3c5cbf384fa1f03845b484becbd156b"
+  },
+  {
+    "file": "/sound/go_straight_from_here.mp3",
+    "urdu": "یہاں سے سیدھا جائیں۔",
+    "english": "Go straight from here.",
+    "kind": "sentence",
+    "usedIn": "Everyday Communication › Asking for Directions",
+    "md5": "6825f537d44a098d799994be529be554"
+  },
+  {
+    "file": "/sound/turn_left.mp3",
+    "urdu": "بائیں مُڑیں۔",
+    "english": "Turn left.",
+    "kind": "sentence",
+    "usedIn": "Everyday Communication › Asking for Directions",
+    "md5": "d2e2d2ddd86118bc31f148ac78648226"
+  },
+  {
+    "file": "/sound/thank_you.mp3",
+    "urdu": "شکریہ",
+    "english": "Thank you.",
+    "kind": "sentence",
+    "usedIn": "Everyday Communication › Polite Expressions",
+    "md5": "f7818a9d55aa7f69d233699889830537"
+  },
+  {
+    "file": "/sound/gosht.mp3",
+    "urdu": "گوشت",
+    "roman": "gosht",
+    "english": "Meat",
+    "kind": "word",
+    "usedIn": "Food & Dining › Food Vocabulary",
+    "md5": "4919d17b6cd6f95acb142ed9401714af"
+  },
+  {
+    "file": "/sound/i_want_a_plate_of_rice.mp3",
+    "urdu": "مجھے ایک پلیٹ چاول چاہیے۔",
+    "english": "I want a plate of rice.",
+    "kind": "sentence",
+    "usedIn": "Food & Dining › Ordering in a Restaurant",
+    "md5": "11c214bb3bfbf62c74216391bcc25963"
+  },
+  {
+    "file": "/sound/how_is_this_dish.mp3",
+    "urdu": "یہ کھانا کیسا ہے؟",
+    "english": "How is this dish?",
+    "kind": "sentence",
+    "usedIn": "Food & Dining › Ordering in a Restaurant",
+    "md5": "4b0d693b80f5bf409ccc2bf860ea8ab2"
+  },
+  {
+    "file": "/sound/please_bring_water.mp3",
+    "urdu": "براہِ مہربانی پانی لے آئیں۔",
+    "english": "Please bring water.",
+    "kind": "sentence",
+    "usedIn": "Food & Dining › Ordering in a Restaurant",
+    "md5": "79d5a7e9692d774c5f3f10d01f9855c3"
+  },
+  {
+    "file": "/sound/i_like_rice.mp3",
+    "urdu": "مجھے چاول پسند ہے۔",
+    "english": "I like rice.",
+    "kind": "sentence",
+    "usedIn": "Food & Dining › Expressing Preferences",
+    "md5": "45bc5b3c5088b82bb470e210e0af55b5"
+  },
+  {
+    "file": "/sound/i_don_t_eat_meat.mp3",
+    "urdu": "میں گوشت نہیں کھاتا۔",
+    "english": "I don’t eat meat.",
+    "kind": "sentence",
+    "usedIn": "Food & Dining › Expressing Preferences",
+    "md5": "0504cc9116b1d47d6bb7a07dd830f48c"
+  },
+  {
+    "file": "/sound/do_you_like_vegetables.mp3",
+    "urdu": "آپ سبزی پسند کرتے ہیں؟",
+    "english": "Do you like vegetables?",
+    "kind": "sentence",
+    "usedIn": "Food & Dining › Expressing Preferences",
+    "md5": "3b7e9d6129937505148a12c9f497cbf3"
+  },
+  {
+    "file": "/sound/nashta.mp3",
+    "urdu": "ناشتہ",
+    "roman": "nashta",
+    "english": "Breakfast",
+    "kind": "word",
+    "usedIn": "Food & Dining › Meals of the Day",
+    "md5": "0a91b9c641d9fd4992a4540f28bb2ede"
+  },
+  {
+    "file": "/sound/i_drink_tea_for_breakfast.mp3",
+    "urdu": "میں ناشتے میں چائے پیتا ہوں۔",
+    "english": "I drink tea for breakfast.",
+    "kind": "sentence",
+    "usedIn": "Food & Dining › Meals of the Day",
+    "md5": "4db6d612dccba1d7dc2288a78a50ac48"
+  },
+  {
+    "file": "/sound/for_lunch_i_eat_bread_and_vegetables.mp3",
+    "urdu": "دوپہر کے کھانے میں روٹی اور سبزی کھاتا ہوں۔",
+    "english": "For lunch, I eat bread and vegetables.",
+    "kind": "sentence",
+    "usedIn": "Food & Dining › Meals of the Day",
+    "md5": "4e13aaa490c47ba83c81adf7ce9adc46"
+  },
+  {
+    "file": "/sound/car.mp3",
+    "urdu": "کار",
+    "roman": "car",
+    "english": "Car",
+    "kind": "word",
+    "usedIn": "Travel & Transportation › Modes of Transport",
+    "md5": "65fbc2d1ef97cd23a4d3ba569bb51259"
+  },
+  {
+    "file": "/sound/rail_gaari.mp3",
+    "urdu": "ریل گاڑی",
+    "roman": "rail gaari",
+    "english": "Train",
+    "kind": "phrase",
+    "usedIn": "Travel & Transportation › Modes of Transport",
+    "md5": "cbc4d0c968c0ba39f15fb6267ded032d"
+  },
+  {
+    "file": "/sound/hawaai_jahaaz.mp3",
+    "urdu": "ہوائی جہاز",
+    "roman": "hawaai jahaaz",
+    "english": "Airplane",
+    "kind": "phrase",
+    "usedIn": "Travel & Transportation › Modes of Transport",
+    "md5": "d782957f20365ee69effb391a7d2e40e"
+  },
+  {
+    "file": "/sound/saikil.mp3",
+    "urdu": "سائیکل",
+    "roman": "saikil",
+    "english": "Bicycle",
+    "kind": "word",
+    "usedIn": "Travel & Transportation › Modes of Transport",
+    "md5": "1247fe622e9133896acb276fa2a6379a"
+  },
+  {
+    "file": "/sound/i_want_a_ticket_to_lahore.mp3",
+    "urdu": "ایک ٹکٹ لاہور کے لیے چاہیے۔",
+    "english": "I want a ticket to Lahore.",
+    "kind": "sentence",
+    "usedIn": "Travel & Transportation › Buying Tickets",
+    "md5": "4d958a49102a88a9393acc2c345190f3"
+  },
+  {
+    "file": "/sound/is_this_cheap.mp3",
+    "urdu": "کیا یہ سستا ہے؟",
+    "english": "Is this cheap?",
+    "kind": "sentence",
+    "usedIn": "Travel & Transportation › Buying Tickets",
+    "md5": "2cf0d4926ce0765f0342832470e878dd"
+  },
+  {
+    "file": "/sound/how_much_is_the_ticket.mp3",
+    "urdu": "ٹکٹ کتنے کا ہے؟",
+    "english": "How much is the ticket?",
+    "kind": "sentence",
+    "usedIn": "Travel & Transportation › Buying Tickets",
+    "md5": "7617f37c9c704ea31d0b77318bbcef07"
+  },
+  {
+    "file": "/sound/subway_station.mp3",
+    "urdu": "سب وے اسٹیشن",
+    "english": "Subway station",
+    "kind": "phrase",
+    "usedIn": "Travel & Transportation › Asking for Directions",
+    "md5": "e5899e255548f81be08d462648a6085d"
+  },
+  {
+    "file": "/sound/bus_stop.mp3",
+    "urdu": "بس اسٹاپ",
+    "english": "Bus stop",
+    "kind": "phrase",
+    "usedIn": "Travel & Transportation › Asking for Directions",
+    "md5": "1dacb80ba44b21f26249827fc050d9fc"
+  },
+  {
+    "file": "/sound/airport.mp3",
+    "urdu": "ہوائی اڈہ",
+    "english": "Airport",
+    "kind": "phrase",
+    "usedIn": "Travel & Transportation › Asking for Directions",
+    "md5": "1bebb5967ced8d9702c0fc9dcf0a31c8"
+  },
+  {
+    "file": "/sound/where_is_the_subway_station.mp3",
+    "urdu": "سب وے اسٹیشن کہاں ہے؟",
+    "english": "Where is the subway station?",
+    "kind": "sentence",
+    "usedIn": "Travel & Transportation › Asking for Directions",
+    "md5": "4450de1bafea365ee94e8f0d16495965"
+  },
+  {
+    "file": "/sound/i_want_to_go_to_the_bus_stop.mp3",
+    "urdu": "مجھے بس اسٹاپ تک جانا ہے۔",
+    "english": "I want to go to the bus stop.",
+    "kind": "sentence",
+    "usedIn": "Travel & Transportation › Asking for Directions",
+    "md5": "ed8e71664a27e5075fbe6ac2b5667e89"
+  },
+  {
+    "file": "/sound/how_far_is_the_airport_from_here.mp3",
+    "urdu": "یہاں سے ہوائی اڈہ کتنی دور ہے؟",
+    "english": "How far is the airport from here?",
+    "kind": "sentence",
+    "usedIn": "Travel & Transportation › Asking for Directions",
+    "md5": "f82ef84055340bc96d25ef45dee9a158"
+  },
+  {
+    "file": "/sound/i_want_to_go_to_lahore.mp3",
+    "urdu": "میں لاہور جانا چاہتا ہوں۔",
+    "english": "I want to go to Lahore.",
+    "kind": "sentence",
+    "usedIn": "Travel & Transportation › Travel Conversations",
+    "md5": "8f33fa1d01b580577530cdced265737a"
+  },
+  {
+    "file": "/sound/when_is_the_ticket_available.mp3",
+    "urdu": "ٹکٹ کب دستیاب ہے؟",
+    "english": "When is the ticket available?",
+    "kind": "sentence",
+    "usedIn": "Travel & Transportation › Travel Conversations",
+    "md5": "b7704e785605767e8757de12b16e7055"
+  },
+  {
+    "file": "/sound/does_this_bus_go_straight.mp3",
+    "urdu": "کیا یہ بس سیدھی جائے گی؟",
+    "english": "Does this bus go straight?",
+    "kind": "sentence",
+    "usedIn": "Travel & Transportation › Travel Conversations",
+    "md5": "dca71e9514a13f9c1a33d0c014bb57d9"
+  },
+  {
+    "file": "/sound/dukaan.mp3",
+    "urdu": "دکان",
+    "roman": "dukaan",
+    "english": "Shop",
+    "kind": "word",
+    "usedIn": "Shopping & Services › At the Market",
+    "md5": "b07b2a13a06da8fde08e190470d8301d"
+  },
+  {
+    "file": "/sound/bazaar.mp3",
+    "urdu": "بازار",
+    "roman": "bazaar",
+    "english": "Market",
+    "kind": "word",
+    "usedIn": "Shopping & Services › At the Market",
+    "md5": "b629cc215b119df853be7460ab824e66"
+  },
+  {
+    "file": "/sound/can_you_reduce_the_price.mp3",
+    "urdu": "کیا آپ قیمت کم کر سکتے ہیں؟",
+    "english": "Can you reduce the price?",
+    "kind": "sentence",
+    "usedIn": "Shopping & Services › Bargaining Politely",
+    "md5": "cd605412222726abd843803179397a6f"
+  },
+  {
+    "file": "/sound/this_is_too_expensive.mp3",
+    "urdu": "یہ بہت مہنگا ہے۔",
+    "english": "This is too expensive.",
+    "kind": "sentence",
+    "usedIn": "Shopping & Services › Bargaining Politely",
+    "md5": "c87a57a73703aa5bb4b1ae10f085b878"
+  },
+  {
+    "file": "/sound/please_give_me_a_little_cheaper.mp3",
+    "urdu": "مجھے تھوڑا سستا دیں۔",
+    "english": "Please give me a little cheaper.",
+    "kind": "sentence",
+    "usedIn": "Shopping & Services › Bargaining Politely",
+    "md5": "3d77a4d0c62f27404e747a8d4b0bf89f"
+  },
+  {
+    "file": "/sound/i_need_to_repair_my_car.mp3",
+    "urdu": "میری گاڑی مرمت کرنی ہے۔",
+    "english": "I need to repair my car.",
+    "kind": "sentence",
+    "usedIn": "Shopping & Services › Asking for Services",
+    "md5": "258720a3ff6167a89466f8ce4e13a966"
+  },
+  {
+    "file": "/sound/can_you_clean_the_window.mp3",
+    "urdu": "کیا آپ کھڑکی صاف کر سکتے ہیں؟",
+    "english": "Can you clean the window?",
+    "kind": "sentence",
+    "usedIn": "Shopping & Services › Asking for Services",
+    "md5": "ca543029eeff91aabfefa5361496e449"
+  },
+  {
+    "file": "/sound/when_will_this_delivery_arrive.mp3",
+    "urdu": "یہ سامان کب پہنچے گا؟",
+    "english": "When will this delivery arrive?",
+    "kind": "sentence",
+    "usedIn": "Shopping & Services › Asking for Services",
+    "md5": "ddace48f8a1a9db16b9c76ecb6f9f366"
+  },
+  {
+    "file": "/sound/please_give_the_bill.mp3",
+    "urdu": "براہِ کرم بل دیں۔",
+    "english": "Please give the bill.",
+    "kind": "sentence",
+    "usedIn": "Shopping & Services › Payment & Transactions",
+    "md5": "69fc9faa4ebc7edd70daf82cf71e32d8"
+  },
+  {
+    "file": "/sound/i_will_pay_in_cash.mp3",
+    "urdu": "میں نقد ادا کروں گا۔",
+    "english": "I will pay in cash.",
+    "kind": "sentence",
+    "usedIn": "Shopping & Services › Payment & Transactions",
+    "md5": "462cb8c1c983f5a3603cef5cc82c8321"
+  },
+  {
+    "file": "/sound/do_you_accept_credit_cards.mp3",
+    "urdu": "کیا آپ کریڈٹ کارڈ قبول کرتے ہیں؟",
+    "english": "Do you accept credit cards?",
+    "kind": "sentence",
+    "usedIn": "Shopping & Services › Payment & Transactions",
+    "md5": "9caacfb28d6c0bf24b705407967c6201"
+  },
+  {
+    "file": "/sound/help_i_need_immediate_assistance.mp3",
+    "urdu": "مدد کریں! فوری مدد چاہیے!",
+    "english": "Help! I need immediate assistance!",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Calling for Help",
+    "md5": "cf901bca6e3f9cfd6e12c9da44a1d9f2"
+  },
+  {
+    "file": "/sound/call_the_police.mp3",
+    "urdu": "پولیس کو بلائیں!",
+    "english": "Call the police!",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Calling for Help",
+    "md5": "b922d472005c5192de961d81bc7e1a4b"
+  },
+  {
+    "file": "/sound/where_is_the_ambulance.mp3",
+    "urdu": "ایمبولینس کہاں ہے؟",
+    "english": "Where is the ambulance?",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Calling for Help",
+    "md5": "7da1951e1896c9a54bc9c2277a10373c"
+  },
+  {
+    "file": "/sound/i_have_a_fever.mp3",
+    "urdu": "مجھے بخار ہے۔",
+    "english": "I have a fever.",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Visiting a Doctor",
+    "md5": "7e19f188d445811ec11fea1806ef4b30"
+  },
+  {
+    "file": "/sound/i_have_a_headache.mp3",
+    "urdu": "میرا سر درد کر رہا ہے۔",
+    "english": "I have a headache.",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Visiting a Doctor",
+    "md5": "b252e8858e2eb30f759036c032689497"
+  },
+  {
+    "file": "/sound/i_feel_nauseous.mp3",
+    "urdu": "مجھے قے آ رہی ہے۔",
+    "english": "I feel nauseous.",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Visiting a Doctor",
+    "md5": "3bd7a78a7edb6fdfcd38056da98dd9e8"
+  },
+  {
+    "file": "/sound/i_need_medicine_for_pain_relief.mp3",
+    "urdu": "مجھے درد کم کرنے کی دوا چاہیے۔",
+    "english": "I need medicine for pain relief.",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Pharmacy & Medicines",
+    "md5": "dccfb4ae08e5c9adc1893fd2d93be1a4"
+  },
+  {
+    "file": "/sound/how_should_i_take_this_medicine.mp3",
+    "urdu": "یہ دوا کیسے لینا ہے؟",
+    "english": "How should I take this medicine?",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Pharmacy & Medicines",
+    "md5": "633d9de49045c7e8f1436cccbb9c2d19"
+  },
+  {
+    "file": "/sound/is_this_medicine_available_without_a_prescription.mp3",
+    "urdu": "کیا یہ دوا بغیر نسخے دستیاب ہے؟",
+    "english": "Is this medicine available without a prescription?",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Pharmacy & Medicines",
+    "md5": "db4606a370932b36de0acdc87e826a81"
+  },
+  {
+    "file": "/sound/i_have_a_cough_and_fever.mp3",
+    "urdu": "مجھے کھانسی اور بخار ہے۔",
+    "english": "I have a cough and fever.",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Describing Symptoms",
+    "md5": "133f411268610d5fdbff90ba77f4bf26"
+  },
+  {
+    "file": "/sound/my_body_is_aching.mp3",
+    "urdu": "مجھے جسم میں درد ہو رہا ہے۔",
+    "english": "My body is aching.",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Describing Symptoms",
+    "md5": "c303abebf6b94bee5240e643b2e63498"
+  },
+  {
+    "file": "/sound/i_am_having_difficulty_breathing.mp3",
+    "urdu": "مجھے سانس لینے میں دشواری ہو رہی ہے۔",
+    "english": "I am having difficulty breathing.",
+    "kind": "sentence",
+    "usedIn": "Emergencies & Health › Describing Symptoms",
+    "md5": "8ea840cf876e4cbacefbe713476599f8"
+  },
+  {
+    "file": "/sound/main.mp3",
+    "urdu": "میں",
+    "roman": "main",
+    "english": "I",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › I Am, You Are (1)",
+    "md5": "5df1ad1c111c270683d30b5593352149"
+  },
+  {
+    "file": "/sound/hoon.mp3",
+    "urdu": "ہوں",
+    "roman": "hoon",
+    "english": "am (with میں)",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › I Am, You Are (1)",
+    "md5": "b4bab11cd6bafcbf1c40b24aab05dc54"
+  },
+  {
+    "file": "/sound/ho.mp3",
+    "urdu": "ہو",
+    "roman": "ho",
+    "english": "are (with تم)",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › I Am, You Are (1)",
+    "md5": "fbbb5f8d20087e91b0e44c5d90edf3eb"
+  },
+  {
+    "file": "/sound/hain.mp3",
+    "urdu": "ہیں",
+    "roman": "hain",
+    "english": "are (with آپ / plural)",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › I Am, You Are (2)",
+    "md5": "41606b1dad14173449c84f477ffe88c1"
+  },
+  {
+    "file": "/sound/main_talib_e_ilm_hoon.mp3",
+    "urdu": "میں طالب علم ہوں۔",
+    "roman": "main talib-e-ilm hoon",
+    "english": "I am a student.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › I Am, You Are (2)",
+    "md5": "efb0afabe8a69b87b41123269f1b313e"
+  },
+  {
+    "file": "/sound/aap_ustaad_hain.mp3",
+    "urdu": "آپ استاد ہیں۔",
+    "roman": "aap ustaad hain",
+    "english": "You are a teacher.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › I Am, You Are (2)",
+    "md5": "d9110d8052b43b8f05d6e1a1569b33fd"
+  },
+  {
+    "file": "/sound/tum_kahan_ho.mp3",
+    "urdu": "تم کہاں ہو؟",
+    "roman": "tum kahan ho",
+    "english": "Where are you?",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › I Am, You Are (2)",
+    "md5": "10f9f367b4eb3aa7e27348ff01061f57"
+  },
+  {
+    "file": "/sound/aap_kaun_hain.mp3",
+    "urdu": "آپ کون ہیں؟",
+    "roman": "aap kaun hain",
+    "english": "Who are you?",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › I Am, You Are (2)",
+    "md5": "464261637329808155c7837401fd95d3"
+  },
+  {
+    "file": "/sound/main_ali_hoon.mp3",
+    "urdu": "میں علی ہوں۔",
+    "roman": "main Ali hoon",
+    "english": "I am Ali.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › I Am, You Are (2)",
+    "md5": "8fd4d686c797a299c4420e8dfccdc9e7"
+  },
+  {
+    "file": "/sound/kya_aap_ustaad_hain.mp3",
+    "urdu": "کیا آپ استاد ہیں؟",
+    "roman": "kya aap ustaad hain",
+    "english": "Are you a teacher?",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › I Am, You Are (2)",
+    "md5": "34f5cae0f9ccc60b8695aecd9f6a5c92"
+  },
+  {
+    "file": "/sound/woh.mp3",
+    "urdu": "وہ",
+    "roman": "woh",
+    "english": "that / he / she (far)",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › He, She, We & They (1)",
+    "md5": "72f2da9640406c5678a5e7d4b6e32024"
+  },
+  {
+    "file": "/sound/hum.mp3",
+    "urdu": "ہم",
+    "roman": "hum",
+    "english": "we",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › He, She, We & They (1)",
+    "md5": "ac27d16a05de48373086c9004b706587"
+  },
+  {
+    "file": "/sound/dost.mp3",
+    "urdu": "دوست",
+    "roman": "dost",
+    "english": "friend",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › He, She, We & They (1)",
+    "md5": "ab1065642519b482259a7a7c44133998"
+  },
+  {
+    "file": "/sound/woh_doctor_hai.mp3",
+    "urdu": "وہ ڈاکٹر ہے۔",
+    "roman": "woh doctor hai",
+    "english": "He is a doctor.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › He, She, We & They (2)",
+    "md5": "27d2e7328ec50c9ce8f7b5cd88262679"
+  },
+  {
+    "file": "/sound/hum_dost_hain.mp3",
+    "urdu": "ہم دوست ہیں۔",
+    "roman": "hum dost hain",
+    "english": "We are friends.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › He, She, We & They (2)",
+    "md5": "034d09114d36dc22f1bdf940cb327a7c"
+  },
+  {
+    "file": "/sound/yeh_meri_behan_hai.mp3",
+    "urdu": "یہ میری بہن ہے۔",
+    "roman": "yeh meri behan hai",
+    "english": "This is my sister.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › He, She, We & They (2)",
+    "md5": "a43db84843c7fb5f15e5c4a1a7b777bd"
+  },
+  {
+    "file": "/sound/yeh_kaun_hai.mp3",
+    "urdu": "یہ کون ہے؟",
+    "roman": "yeh kaun hai",
+    "english": "Who is this?",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › He, She, We & They (2)",
+    "md5": "a11357c0d5ddc8dd7ec9e171c5e21875"
+  },
+  {
+    "file": "/sound/yeh_mera_dost_hai.mp3",
+    "urdu": "یہ میرا دوست ہے۔",
+    "roman": "yeh mera dost hai",
+    "english": "This is my friend.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › He, She, We & They (2)",
+    "md5": "32bb22ad3ac11065c0033c96771613bc"
+  },
+  {
+    "file": "/sound/aur_woh.mp3",
+    "urdu": "اور وہ؟",
+    "roman": "aur woh",
+    "english": "And that person?",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › He, She, We & They (2)",
+    "md5": "34e94a228bca63c3181bf29ebef51f74"
+  },
+  {
+    "file": "/sound/haan.mp3",
+    "urdu": "ہاں",
+    "roman": "haan",
+    "english": "yes (casual)",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › Tum or Aap? Speaking Respectfully (1)",
+    "md5": "02d0a991f7436bdcf2ba157a7cd4726f"
+  },
+  {
+    "file": "/sound/aunty.mp3",
+    "urdu": "آنٹی",
+    "roman": "aunty",
+    "english": "aunty (any older woman)",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › Tum or Aap? Speaking Respectfully (1)",
+    "md5": "7995b38a823c1b2231779212634ae257"
+  },
+  {
+    "file": "/sound/uncle.mp3",
+    "urdu": "انکل",
+    "roman": "uncle",
+    "english": "uncle (any older man)",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › Tum or Aap? Speaking Respectfully (1)",
+    "md5": "06169681740ba459569575acfd4dffcc"
+  },
+  {
+    "file": "/sound/jee_shukriya.mp3",
+    "urdu": "جی، شکریہ۔",
+    "roman": "jee, shukriya",
+    "english": "Yes, thank you.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › Tum or Aap? Speaking Respectfully (2)",
+    "md5": "cb1249f40dd841700be076643fcbf262"
+  },
+  {
+    "file": "/sound/assalam_o_alaikum_aunty.mp3",
+    "urdu": "السلام علیکم آنٹی!",
+    "roman": "assalam-o-alaikum aunty",
+    "english": "Hello, aunty!",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › Tum or Aap? Speaking Respectfully (2)",
+    "md5": "0e685530c61f3c5d0e0e05892b83307b"
+  },
+  {
+    "file": "/sound/wa_alaikum_assalam_beta_tum_kaise_ho.mp3",
+    "urdu": "وعلیکم السلام بیٹا۔ تم کیسے ہو؟",
+    "roman": "wa alaikum assalam beta. tum kaise ho",
+    "english": "Hello, dear. How are you?",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › Tum or Aap? Speaking Respectfully (2)",
+    "md5": "f0eeea93b5daaa6b4fdd0e9d741c3338"
+  },
+  {
+    "file": "/sound/jee_main_theek_hoon_aap_kaisi_hain.mp3",
+    "urdu": "جی، میں ٹھیک ہوں۔ آپ کیسی ہیں؟",
+    "roman": "jee, main theek hoon. aap kaisi hain",
+    "english": "I'm fine. How are you?",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › Tum or Aap? Speaking Respectfully (2)",
+    "md5": "42a620b281cacab31c1ae3e4f239c060"
+  },
+  {
+    "file": "/sound/parosi.mp3",
+    "urdu": "پڑوسی",
+    "roman": "parosi",
+    "english": "neighbour",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › Review: Meeting the Neighbours (1)",
+    "md5": "3d11fe8c21ba9fe1a0d9b6dd4e56065d"
+  },
+  {
+    "file": "/sound/naya.mp3",
+    "urdu": "نیا",
+    "roman": "naya",
+    "english": "new",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › Review: Meeting the Neighbours (1)",
+    "md5": "526b534adc3f4e40c429f2f7f61b54e5"
+  },
+  {
+    "file": "/sound/yahan.mp3",
+    "urdu": "یہاں",
+    "roman": "yahan",
+    "english": "here",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › Review: Meeting the Neighbours (1)",
+    "md5": "56858dadbe5d1b709c5479a2ace76d9f"
+  },
+  {
+    "file": "/sound/wahan.mp3",
+    "urdu": "وہاں",
+    "roman": "wahan",
+    "english": "there",
+    "kind": "word",
+    "usedIn": "Me, You & \"To Be\" › Review: Meeting the Neighbours (1)",
+    "md5": "e4b128a90a9566d8d71a28828084fb70"
+  },
+  {
+    "file": "/sound/hum_naye_parosi_hain.mp3",
+    "urdu": "ہم نئے پڑوسی ہیں۔",
+    "roman": "hum naye parosi hain",
+    "english": "We are the new neighbours.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › Review: Meeting the Neighbours (2)",
+    "md5": "58e5c6b8f629c5ebd85347ebf4a4117f"
+  },
+  {
+    "file": "/sound/aap_ka_ghar_kahan_hai.mp3",
+    "urdu": "آپ کا گھر کہاں ہے؟",
+    "roman": "aap ka ghar kahan hai",
+    "english": "Where is your house?",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › Review: Meeting the Neighbours (2)",
+    "md5": "0a7c22e6b249b3f8dbc5429b08210186"
+  },
+  {
+    "file": "/sound/mera_ghar_wahan_hai.mp3",
+    "urdu": "میرا گھر وہاں ہے۔",
+    "roman": "mera ghar wahan hai",
+    "english": "My house is over there.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › Review: Meeting the Neighbours (2)",
+    "md5": "58944dbf3d5f52abbb2d4af1780e9feb"
+  },
+  {
+    "file": "/sound/assalam_o_alaikum_hum_naye_parosi_hain.mp3",
+    "urdu": "السلام علیکم! ہم نئے پڑوسی ہیں۔",
+    "roman": "assalam-o-alaikum! hum naye parosi hain",
+    "english": "Hello! We are the new neighbours.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › Review: Meeting the Neighbours (2)",
+    "md5": "13363aaef1ae4fe7fdfb9fc885903207"
+  },
+  {
+    "file": "/sound/wa_alaikum_assalam_khush_aamdeed.mp3",
+    "urdu": "وعلیکم السلام! خوش آمدید۔",
+    "roman": "wa alaikum assalam! khush aamdeed",
+    "english": "Hello! Welcome.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › Review: Meeting the Neighbours (2)",
+    "md5": "02890a137fd2272dee4375d2755cb6cf"
+  },
+  {
+    "file": "/sound/main_sara_hoon_aur_yeh_mera_bhai_hai.mp3",
+    "urdu": "میں سارہ ہوں، اور یہ میرا بھائی ہے۔",
+    "roman": "main Sara hoon, aur yeh mera bhai hai",
+    "english": "I am Sara, and this is my brother.",
+    "kind": "sentence",
+    "usedIn": "Me, You & \"To Be\" › Review: Meeting the Neighbours (2)",
+    "md5": "5b57110d5432b731d5d9ac1de2532df2"
+  },
+  {
+    "file": "/sound/larka.mp3",
+    "urdu": "لڑکا",
+    "roman": "larka",
+    "english": "boy",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Masculine & Feminine (1)",
+    "md5": "f3df031a787b31c7cebd64d015a20d55"
+  },
+  {
+    "file": "/sound/larki.mp3",
+    "urdu": "لڑکی",
+    "roman": "larki",
+    "english": "girl",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Masculine & Feminine (1)",
+    "md5": "16b2e94bc437606143659657368b7d39"
+  },
+  {
+    "file": "/sound/aadmi.mp3",
+    "urdu": "آدمی",
+    "roman": "aadmi",
+    "english": "man",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Masculine & Feminine (1)",
+    "md5": "13e8f7d2cc1eda8546f2bdfa6307dc63"
+  },
+  {
+    "file": "/sound/aurat.mp3",
+    "urdu": "عورت",
+    "roman": "aurat",
+    "english": "woman",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Masculine & Feminine (1)",
+    "md5": "e81a4c004b7bfaf30bdcc6a02d93c250"
+  },
+  {
+    "file": "/sound/kutta.mp3",
+    "urdu": "کتا",
+    "roman": "kutta",
+    "english": "dog",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Masculine & Feminine (2)",
+    "md5": "5f5f8f3c1aaea58794c3373ed22eeff8"
+  },
+  {
+    "file": "/sound/billi.mp3",
+    "urdu": "بلی",
+    "roman": "billi",
+    "english": "cat",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Masculine & Feminine (2)",
+    "md5": "a0bea46823a502b5477c928646efe047"
+  },
+  {
+    "file": "/sound/larka_yahan_hai.mp3",
+    "urdu": "لڑکا یہاں ہے۔",
+    "roman": "larka yahan hai",
+    "english": "The boy is here.",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › Masculine & Feminine (2)",
+    "md5": "a3351a69b1efa9ad269a474aaff98218"
+  },
+  {
+    "file": "/sound/larki_wahan_hai.mp3",
+    "urdu": "لڑکی وہاں ہے۔",
+    "roman": "larki wahan hai",
+    "english": "The girl is there.",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › Masculine & Feminine (2)",
+    "md5": "d9375349b3d99fb1770bf866a60c9401"
+  },
+  {
+    "file": "/sound/yeh_larka_kaun_hai.mp3",
+    "urdu": "یہ لڑکا کون ہے؟",
+    "roman": "yeh larka kaun hai",
+    "english": "Who is this boy?",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › Masculine & Feminine (2)",
+    "md5": "05399414022daa35581e697a561f3167"
+  },
+  {
+    "file": "/sound/yeh_ahmed_hai.mp3",
+    "urdu": "یہ احمد ہے۔",
+    "roman": "yeh Ahmed hai",
+    "english": "This is Ahmed.",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › Masculine & Feminine (2)",
+    "md5": "ef9b74f0d0c0b0dd858877796f0b9f4a"
+  },
+  {
+    "file": "/sound/aur_woh_larki.mp3",
+    "urdu": "اور وہ لڑکی؟",
+    "roman": "aur woh larki",
+    "english": "And that girl?",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › Masculine & Feminine (2)",
+    "md5": "24bb836264d30f0900b2edb3a50eda2a"
+  },
+  {
+    "file": "/sound/larke.mp3",
+    "urdu": "لڑکے",
+    "roman": "larke",
+    "english": "boys",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › One and Many (Plurals) (1)",
+    "md5": "20c1b30384ee4b0a32694f5e5b64591e"
+  },
+  {
+    "file": "/sound/larkiyan.mp3",
+    "urdu": "لڑکیاں",
+    "roman": "larkiyan",
+    "english": "girls",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › One and Many (Plurals) (1)",
+    "md5": "9e716ddc88f9e0e01e330924d7004e49"
+  },
+  {
+    "file": "/sound/kitaab.mp3",
+    "urdu": "کتاب",
+    "roman": "kitaab",
+    "english": "book",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › One and Many (Plurals) (1)",
+    "md5": "f901ddbf46c0478f5cf9bf284fa300ae"
+  },
+  {
+    "file": "/sound/kitaabein.mp3",
+    "urdu": "کتابیں",
+    "roman": "kitaabein",
+    "english": "books",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › One and Many (Plurals) (1)",
+    "md5": "622d460a715eec09bd09fb2674c499b6"
+  },
+  {
+    "file": "/sound/kamre.mp3",
+    "urdu": "کمرے",
+    "roman": "kamre",
+    "english": "rooms",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › One and Many (Plurals) (2)",
+    "md5": "054994c97652c02002c6a078be6941fc"
+  },
+  {
+    "file": "/sound/larke_khel_rahe_hain.mp3",
+    "urdu": "لڑکے کھیل رہے ہیں۔",
+    "roman": "larke khel rahe hain",
+    "english": "The boys are playing.",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › One and Many (Plurals) (2)",
+    "md5": "b6d31030c42fc6de29c54cd950d35d3f"
+  },
+  {
+    "file": "/sound/yeh_kitaabein_nayi_hain.mp3",
+    "urdu": "یہ کتابیں نئی ہیں۔",
+    "roman": "yeh kitaabein nayi hain",
+    "english": "These books are new.",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › One and Many (Plurals) (2)",
+    "md5": "7c14ae96e34bd3d84b92c463eeaa473f"
+  },
+  {
+    "file": "/sound/larke_kahan_hain.mp3",
+    "urdu": "لڑکے کہاں ہیں؟",
+    "roman": "larke kahan hain",
+    "english": "Where are the boys?",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › One and Many (Plurals) (2)",
+    "md5": "d00671545bbd8efca9e18cec1236d46b"
+  },
+  {
+    "file": "/sound/larke_bahar_hain.mp3",
+    "urdu": "لڑکے باہر ہیں۔",
+    "roman": "larke bahar hain",
+    "english": "The boys are outside.",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › One and Many (Plurals) (2)",
+    "md5": "4ec6004b007622ba52f47907cdd57e76"
+  },
+  {
+    "file": "/sound/aur_larkiyan.mp3",
+    "urdu": "اور لڑکیاں؟",
+    "roman": "aur larkiyan",
+    "english": "And the girls?",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › One and Many (Plurals) (2)",
+    "md5": "3e28dff9ea09430df39b632c212543a5"
+  },
+  {
+    "file": "/sound/achha.mp3",
+    "urdu": "اچھا",
+    "roman": "achha",
+    "english": "good (masc.)",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (1)",
+    "md5": "5f5bdbf3ee6051830c460f631e50c942"
+  },
+  {
+    "file": "/sound/achhi.mp3",
+    "urdu": "اچھی",
+    "roman": "achhi",
+    "english": "good (fem.)",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (1)",
+    "md5": "2c914aaf1e5c0673dfbe0a1c232459eb"
+  },
+  {
+    "file": "/sound/bara.mp3",
+    "urdu": "بڑا",
+    "roman": "bara",
+    "english": "big (masc.)",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (1)",
+    "md5": "9da5791fd962d2e4d95b143d8d242244"
+  },
+  {
+    "file": "/sound/chhoti.mp3",
+    "urdu": "چھوٹی",
+    "roman": "chhoti",
+    "english": "small (fem.)",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (1)",
+    "md5": "00d39c6fb8e4a835803e6ad8ee807c4b"
+  },
+  {
+    "file": "/sound/lamba.mp3",
+    "urdu": "لمبا",
+    "roman": "lamba",
+    "english": "tall / long (masc.)",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (1)",
+    "md5": "5eb5b71d8e4625209a22c3a735f12b40"
+  },
+  {
+    "file": "/sound/khoobsurat.mp3",
+    "urdu": "خوبصورت",
+    "roman": "khoobsurat",
+    "english": "beautiful",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (2)",
+    "md5": "0486e0de2b8fcc73a34bb08aa335cbc0"
+  },
+  {
+    "file": "/sound/achha_larka.mp3",
+    "urdu": "اچھا لڑکا",
+    "roman": "achha larka",
+    "english": "a good boy",
+    "kind": "phrase",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (2)",
+    "md5": "efe9753e430565f0eb4037410f5b4e87"
+  },
+  {
+    "file": "/sound/achhi_larki.mp3",
+    "urdu": "اچھی لڑکی",
+    "roman": "achhi larki",
+    "english": "a good girl",
+    "kind": "phrase",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (2)",
+    "md5": "2baf0a216dba0bdf4a97473170c68ecc"
+  },
+  {
+    "file": "/sound/achhe_larke.mp3",
+    "urdu": "اچھے لڑکے",
+    "roman": "achhe larke",
+    "english": "good boys",
+    "kind": "phrase",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (2)",
+    "md5": "dc7e353d291611bde6cb5091d142f4da"
+  },
+  {
+    "file": "/sound/chhoti_billi.mp3",
+    "urdu": "چھوٹی بلی",
+    "roman": "chhoti billi",
+    "english": "a small cat",
+    "kind": "phrase",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (2)",
+    "md5": "e25027126718c518dd1151c13b934aa7"
+  },
+  {
+    "file": "/sound/aap_ka_ghar_kaisa_hai.mp3",
+    "urdu": "آپ کا گھر کیسا ہے؟",
+    "roman": "aap ka ghar kaisa hai",
+    "english": "What is your house like?",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (2)",
+    "md5": "5fc625d7c77609d888e0940e165998d7"
+  },
+  {
+    "file": "/sound/mera_ghar_bara_aur_khoobsurat_hai.mp3",
+    "urdu": "میرا گھر بڑا اور خوبصورت ہے۔",
+    "roman": "mera ghar bara aur khoobsurat hai",
+    "english": "My house is big and beautiful.",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (2)",
+    "md5": "16e61e8248543745f36b70987125a3c2"
+  },
+  {
+    "file": "/sound/aur_aap_ki_billi.mp3",
+    "urdu": "اور آپ کی بلی؟",
+    "roman": "aur aap ki billi",
+    "english": "And your cat?",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › Describing Things (2)",
+    "md5": "40226687f7384f963d7794dc207f85c8"
+  },
+  {
+    "file": "/sound/neela.mp3",
+    "urdu": "نیلا",
+    "roman": "neela",
+    "english": "blue",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Colours (1)",
+    "md5": "dd35aea0cc27fcc743819cb0c3bdb8df"
+  },
+  {
+    "file": "/sound/hara.mp3",
+    "urdu": "ہرا",
+    "roman": "hara",
+    "english": "green",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Colours (1)",
+    "md5": "9e57d7e1e2fa5f42613941fd1184e29f"
+  },
+  {
+    "file": "/sound/peela.mp3",
+    "urdu": "پیلا",
+    "roman": "peela",
+    "english": "yellow",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Colours (1)",
+    "md5": "6bea85bd072d305106b4c07f349d6bd2"
+  },
+  {
+    "file": "/sound/safed.mp3",
+    "urdu": "سفید",
+    "roman": "safed",
+    "english": "white",
+    "kind": "word",
+    "usedIn": "Boy, Girl & Agreement › Colours (2)",
+    "md5": "61e76ef8391a2c5e57cfd9c58bc45e35"
+  },
+  {
+    "file": "/sound/neela_aasmaan.mp3",
+    "urdu": "نیلا آسمان",
+    "roman": "neela aasmaan",
+    "english": "the blue sky",
+    "kind": "phrase",
+    "usedIn": "Boy, Girl & Agreement › Colours (2)",
+    "md5": "bdd7521f8e90e4c10be8d9cacb58f514"
+  },
+  {
+    "file": "/sound/hari_ghaas.mp3",
+    "urdu": "ہری گھاس",
+    "roman": "hari ghaas",
+    "english": "green grass",
+    "kind": "phrase",
+    "usedIn": "Boy, Girl & Agreement › Colours (2)",
+    "md5": "d83ec33a76e50c6515ce56b003b5b071"
+  },
+  {
+    "file": "/sound/safed_billi.mp3",
+    "urdu": "سفید بلی",
+    "roman": "safed billi",
+    "english": "a white cat",
+    "kind": "phrase",
+    "usedIn": "Boy, Girl & Agreement › Colours (2)",
+    "md5": "cad49fc1990c8374cdf6a6e7606eb8fd"
+  },
+  {
+    "file": "/sound/aap_ka_pasandeeda_rang_kaun_sa_hai.mp3",
+    "urdu": "آپ کا پسندیدہ رنگ کون سا ہے؟",
+    "roman": "aap ka pasandeeda rang kaun sa hai",
+    "english": "What is your favourite colour?",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › Colours (2)",
+    "md5": "80f14c05935ad5649d352a7999549017"
+  },
+  {
+    "file": "/sound/mera_pasandeeda_rang_hara_hai.mp3",
+    "urdu": "میرا پسندیدہ رنگ ہرا ہے۔",
+    "roman": "mera pasandeeda rang hara hai",
+    "english": "My favourite colour is green.",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › Colours (2)",
+    "md5": "c340330a5779fb9cb7ecfc3fa7868716"
+  },
+  {
+    "file": "/sound/mera_neela_hai.mp3",
+    "urdu": "میرا نیلا ہے۔",
+    "roman": "mera neela hai",
+    "english": "Mine is blue.",
+    "kind": "sentence",
+    "usedIn": "Boy, Girl & Agreement › Colours (2)",
+    "md5": "a18509746f9d08c0a5fee1fd8eea0bfc"
+  },
+  {
+    "file": "/sound/mera.mp3",
+    "urdu": "میرا",
+    "roman": "mera",
+    "english": "my (masc. thing)",
+    "kind": "word",
+    "usedIn": "Mine, Yours & Family › My & Your (1)",
+    "md5": "4df24854c260d5ef78e03795012954ad"
+  },
+  {
+    "file": "/sound/meri.mp3",
+    "urdu": "میری",
+    "roman": "meri",
+    "english": "my (fem. thing)",
+    "kind": "word",
+    "usedIn": "Mine, Yours & Family › My & Your (1)",
+    "md5": "cc4db20c0c028c3b1624a21cc7535f48"
+  },
+  {
+    "file": "/sound/mere.mp3",
+    "urdu": "میرے",
+    "roman": "mere",
+    "english": "my (plural / respected)",
+    "kind": "word",
+    "usedIn": "Mine, Yours & Family › My & Your (1)",
+    "md5": "65276adfec862a241c7f3902fdd0f4c1"
+  },
+  {
+    "file": "/sound/aap_ka.mp3",
+    "urdu": "آپ کا",
+    "roman": "aap ka",
+    "english": "your (masc. thing)",
+    "kind": "phrase",
+    "usedIn": "Mine, Yours & Family › My & Your (1)",
+    "md5": "27b5fa09d7ea9c1cecb7ccfd4298adfd"
+  },
+  {
+    "file": "/sound/aap_ki.mp3",
+    "urdu": "آپ کی",
+    "roman": "aap ki",
+    "english": "your (fem. thing)",
+    "kind": "phrase",
+    "usedIn": "Mine, Yours & Family › My & Your (1)",
+    "md5": "8fe1799e8402495821165388197c5c22"
+  },
+  {
+    "file": "/sound/meri_kitaab_kahan_hai.mp3",
+    "urdu": "میری کتاب کہاں ہے؟",
+    "roman": "meri kitaab kahan hai",
+    "english": "Where is my book?",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › My & Your (2)",
+    "md5": "b416f90d961365cf686401a52492a943"
+  },
+  {
+    "file": "/sound/kya_yeh_aap_ki_kitaab_hai.mp3",
+    "urdu": "کیا یہ آپ کی کتاب ہے؟",
+    "roman": "kya yeh aap ki kitaab hai",
+    "english": "Is this your book?",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › My & Your (2)",
+    "md5": "895d78d8ac3e46f244b0fed3959d84c8"
+  },
+  {
+    "file": "/sound/jee_nahin_yeh_meri_kitaab_nahin_hai.mp3",
+    "urdu": "جی نہیں، یہ میری کتاب نہیں ہے۔",
+    "roman": "jee nahin, yeh meri kitaab nahin hai",
+    "english": "No, this is not my book.",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › My & Your (2)",
+    "md5": "d009be25c8d02ad77aac6d82598e37ea"
+  },
+  {
+    "file": "/sound/phir_kis_ki_hai.mp3",
+    "urdu": "پھر کس کی ہے؟",
+    "roman": "phir kis ki hai",
+    "english": "Then whose is it?",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › My & Your (2)",
+    "md5": "f727b58d670181417f9c9417ac4c89a8"
+  },
+  {
+    "file": "/sound/ka.mp3",
+    "urdu": "کا",
+    "roman": "ka",
+    "english": "'s / of (masc.)",
+    "kind": "word",
+    "usedIn": "Mine, Yours & Family › Whose Is It? (کا، کی، کے) (1)",
+    "md5": "ae2329978d8bf6682fcee8fa26133ab5"
+  },
+  {
+    "file": "/sound/ki.mp3",
+    "urdu": "کی",
+    "roman": "ki",
+    "english": "'s / of (fem.)",
+    "kind": "word",
+    "usedIn": "Mine, Yours & Family › Whose Is It? (کا، کی، کے) (1)",
+    "md5": "8b0c484f587a590072142ee586526d46"
+  },
+  {
+    "file": "/sound/ke.mp3",
+    "urdu": "کے",
+    "roman": "ke",
+    "english": "'s / of (plural)",
+    "kind": "word",
+    "usedIn": "Mine, Yours & Family › Whose Is It? (کا، کی، کے) (1)",
+    "md5": "1fd2a5b2f105e454b24357b538d09ec6"
+  },
+  {
+    "file": "/sound/ali_ka_qalam.mp3",
+    "urdu": "علی کا قلم",
+    "roman": "Ali ka qalam",
+    "english": "Ali's pen",
+    "kind": "phrase",
+    "usedIn": "Mine, Yours & Family › Whose Is It? (کا، کی، کے) (2)",
+    "md5": "17802dab4171f761fde69d925cd77eef"
+  },
+  {
+    "file": "/sound/sara_ki_kitaab.mp3",
+    "urdu": "سارہ کی کتاب",
+    "roman": "Sara ki kitaab",
+    "english": "Sara's book",
+    "kind": "phrase",
+    "usedIn": "Mine, Yours & Family › Whose Is It? (کا، کی، کے) (2)",
+    "md5": "8b250308c92bc975812e5a5b5cb5d1fb"
+  },
+  {
+    "file": "/sound/ustaad_ke_bachche.mp3",
+    "urdu": "استاد کے بچے",
+    "roman": "ustaad ke bachche",
+    "english": "the teacher's children",
+    "kind": "phrase",
+    "usedIn": "Mine, Yours & Family › Whose Is It? (کا، کی، کے) (2)",
+    "md5": "9ec0110785ad4203f6a04cf26f0d30f3"
+  },
+  {
+    "file": "/sound/yeh_qalam_kis_ka_hai.mp3",
+    "urdu": "یہ قلم کس کا ہے؟",
+    "roman": "yeh qalam kis ka hai",
+    "english": "Whose pen is this?",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Whose Is It? (کا، کی، کے) (2)",
+    "md5": "390f1d11247072bbc7724e1016b60e91"
+  },
+  {
+    "file": "/sound/yeh_mere_dost_ka_hai.mp3",
+    "urdu": "یہ میرے دوست کا ہے۔",
+    "roman": "yeh mere dost ka hai",
+    "english": "It is my friend's.",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Whose Is It? (کا، کی، کے) (2)",
+    "md5": "f9fb3fddbd31c03f0f99f014bd630754"
+  },
+  {
+    "file": "/sound/aur_yeh_kitaab.mp3",
+    "urdu": "اور یہ کتاب؟",
+    "roman": "aur yeh kitaab",
+    "english": "And this book?",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Whose Is It? (کا، کی، کے) (2)",
+    "md5": "65ad4288de5d0381d46b2d149cf7155b"
+  },
+  {
+    "file": "/sound/taya.mp3",
+    "urdu": "تایا",
+    "roman": "taya",
+    "english": "uncle (father's elder brother)",
+    "kind": "word",
+    "usedIn": "Mine, Yours & Family › Father's Side of the Family (2)",
+    "md5": "07711a21fe70326fd5f17353b213bdd6"
+  },
+  {
+    "file": "/sound/phuppho.mp3",
+    "urdu": "پھوپھو",
+    "roman": "phuppho",
+    "english": "aunt (father's sister)",
+    "kind": "word",
+    "usedIn": "Mine, Yours & Family › Father's Side of the Family (2)",
+    "md5": "1856fd028d6357c88838e42c4bbff7d5"
+  },
+  {
+    "file": "/sound/mere_dada_bohat_mehrbaan_hain.mp3",
+    "urdu": "میرے دادا بہت مہربان ہیں۔",
+    "roman": "mere dada bohat mehrbaan hain",
+    "english": "My grandfather is very kind.",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Father's Side of the Family (2)",
+    "md5": "ad39c16f4e142936c1d002053e723ee4"
+  },
+  {
+    "file": "/sound/chacha_ka_ghar_qareeb_hai.mp3",
+    "urdu": "چچا کا گھر قریب ہے۔",
+    "roman": "chacha ka ghar qareeb hai",
+    "english": "Uncle's house is nearby.",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Father's Side of the Family (2)",
+    "md5": "ab1f4f5d70e2e4f451960af69778df1e"
+  },
+  {
+    "file": "/sound/is_tasveer_mein_kaun_hain.mp3",
+    "urdu": "اس تصویر میں کون ہیں؟",
+    "roman": "is tasveer mein kaun hain",
+    "english": "Who is in this picture?",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Father's Side of the Family (2)",
+    "md5": "ab85332ce534157e8925b706ba850b4c"
+  },
+  {
+    "file": "/sound/yeh_mere_dada_aur_dadi_hain.mp3",
+    "urdu": "یہ میرے دادا اور دادی ہیں۔",
+    "roman": "yeh mere dada aur dadi hain",
+    "english": "These are my grandparents.",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Father's Side of the Family (2)",
+    "md5": "6e1716b0e19b0e7b1ce9792066318229"
+  },
+  {
+    "file": "/sound/aur_yeh.mp3",
+    "urdu": "اور یہ؟",
+    "roman": "aur yeh",
+    "english": "And this?",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Father's Side of the Family (2)",
+    "md5": "e2bf65829a70b2678fa734b0ab33d12a"
+  },
+  {
+    "file": "/sound/khala.mp3",
+    "urdu": "خالہ",
+    "roman": "khala",
+    "english": "aunt (mother's sister)",
+    "kind": "word",
+    "usedIn": "Mine, Yours & Family › Father's Side of the Family (2)",
+    "md5": "b4d26fadf00813598108ea362e2c7374"
+  },
+  {
+    "file": "/sound/mamoon.mp3",
+    "urdu": "ماموں",
+    "roman": "mamoon",
+    "english": "uncle (mother's brother)",
+    "kind": "word",
+    "usedIn": "Mine, Yours & Family › Mother's Side & Siblings (1)",
+    "md5": "a771df08138cedbca5f485fe964cdf29"
+  },
+  {
+    "file": "/sound/cousin.mp3",
+    "urdu": "کزن",
+    "roman": "cousin",
+    "english": "cousin",
+    "kind": "word",
+    "usedIn": "Mine, Yours & Family › Mother's Side & Siblings (2)",
+    "md5": "c170766477ee4ac401beb510640f4572"
+  },
+  {
+    "file": "/sound/meri_khala_lahore_mein_rehti_hain.mp3",
+    "urdu": "میری خالہ لاہور میں رہتی ہیں۔",
+    "roman": "meri khala Lahore mein rehti hain",
+    "english": "My aunt lives in Lahore.",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Mother's Side & Siblings (2)",
+    "md5": "30add6dc1bfa57dd858e3a6c742f5267"
+  },
+  {
+    "file": "/sound/mamoon_aaj_aa_rahe_hain.mp3",
+    "urdu": "ماموں آج آ رہے ہیں۔",
+    "roman": "mamoon aaj aa rahe hain",
+    "english": "Uncle is coming today.",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Mother's Side & Siblings (2)",
+    "md5": "f35ae12f3287f1e07882b58edeeddfcf"
+  },
+  {
+    "file": "/sound/aap_ke_kitne_behan_bhai_hain.mp3",
+    "urdu": "آپ کے کتنے بہن بھائی ہیں؟",
+    "roman": "aap ke kitne behan bhai hain",
+    "english": "How many brothers and sisters do you have?",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Mother's Side & Siblings (2)",
+    "md5": "84d91e9ba71cb9a0fcfab59e5d4739b2"
+  },
+  {
+    "file": "/sound/mera_ek_bhai_aur_do_behnein_hain.mp3",
+    "urdu": "میرا ایک بھائی اور دو بہنیں ہیں۔",
+    "roman": "mera ek bhai aur do behnein hain",
+    "english": "I have one brother and two sisters.",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Mother's Side & Siblings (2)",
+    "md5": "2606102cf6e9e173e0aee89e89b96d75"
+  },
+  {
+    "file": "/sound/aur_cousin.mp3",
+    "urdu": "اور کزن؟",
+    "roman": "aur cousin",
+    "english": "And cousins?",
+    "kind": "sentence",
+    "usedIn": "Mine, Yours & Family › Mother's Side & Siblings (2)",
+    "md5": "f4c721ce4b80a121c8c632a61c130f29"
+  },
+  {
+    "file": "/sound/ek_kitaab.mp3",
+    "urdu": "ایک کتاب",
+    "roman": "ek kitaab",
+    "english": "one book",
+    "kind": "phrase",
+    "usedIn": "Numbers & Counting › One to Five (2)",
+    "md5": "daa8e94cd693e191db45a588c69a8388"
+  },
+  {
+    "file": "/sound/do_billiyan.mp3",
+    "urdu": "دو بلیاں",
+    "roman": "do billiyan",
+    "english": "two cats",
+    "kind": "phrase",
+    "usedIn": "Numbers & Counting › One to Five (2)",
+    "md5": "cc9e85476516bc30ae4a5e73cd32fa94"
+  },
+  {
+    "file": "/sound/teen_dost.mp3",
+    "urdu": "تین دوست",
+    "roman": "teen dost",
+    "english": "three friends",
+    "kind": "phrase",
+    "usedIn": "Numbers & Counting › One to Five (2)",
+    "md5": "d36c487f91b7139e37626d9046bbeb95"
+  },
+  {
+    "file": "/sound/aap_ke_paas_kitne_qalam_hain.mp3",
+    "urdu": "آپ کے پاس کتنے قلم ہیں؟",
+    "roman": "aap ke paas kitne qalam hain",
+    "english": "How many pens do you have?",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › One to Five (2)",
+    "md5": "8ffda81338a9ed4cc82fdaa3f4f7950c"
+  },
+  {
+    "file": "/sound/mere_paas_teen_qalam_hain.mp3",
+    "urdu": "میرے پاس تین قلم ہیں۔",
+    "roman": "mere paas teen qalam hain",
+    "english": "I have three pens.",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › One to Five (2)",
+    "md5": "7147e45f62b07f4dcbec9bcf5e7755be"
+  },
+  {
+    "file": "/sound/aur_kitaabein.mp3",
+    "urdu": "اور کتابیں؟",
+    "roman": "aur kitaabein",
+    "english": "And books?",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › One to Five (2)",
+    "md5": "2b3e57cf8e96e8a0e0dd7dbb3388ccc1"
+  },
+  {
+    "file": "/sound/chhe.mp3",
+    "urdu": "چھ",
+    "roman": "chhe",
+    "english": "six (6)",
+    "kind": "letter",
+    "usedIn": "Numbers & Counting › Six to Ten",
+    "md5": "d4bf6ae64e27522fd98e14574037ad49"
+  },
+  {
+    "file": "/sound/aath.mp3",
+    "urdu": "آٹھ",
+    "roman": "aath",
+    "english": "eight (8)",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Six to Ten",
+    "md5": "e4aea981ec9137b11d392f537d01a4c4"
+  },
+  {
+    "file": "/sound/das.mp3",
+    "urdu": "دس",
+    "roman": "das",
+    "english": "ten (10)",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Six to Ten",
+    "md5": "dca1e09960931a764ff9d186e1dd3ea1"
+  },
+  {
+    "file": "/sound/saat_din.mp3",
+    "urdu": "سات دن",
+    "roman": "saat din",
+    "english": "seven days",
+    "kind": "phrase",
+    "usedIn": "Numbers & Counting › Six to Ten",
+    "md5": "7e1c1d81c8a74e1f67e7805f7a86271f"
+  },
+  {
+    "file": "/sound/das_rupay.mp3",
+    "urdu": "دس روپے",
+    "roman": "das rupay",
+    "english": "ten rupees",
+    "kind": "phrase",
+    "usedIn": "Numbers & Counting › Six to Ten",
+    "md5": "7ae06dfa139d13f0af2b77d4310968f1"
+  },
+  {
+    "file": "/sound/tumhari_umar_kitni_hai.mp3",
+    "urdu": "تمہاری عمر کتنی ہے؟",
+    "roman": "tumhari umar kitni hai",
+    "english": "How old are you?",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › Six to Ten",
+    "md5": "cac5ff0449168677c86ac2854e6328e0"
+  },
+  {
+    "file": "/sound/main_nau_saal_ka_hoon.mp3",
+    "urdu": "میں نو سال کا ہوں۔",
+    "roman": "main nau saal ka hoon",
+    "english": "I am nine years old.",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › Six to Ten",
+    "md5": "aee3a7df98187d4fa01edd4edf69b9e0"
+  },
+  {
+    "file": "/sound/aur_tumhari_behan.mp3",
+    "urdu": "اور تمہاری بہن؟",
+    "roman": "aur tumhari behan",
+    "english": "And your sister?",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › Six to Ten",
+    "md5": "dc595e29cb053ecd30ee79c180ba02c8"
+  },
+  {
+    "file": "/sound/gyarah.mp3",
+    "urdu": "گیارہ",
+    "roman": "gyarah",
+    "english": "eleven (11)",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Bigger Numbers & Prices (1)",
+    "md5": "770817c661a71951f8e0a2f854432247"
+  },
+  {
+    "file": "/sound/barah.mp3",
+    "urdu": "بارہ",
+    "roman": "barah",
+    "english": "twelve (12)",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Bigger Numbers & Prices (1)",
+    "md5": "4302368d4b7136cd8289f10c02eed7ce"
+  },
+  {
+    "file": "/sound/pandrah.mp3",
+    "urdu": "پندرہ",
+    "roman": "pandrah",
+    "english": "fifteen (15)",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Bigger Numbers & Prices (1)",
+    "md5": "b026b93c4a44ce934b8be3ff7e3dd58e"
+  },
+  {
+    "file": "/sound/bees.mp3",
+    "urdu": "بیس",
+    "roman": "bees",
+    "english": "twenty (20)",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Bigger Numbers & Prices (1)",
+    "md5": "2fb83005d9534afff3715db9766eef82"
+  },
+  {
+    "file": "/sound/sau.mp3",
+    "urdu": "سو",
+    "roman": "sau",
+    "english": "hundred (100)",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Bigger Numbers & Prices (1)",
+    "md5": "2ef49ff4b18935e4194cdad143ab3ccd"
+  },
+  {
+    "file": "/sound/hazaar.mp3",
+    "urdu": "ہزار",
+    "roman": "hazaar",
+    "english": "thousand (1000)",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Bigger Numbers & Prices (2)",
+    "md5": "751bf3f56f59abe7fa1b4f5cdeba0a19"
+  },
+  {
+    "file": "/sound/barah_mahine.mp3",
+    "urdu": "بارہ مہینے",
+    "roman": "barah mahine",
+    "english": "twelve months",
+    "kind": "phrase",
+    "usedIn": "Numbers & Counting › Bigger Numbers & Prices (2)",
+    "md5": "4645b475b4e4a4faf136eefed74686d4"
+  },
+  {
+    "file": "/sound/sau_rupay.mp3",
+    "urdu": "سو روپے",
+    "roman": "sau rupay",
+    "english": "a hundred rupees",
+    "kind": "phrase",
+    "usedIn": "Numbers & Counting › Bigger Numbers & Prices (2)",
+    "md5": "93e11da4a75bc347920209b4e16203ed"
+  },
+  {
+    "file": "/sound/yeh_kitne_ka_hai.mp3",
+    "urdu": "یہ کتنے کا ہے؟",
+    "roman": "yeh kitne ka hai",
+    "english": "How much is this?",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › Bigger Numbers & Prices (2)",
+    "md5": "3895055974f6cebc79aa9a147ae5eeca"
+  },
+  {
+    "file": "/sound/bees_rupay_ka.mp3",
+    "urdu": "بیس روپے کا۔",
+    "roman": "bees rupay ka",
+    "english": "Twenty rupees.",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › Bigger Numbers & Prices (2)",
+    "md5": "8ca069333006378277cca4a49eb170f9"
+  },
+  {
+    "file": "/sound/peer.mp3",
+    "urdu": "پیر",
+    "roman": "peer",
+    "english": "Monday",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Days of the Week (1)",
+    "md5": "1102d986d2a58eb054307a5808c971a2"
+  },
+  {
+    "file": "/sound/mangal.mp3",
+    "urdu": "منگل",
+    "roman": "mangal",
+    "english": "Tuesday",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Days of the Week (1)",
+    "md5": "fae2360a79907a20df246d267face76c"
+  },
+  {
+    "file": "/sound/budh.mp3",
+    "urdu": "بدھ",
+    "roman": "budh",
+    "english": "Wednesday",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Days of the Week (1)",
+    "md5": "ca805e297f5153512d63fb6526094613"
+  },
+  {
+    "file": "/sound/jumeraat.mp3",
+    "urdu": "جمعرات",
+    "roman": "jumeraat",
+    "english": "Thursday",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Days of the Week (1)",
+    "md5": "a7b6d69c18d8fe704268676769eeee08"
+  },
+  {
+    "file": "/sound/juma.mp3",
+    "urdu": "جمعہ",
+    "roman": "juma",
+    "english": "Friday",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Days of the Week (1)",
+    "md5": "7e4095457d504d2546bdce226736e468"
+  },
+  {
+    "file": "/sound/hafta.mp3",
+    "urdu": "ہفتہ",
+    "roman": "hafta",
+    "english": "Saturday / week",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Days of the Week (2)",
+    "md5": "0d71fb5ae9cd3fe0684fe45050a812b2"
+  },
+  {
+    "file": "/sound/itwaar.mp3",
+    "urdu": "اتوار",
+    "roman": "itwaar",
+    "english": "Sunday",
+    "kind": "word",
+    "usedIn": "Numbers & Counting › Days of the Week (2)",
+    "md5": "d8fcca4d9c482abaf39bbdb68836a78e"
+  },
+  {
+    "file": "/sound/aaj_kya_din_hai.mp3",
+    "urdu": "آج کیا دن ہے؟",
+    "roman": "aaj kya din hai",
+    "english": "What day is it today?",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › Days of the Week (2)",
+    "md5": "8b43cf4cd00f660deb88cf92a51f07b6"
+  },
+  {
+    "file": "/sound/aaj_juma_hai.mp3",
+    "urdu": "آج جمعہ ہے۔",
+    "roman": "aaj juma hai",
+    "english": "Today is Friday.",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › Days of the Week (2)",
+    "md5": "6b19cf3e71202f4a629ddf44abe0bb79"
+  },
+  {
+    "file": "/sound/kal_hafta_hai.mp3",
+    "urdu": "کل ہفتہ ہے۔",
+    "roman": "kal hafta hai",
+    "english": "Tomorrow is Saturday.",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › Days of the Week (2)",
+    "md5": "123c64a43414eeb155a9a8c3e18571e4"
+  },
+  {
+    "file": "/sound/aaj_jumeraat_hai.mp3",
+    "urdu": "آج جمعرات ہے۔",
+    "roman": "aaj jumeraat hai",
+    "english": "Today is Thursday.",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › Days of the Week (2)",
+    "md5": "6641da2566ca55cee502ca43867abee2"
+  },
+  {
+    "file": "/sound/yaani_kal_juma_hai.mp3",
+    "urdu": "یعنی کل جمعہ ہے!",
+    "roman": "yaani kal juma hai",
+    "english": "So tomorrow is Friday!",
+    "kind": "sentence",
+    "usedIn": "Numbers & Counting › Days of the Week (2)",
+    "md5": "03fa0382fc0f3b6f6453262a16b420b9"
+  },
+  {
+    "file": "/sound/paani_peena.mp3",
+    "urdu": "پانی پینا",
+    "roman": "paani peena",
+    "english": "to drink water",
+    "kind": "phrase",
+    "usedIn": "Everyday Actions › Action Words (2)",
+    "md5": "2feb827255b41ae129945e2bf9e910ea"
+  },
+  {
+    "file": "/sound/school_jana.mp3",
+    "urdu": "اسکول جانا",
+    "roman": "school jana",
+    "english": "to go to school",
+    "kind": "phrase",
+    "usedIn": "Everyday Actions › Action Words (2)",
+    "md5": "a0aa768304814af3863daa96ea1b8ce2"
+  },
+  {
+    "file": "/sound/kitaab_parhna.mp3",
+    "urdu": "کتاب پڑھنا",
+    "roman": "kitaab parhna",
+    "english": "to read a book",
+    "kind": "phrase",
+    "usedIn": "Everyday Actions › Action Words (2)",
+    "md5": "0ba9f92b20a968dccb88eec8d01803bb"
+  },
+  {
+    "file": "/sound/tum_kya_kar_rahe_ho.mp3",
+    "urdu": "تم کیا کر رہے ہو؟",
+    "roman": "tum kya kar rahe ho",
+    "english": "What are you doing?",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Action Words (2)",
+    "md5": "cd52cbe4500751e041e8532ce2898c04"
+  },
+  {
+    "file": "/sound/achha_kaun_si_kitaab.mp3",
+    "urdu": "اچھا! کون سی کتاب؟",
+    "roman": "achha! kaun si kitaab",
+    "english": "Nice! Which book?",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Action Words (2)",
+    "md5": "bec1e86091bfe7cddfb08c6616fe2092"
+  },
+  {
+    "file": "/sound/roz.mp3",
+    "urdu": "روز",
+    "roman": "roz",
+    "english": "every day",
+    "kind": "word",
+    "usedIn": "Everyday Actions › I Eat, I Drink (1)",
+    "md5": "9c9d0a12e327675806eb4a32d377a887"
+  },
+  {
+    "file": "/sound/main_roz_chai_peeta_hoon.mp3",
+    "urdu": "میں روز چائے پیتا ہوں۔",
+    "roman": "main roz chai peeta hoon",
+    "english": "I drink tea every day. (man)",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › I Eat, I Drink (2)",
+    "md5": "bd6a1d16b4a2f0ff54e14fe7bc2e870f"
+  },
+  {
+    "file": "/sound/main_roz_chai_peeti_hoon.mp3",
+    "urdu": "میں روز چائے پیتی ہوں۔",
+    "roman": "main roz chai peeti hoon",
+    "english": "I drink tea every day. (woman)",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › I Eat, I Drink (2)",
+    "md5": "23be7823e47d027456820ec33c61fd55"
+  },
+  {
+    "file": "/sound/woh_roti_khati_hai.mp3",
+    "urdu": "وہ روٹی کھاتی ہے۔",
+    "roman": "woh roti khati hai",
+    "english": "She eats roti.",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › I Eat, I Drink (2)",
+    "md5": "5ee84655cc98d116c946b3a24ae1f474"
+  },
+  {
+    "file": "/sound/hum_paani_peete_hain.mp3",
+    "urdu": "ہم پانی پیتے ہیں۔",
+    "roman": "hum paani peete hain",
+    "english": "We drink water.",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › I Eat, I Drink (2)",
+    "md5": "564a239c3ca9263f80f16d90a3a25dca"
+  },
+  {
+    "file": "/sound/aap_subah_kya_peete_hain.mp3",
+    "urdu": "آپ صبح کیا پیتے ہیں؟",
+    "roman": "aap subah kya peete hain",
+    "english": "What do you drink in the morning?",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › I Eat, I Drink (2)",
+    "md5": "fe0bae740026c884ecfdc199280e9d6a"
+  },
+  {
+    "file": "/sound/main_chai_peeti_hoon_aur_aap.mp3",
+    "urdu": "میں چائے پیتی ہوں۔ اور آپ؟",
+    "roman": "main chai peeti hoon. aur aap",
+    "english": "I drink tea. And you?",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › I Eat, I Drink (2)",
+    "md5": "fe2962f9fe888b2b1cc08a63685f6ad5"
+  },
+  {
+    "file": "/sound/main_doodh_peeta_hoon.mp3",
+    "urdu": "میں دودھ پیتا ہوں۔",
+    "roman": "main doodh peeta hoon",
+    "english": "I drink milk.",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › I Eat, I Drink (2)",
+    "md5": "7f93a48fc3b5513f159574effd3da15a"
+  },
+  {
+    "file": "/sound/kabhi_nahin.mp3",
+    "urdu": "کبھی نہیں",
+    "roman": "kabhi nahin",
+    "english": "never",
+    "kind": "phrase",
+    "usedIn": "Everyday Actions › Not! Saying No (1)",
+    "md5": "0b7156daee01c67736f2572d41849217"
+  },
+  {
+    "file": "/sound/coffee.mp3",
+    "urdu": "کافی",
+    "roman": "coffee",
+    "english": "coffee",
+    "kind": "word",
+    "usedIn": "Everyday Actions › Not! Saying No (2)",
+    "md5": "91f668f479157d984a837cc33094cad5"
+  },
+  {
+    "file": "/sound/main_gosht_nahin_khata.mp3",
+    "urdu": "میں گوشت نہیں کھاتا۔",
+    "roman": "main gosht nahin khata",
+    "english": "I don't eat meat.",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Not! Saying No (2)",
+    "md5": "cfb6492de4331afbe7bf9cd5fa9d932a"
+  },
+  {
+    "file": "/sound/woh_kabhi_der_nahin_karti.mp3",
+    "urdu": "وہ کبھی دیر نہیں کرتی۔",
+    "roman": "woh kabhi der nahin karti",
+    "english": "She is never late.",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Not! Saying No (2)",
+    "md5": "39eeafb9abe7b4ffd49c7621a3fc9729"
+  },
+  {
+    "file": "/sound/hum_hamesha_saath_khana_khate_hain.mp3",
+    "urdu": "ہم ہمیشہ ساتھ کھانا کھاتے ہیں۔",
+    "roman": "hum hamesha saath khana khate hain",
+    "english": "We always eat together.",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Not! Saying No (2)",
+    "md5": "f7628659a36dfa9cd2511ec1411772e9"
+  },
+  {
+    "file": "/sound/kya_tum_coffee_peete_ho.mp3",
+    "urdu": "کیا تم کافی پیتے ہو؟",
+    "roman": "kya tum coffee peete ho",
+    "english": "Do you drink coffee?",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Not! Saying No (2)",
+    "md5": "3b002d50c87ffc078975b9f862308b9a"
+  },
+  {
+    "file": "/sound/nahin_main_coffee_nahin_peeta.mp3",
+    "urdu": "نہیں، میں کافی نہیں پیتا۔",
+    "roman": "nahin, main coffee nahin peeta",
+    "english": "No, I don't drink coffee.",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Not! Saying No (2)",
+    "md5": "1ecbee32c724a4d478f8b48683de6495"
+  },
+  {
+    "file": "/sound/aur_chai.mp3",
+    "urdu": "اور چائے؟",
+    "roman": "aur chai",
+    "english": "And tea?",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Not! Saying No (2)",
+    "md5": "cbd14292e735190e68d21528cb63ebaa"
+  },
+  {
+    "file": "/sound/dopehar.mp3",
+    "urdu": "دوپہر",
+    "roman": "dopehar",
+    "english": "afternoon",
+    "kind": "word",
+    "usedIn": "Everyday Actions › Yes/No Questions & My Day (1)",
+    "md5": "911d223aa4f472722fe9ccb3389be0f8"
+  },
+  {
+    "file": "/sound/kaam.mp3",
+    "urdu": "کام",
+    "roman": "kaam",
+    "english": "work",
+    "kind": "word",
+    "usedIn": "Everyday Actions › Yes/No Questions & My Day (2)",
+    "md5": "bf16c49cf4ac7aeda29c3283dd3d4e2c"
+  },
+  {
+    "file": "/sound/kya_aap_urdu_bolte_hain.mp3",
+    "urdu": "کیا آپ اردو بولتے ہیں؟",
+    "roman": "kya aap Urdu bolte hain",
+    "english": "Do you speak Urdu?",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Yes/No Questions & My Day (2)",
+    "md5": "10e0f96af36ee1e2b758bed3ca2d472d"
+  },
+  {
+    "file": "/sound/jee_haan_thori_thori.mp3",
+    "urdu": "جی ہاں، تھوڑی تھوڑی۔",
+    "roman": "jee haan, thori thori",
+    "english": "Yes, a little.",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Yes/No Questions & My Day (2)",
+    "md5": "6410288c7e32b772f97cfe2db685217c"
+  },
+  {
+    "file": "/sound/kya_woh_ghar_par_kaam_karti_hai.mp3",
+    "urdu": "کیا وہ گھر پر کام کرتی ہے؟",
+    "roman": "kya woh ghar par kaam karti hai",
+    "english": "Does she work from home?",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Yes/No Questions & My Day (2)",
+    "md5": "aa1d371c6c4397ed8765f93a10a294df"
+  },
+  {
+    "file": "/sound/aap_urdu_kab_parhte_hain.mp3",
+    "urdu": "آپ اردو کب پڑھتے ہیں؟",
+    "roman": "aap Urdu kab parhte hain",
+    "english": "When do you study Urdu?",
+    "kind": "sentence",
+    "usedIn": "Everyday Actions › Yes/No Questions & My Day (2)",
+    "md5": "c74c8180d532e0976d9f968915fe9e3a"
+  },
+  {
+    "file": "/sound/pasand.mp3",
+    "urdu": "پسند",
+    "roman": "pasand",
+    "english": "liked / liking",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › I Like... (پسند) (1)",
+    "md5": "003f6c0fd856e0663100ebe2a031f772"
+  },
+  {
+    "file": "/sound/mujhe.mp3",
+    "urdu": "مجھے",
+    "roman": "mujhe",
+    "english": "to me",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › I Like... (پسند) (1)",
+    "md5": "2dc4c78a835c1da9b232bfec93003164"
+  },
+  {
+    "file": "/sound/aap_ko.mp3",
+    "urdu": "آپ کو",
+    "roman": "aap ko",
+    "english": "to you (respectful)",
+    "kind": "phrase",
+    "usedIn": "Likes, Needs & Feelings › I Like... (پسند) (1)",
+    "md5": "a01c8000d203a10b2edcd40015d8c30e"
+  },
+  {
+    "file": "/sound/saib.mp3",
+    "urdu": "سیب",
+    "roman": "saib",
+    "english": "apple",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › I Like... (پسند) (1)",
+    "md5": "554c904c26b1f9c30f913f5486a3eb06"
+  },
+  {
+    "file": "/sound/cricket.mp3",
+    "urdu": "کرکٹ",
+    "roman": "cricket",
+    "english": "cricket",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › I Like... (پسند) (2)",
+    "md5": "f1408b8dcebbbfa7a158aa0480f3db2e"
+  },
+  {
+    "file": "/sound/mujhe_aam_pasand_hai.mp3",
+    "urdu": "مجھے آم پسند ہے۔",
+    "roman": "mujhe aam pasand hai",
+    "english": "I like mangoes.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Like... (پسند) (2)",
+    "md5": "58f2f82bbfb739348e15bda317ce292e"
+  },
+  {
+    "file": "/sound/kya_aap_ko_cricket_pasand_hai.mp3",
+    "urdu": "کیا آپ کو کرکٹ پسند ہے؟",
+    "roman": "kya aap ko cricket pasand hai",
+    "english": "Do you like cricket?",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Like... (پسند) (2)",
+    "md5": "0ec73b4df1789a30910108df68e934d0"
+  },
+  {
+    "file": "/sound/mujhe_saib_pasand_nahin.mp3",
+    "urdu": "مجھے سیب پسند نہیں۔",
+    "roman": "mujhe saib pasand nahin",
+    "english": "I don't like apples.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Like... (پسند) (2)",
+    "md5": "fdc2dbb477cfbe9739d807371f210635"
+  },
+  {
+    "file": "/sound/aap_ko_kaun_sa_phal_pasand_hai.mp3",
+    "urdu": "آپ کو کون سا پھل پسند ہے؟",
+    "roman": "aap ko kaun sa phal pasand hai",
+    "english": "Which fruit do you like?",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Like... (پسند) (2)",
+    "md5": "4584a0abbe42b24d6abe25dfe0f6fd9a"
+  },
+  {
+    "file": "/sound/mujhe_aam_bohat_pasand_hai.mp3",
+    "urdu": "مجھے آم بہت پسند ہے!",
+    "roman": "mujhe aam bohat pasand hai",
+    "english": "I really like mangoes!",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Like... (پسند) (2)",
+    "md5": "5f1aaef5192fdc70feecc81b0072f63f"
+  },
+  {
+    "file": "/sound/mujhe_bhi.mp3",
+    "urdu": "مجھے بھی!",
+    "roman": "mujhe bhi",
+    "english": "Me too!",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Like... (پسند) (2)",
+    "md5": "f3edf55ed3773ab5c951faac8e02dd60"
+  },
+  {
+    "file": "/sound/chahiye.mp3",
+    "urdu": "چاہیے",
+    "roman": "chahiye",
+    "english": "needed / wanted",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › I Need... (چاہیے) (1)",
+    "md5": "c053ec718f7880f08a59cbe7b748b187"
+  },
+  {
+    "file": "/sound/hamein.mp3",
+    "urdu": "ہمیں",
+    "roman": "hamein",
+    "english": "to us",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › I Need... (چاہیے) (1)",
+    "md5": "9906be4c350fec81f6593179035cd376"
+  },
+  {
+    "file": "/sound/madad.mp3",
+    "urdu": "مدد",
+    "roman": "madad",
+    "english": "help",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › I Need... (چاہیے) (1)",
+    "md5": "0adaebdbe7b98068a147ce3db7e827c2"
+  },
+  {
+    "file": "/sound/chaabi.mp3",
+    "urdu": "چابی",
+    "roman": "chaabi",
+    "english": "key",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › I Need... (چاہیے) (1)",
+    "md5": "52713af4099b008188859ec6d3716746"
+  },
+  {
+    "file": "/sound/aap_ko_kya_chahiye.mp3",
+    "urdu": "آپ کو کیا چاہیے؟",
+    "roman": "aap ko kya chahiye",
+    "english": "What do you need?",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Need... (چاہیے) (2)",
+    "md5": "40cd228dfdb572f5b37bbe06e441c228"
+  },
+  {
+    "file": "/sound/hamein_ek_ticket_chahiye.mp3",
+    "urdu": "ہمیں ایک ٹکٹ چاہیے۔",
+    "roman": "hamein ek ticket chahiye",
+    "english": "We need one ticket.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Need... (چاہیے) (2)",
+    "md5": "1b6b37ce713955f63fb4a93eae050157"
+  },
+  {
+    "file": "/sound/mujhe_madad_chahiye.mp3",
+    "urdu": "مجھے مدد چاہیے۔",
+    "roman": "mujhe madad chahiye",
+    "english": "I need help.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Need... (چاہیے) (2)",
+    "md5": "60ddd4e20334d181cc933252f15af2f0"
+  },
+  {
+    "file": "/sound/jee_aap_ko_kya_chahiye.mp3",
+    "urdu": "جی، آپ کو کیا چاہیے؟",
+    "roman": "jee, aap ko kya chahiye",
+    "english": "Yes, what do you need?",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Need... (چاہیے) (2)",
+    "md5": "8a84532526c3abc5fd7cbc8df2db008c"
+  },
+  {
+    "file": "/sound/mujhe_do_rotiyan_aur_doodh_chahiye.mp3",
+    "urdu": "مجھے دو روٹیاں اور دودھ چاہیے۔",
+    "roman": "mujhe do rotiyan aur doodh chahiye",
+    "english": "I need two rotis and milk.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Need... (چاہیے) (2)",
+    "md5": "0d304c248005870e90f048ec66f98a1e"
+  },
+  {
+    "file": "/sound/aur_kuch.mp3",
+    "urdu": "اور کچھ؟",
+    "roman": "aur kuch",
+    "english": "Anything else?",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › I Need... (چاہیے) (2)",
+    "md5": "9dfef283f887337421856bfc53676af0"
+  },
+  {
+    "file": "/sound/khush.mp3",
+    "urdu": "خوش",
+    "roman": "khush",
+    "english": "happy",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (1)",
+    "md5": "cc9f2a493991ea175bf01dcfe7661dfa"
+  },
+  {
+    "file": "/sound/udaas.mp3",
+    "urdu": "اداس",
+    "roman": "udaas",
+    "english": "sad",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (1)",
+    "md5": "8cb53d20d7bffd3e2c2eddefb23515c3"
+  },
+  {
+    "file": "/sound/thaka_hua.mp3",
+    "urdu": "تھکا ہوا",
+    "roman": "thaka hua",
+    "english": "tired (masc.)",
+    "kind": "phrase",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (1)",
+    "md5": "9a33220f9bea45ab05821f351f22dff1"
+  },
+  {
+    "file": "/sound/bhooka.mp3",
+    "urdu": "بھوکا",
+    "roman": "bhooka",
+    "english": "hungry (masc.)",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (1)",
+    "md5": "8799042a21a15563243299a1bf7c5613"
+  },
+  {
+    "file": "/sound/pyaasa.mp3",
+    "urdu": "پیاسا",
+    "roman": "pyaasa",
+    "english": "thirsty (masc.)",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (1)",
+    "md5": "dd4d18724730a0c40de15433c65741b6"
+  },
+  {
+    "file": "/sound/beemar.mp3",
+    "urdu": "بیمار",
+    "roman": "beemar",
+    "english": "ill / sick",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (2)",
+    "md5": "e0407b11e8cb9c681e12511f37111d22"
+  },
+  {
+    "file": "/sound/main_bohat_khush_hoon.mp3",
+    "urdu": "میں بہت خوش ہوں۔",
+    "roman": "main bohat khush hoon",
+    "english": "I am very happy.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (2)",
+    "md5": "b10232366ef1979cb4904bea07cef66b"
+  },
+  {
+    "file": "/sound/woh_thaki_hui_hai.mp3",
+    "urdu": "وہ تھکی ہوئی ہے۔",
+    "roman": "woh thaki hui hai",
+    "english": "She is tired.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (2)",
+    "md5": "00939833922ed216da26838369b4077b"
+  },
+  {
+    "file": "/sound/kya_tum_bhooke_ho.mp3",
+    "urdu": "کیا تم بھوکے ہو؟",
+    "roman": "kya tum bhooke ho",
+    "english": "Are you hungry?",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (2)",
+    "md5": "ddcfebf688782b87d8388235a8732aa7"
+  },
+  {
+    "file": "/sound/kya_hua_tum_udaas_kyun_ho.mp3",
+    "urdu": "کیا ہوا؟ تم اداس کیوں ہو؟",
+    "roman": "kya hua? tum udaas kyun ho",
+    "english": "What happened? Why are you sad?",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (2)",
+    "md5": "9fdb6767b74b14331c8b8daa0fdb9118"
+  },
+  {
+    "file": "/sound/main_beemar_hoon.mp3",
+    "urdu": "میں بیمار ہوں۔",
+    "roman": "main beemar hoon",
+    "english": "I'm ill.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (2)",
+    "md5": "2fc590a19885f2fe7d4257331eaf531d"
+  },
+  {
+    "file": "/sound/oh_aaraam_karo.mp3",
+    "urdu": "اوہ! آرام کرو۔",
+    "roman": "oh! aaraam karo",
+    "english": "Oh! Get some rest.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › How Do You Feel? (2)",
+    "md5": "c7a5a871fd8981a2ca6c23da4da1aac3"
+  },
+  {
+    "file": "/sound/mausam.mp3",
+    "urdu": "موسم",
+    "roman": "mausam",
+    "english": "weather",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › Weather & Review (1)",
+    "md5": "2b8e505c944d7d920381ffa59ea0d94f"
+  },
+  {
+    "file": "/sound/garmi.mp3",
+    "urdu": "گرمی",
+    "roman": "garmi",
+    "english": "heat / hot weather",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › Weather & Review (1)",
+    "md5": "da54539ee711ba62a2ef02d5bd01a57a"
+  },
+  {
+    "file": "/sound/sardi.mp3",
+    "urdu": "سردی",
+    "roman": "sardi",
+    "english": "cold / cold weather",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › Weather & Review (1)",
+    "md5": "d87d00b2077ed9d8884625775cc31208"
+  },
+  {
+    "file": "/sound/baarish.mp3",
+    "urdu": "بارش",
+    "roman": "baarish",
+    "english": "rain",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › Weather & Review (1)",
+    "md5": "5cf6fe049fc6ba2e6e8abce9f0d091ba"
+  },
+  {
+    "file": "/sound/aaj.mp3",
+    "urdu": "آج",
+    "roman": "aaj",
+    "english": "today",
+    "kind": "word",
+    "usedIn": "Likes, Needs & Feelings › Weather & Review (2)",
+    "md5": "92718d2ed499e508370e8744500b7a18"
+  },
+  {
+    "file": "/sound/aaj_bohat_garmi_hai.mp3",
+    "urdu": "آج بہت گرمی ہے۔",
+    "roman": "aaj bohat garmi hai",
+    "english": "It's very hot today.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › Weather & Review (2)",
+    "md5": "3fa5befec5c443baeff77d21f917b478"
+  },
+  {
+    "file": "/sound/bahar_baarish_ho_rahi_hai.mp3",
+    "urdu": "باہر بارش ہو رہی ہے۔",
+    "roman": "bahar baarish ho rahi hai",
+    "english": "It's raining outside.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › Weather & Review (2)",
+    "md5": "1247f45aebb00f5421a0a7a904aac229"
+  },
+  {
+    "file": "/sound/mujhe_sardi_lag_rahi_hai.mp3",
+    "urdu": "مجھے سردی لگ رہی ہے۔",
+    "roman": "mujhe sardi lag rahi hai",
+    "english": "I feel cold.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › Weather & Review (2)",
+    "md5": "5dc8169b5826e4bf1660b70416bdff83"
+  },
+  {
+    "file": "/sound/aaj_mausam_kaisa_hai.mp3",
+    "urdu": "آج موسم کیسا ہے؟",
+    "roman": "aaj mausam kaisa hai",
+    "english": "What's the weather like today?",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › Weather & Review (2)",
+    "md5": "d28250ab85313e9064d1b13181aa127c"
+  },
+  {
+    "file": "/sound/baarish_ho_rahi_hai_aur_sardi_bhi_hai.mp3",
+    "urdu": "بارش ہو رہی ہے، اور سردی بھی ہے۔",
+    "roman": "baarish ho rahi hai, aur sardi bhi hai",
+    "english": "It's raining, and it's cold too.",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › Weather & Review (2)",
+    "md5": "bfc432db19567b530126c26885349a80"
+  },
+  {
+    "file": "/sound/mujhe_garam_chai_chahiye.mp3",
+    "urdu": "مجھے گرم چائے چاہیے!",
+    "roman": "mujhe garam chai chahiye",
+    "english": "I need hot tea!",
+    "kind": "sentence",
+    "usedIn": "Likes, Needs & Feelings › Weather & Review (2)",
+    "md5": "8b67f91a578d458c027d944babcc4c12"
+  }
+]

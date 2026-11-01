@@ -31,7 +31,11 @@ The first command creates every missing clip in `public/sound/` (it never overwr
 
 You can also do it in batches: `npm run audio:generate -- --only "Start Here" --limit 20`.
 
-**What the generator does for you:** it speaks about 10% slower than normal, reads single letters by their names (ب → "be"), and uses the male voice for male-speaker sentences (پیتا ہوں) and the female voice otherwise. A native speaker should still skim the **Start Here** clips: AI voices occasionally put stress in the wrong place. If one sounds off, delete the file and record that one yourself (Option B below).
+**What the generator does for you:** it speaks about 10% slower than normal, reads single letters by their names (ب → "be"), and uses the male voice for male-speaker sentences (پیتا ہوں) and the female voice otherwise. A native speaker should still skim the **Start Here** clips: AI voices occasionally put stress in the wrong place.
+
+**Reviewing and replacing AI clips:** every clip the AI made is listed in **[docs/assets/ai-audio-review.md](assets/ai-audio-review.md)**. When one doesn't sound right, record it yourself (Option B below) and save it over the AI file with the **same name**. The list notices the file has changed and marks it ✅ replaced. Refresh the list with `npm run assets:report`, and run `npm run db:prod` only if you've added clips that didn't exist before. Replacing an existing file needs no reseed: the lessons already point at that filename.
+
+Known weak spots: the letter names ٹ (ṭe) and ت (te). The AI can't say "tay" quite right, so record those two first.
 
 ## Option B: record it yourself
 

@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 
+import { writeReviewList } from "./curriculum/ai-audio";
 import { createBuilder } from "./curriculum/build";
 import { loadCurriculum } from "./curriculum/load";
 
@@ -93,3 +94,8 @@ fs.writeFileSync(path.join(OUT_DIR, "image-todo.md"), imageMd.join("\n"));
 
 console.log(`Missing audio:  ${audio.length}  → docs/assets/audio-todo.md`);
 console.log(`Missing images: ${images.length}  → docs/assets/image-todo.md`);
+
+const review = writeReviewList();
+console.log(
+  `AI clips to review: ${review.toReview} of ${review.total}  → docs/assets/ai-audio-review.md`
+);
