@@ -18,8 +18,10 @@ import { usePracticeModal } from "@/store/use-practice-modal";
 import { Challenge } from "./challenge";
 import { Footer } from "./footer";
 import { Header } from "./header";
+import { MatchPairs } from "./match-pairs";
 import { QuestionBubble } from "./question-bubble";
 import { ResultCard } from "./result-card";
+import { WordBank, wordBankAnswer } from "./word-bank";
 
 type QuizProps = {
   initialPercentage: number;
@@ -30,10 +32,10 @@ type QuizProps = {
     challengeOptions: (typeof challengeOptions.$inferSelect)[];
   })[];
   userSubscription:
-  | (typeof userSubscription.$inferSelect & {
-    isActive: boolean;
-  })
-  | null;
+    | (typeof userSubscription.$inferSelect & {
+        isActive: boolean;
+      })
+    | null;
 };
 
 export const Quiz = ({
@@ -88,12 +90,38 @@ export const Quiz = ({
     return uncompletedIndex === -1 ? 0 : uncompletedIndex;
   });
 
-
   const [selectedOption, setSelectedOption] = useState<number>();
+  const [builtWords, setBuiltWords] = useState<number[]>([]); // WORD_BANK
+  const [allMatched, setAllMatched] = useState(false); // MATCH
   const [status, setStatus] = useState<"none" | "wrong" | "correct">("none");
 
   const challenge = challenges[activeIndex];
   const options = challenge?.challengeOptions ?? [];
+
+  // Whether the learner has given an answer that can be checked
+  const hasAnswer =
+    challenge?.type === "WORD_BANK"
+      ? builtWords.length > 0
+      : challenge?.type === "MATCH"
+        ? allMatched
+        : !!selectedOption;
+
+  const resetAnswer = () => {
+    setSelectedOption(undefined);
+    setBuiltWords([]);
+    setAllMatched(false);
+  };
+
+  const isAnswerCorrect = () => {
+    if (challenge.type === "MATCH") return allMatched;
+    if (challenge.type === "WORD_BANK") {
+      const answer = builtWords.map(
+        (id) => options.find((option) => option.id === id)?.text
+      );
+      return answer.join(" ") === wordBankAnswer(options).join(" ");
+    }
+    return options.find((option) => option.correct)?.id === selectedOption;
+  };
 
   const onNext = () => {
     setActiveIndex((current) => current + 1);
@@ -103,7 +131,7 @@ export const Quiz = ({
     if (activeIndex === 0) return; // Can't go back from first question
     setActiveIndex((current) => current - 1);
     setStatus("none");
-    setSelectedOption(undefined);
+    resetAnswer();
   };
 
   const onSelect = (id: number) => {
@@ -113,26 +141,22 @@ export const Quiz = ({
   };
 
   const onContinue = () => {
-    if (!selectedOption) return;
+    if (!hasAnswer) return;
 
     if (status === "wrong") {
       setStatus("none");
-      setSelectedOption(undefined);
+      resetAnswer();
       return;
     }
 
     if (status === "correct") {
       onNext();
       setStatus("none");
-      setSelectedOption(undefined);
+      resetAnswer();
       return;
     }
 
-    const correctOption = options.find((option) => option.correct);
-
-    if (!correctOption) return;
-
-    if (correctOption.id === selectedOption) {
+    if (isAnswerCorrect()) {
       startTransition(() => {
         upsertChallengeProgress(challenge.id)
           .then((response) => {
@@ -229,7 +253,9 @@ export const Quiz = ({
   const title =
     challenge.type === "ASSIST"
       ? "What does this mean?"
-      : challenge.question;
+      : challenge.type === "WORD_BANK"
+        ? "Write this in Urdu"
+        : challenge.question;
 
   return (
     <>
@@ -262,23 +288,53 @@ export const Quiz = ({
                 />
               )}
 
-              <Challenge
-                options={options}
-                onSelect={onSelect}
-                status={status}
-                selectedOption={selectedOption}
-                disabled={pending}
-                type={challenge.type}
-              />
+              {/* No audio here - hearing the Urdu would give the answer away */}
+              {challenge.type === "WORD_BANK" && (
+                <QuestionBubble question={challenge.question} />
+              )}
+
+              {challenge.type === "WORD_BANK" ? (
+                <WordBank
+                  key={challenge.id}
+                  challengeId={challenge.id}
+                  options={options}
+                  selected={builtWords}
+                  onChange={setBuiltWords}
+                  status={status}
+                  disabled={pending}
+                />
+              ) : challenge.type === "MATCH" ? (
+                <MatchPairs
+                  key={challenge.id}
+                  challengeId={challenge.id}
+                  options={options}
+                  onComplete={() => setAllMatched(true)}
+                  disabled={pending || status !== "none"}
+                />
+              ) : (
+                <Challenge
+                  options={options}
+                  onSelect={onSelect}
+                  status={status}
+                  selectedOption={selectedOption}
+                  disabled={pending}
+                  type={challenge.type}
+                />
+              )}
             </div>
           </div>
         </div>
       </div>
 
       <Footer
-        disabled={pending || !selectedOption}
+        disabled={pending || !hasAnswer}
         status={status}
         onCheck={onContinue}
+        solution={
+          challenge.type === "WORD_BANK" && status === "wrong"
+            ? wordBankAnswer(options).join(" ")
+            : undefined
+        }
       />
     </>
   );

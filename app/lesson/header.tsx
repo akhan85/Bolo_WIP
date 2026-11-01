@@ -34,7 +34,6 @@ export const Header = ({
           onClick={open}
           className="cursor-pointer text-slate-500 transition hover:opacity-75"
         />
-
       </div>
 
       <Progress value={percentage} />

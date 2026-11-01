@@ -16,6 +16,7 @@ export const ChallengeOptionCreate = () => {
         <ReferenceInput source="challengeId" reference="challenges" />
         <TextInput source="imageSrc" label="Image URL" />
         <TextInput source="audioSrc" label="Audio URL" />
+        <TextInput source="pair" label="Matching pair (MATCH only)" />
       </SimpleForm>
     </Create>
   );

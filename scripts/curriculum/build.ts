@@ -8,19 +8,24 @@ import type { Item, Lesson, Unit } from "./load";
 //
 // Lesson flow, per lesson:
 //   1. Recognise  - see/hear each new Urdu item, pick its English meaning
-//   2. Produce    - see the English, pick the right Urdu
-//   3. Context    - understand each dialogue line
-//   4. Check      - the hand-written quiz questions from the curriculum
+//   2. Match      - pair the lesson's words with their meanings
+//   3. Produce    - see the English, pick the right Urdu word, or build the
+//                   Urdu phrase/sentence from a word bank
+//   4. Context    - understand each dialogue line
+//   5. Check      - the hand-written quiz questions from the curriculum
 
 export type BuiltOption = {
   text: string;
   correct: boolean;
   imageSrc: string | null;
   audioSrc: string | null;
+  pair?: string | null; // MATCH only
 };
 
+// WORD_BANK options are stored in answer order (correct words first, then
+// the extra distractor words), so the app can rebuild the right sentence.
 export type BuiltChallenge = {
-  type: "SELECT" | "ASSIST";
+  type: "SELECT" | "ASSIST" | "WORD_BANK" | "MATCH";
   question: string;
   hint: string | null;
   audioSrc: string | null;
@@ -47,6 +52,16 @@ const exists = (publicPath: string) =>
   fs.existsSync(path.join(PUBLIC_DIR, publicPath));
 
 const OPTIONS_PER_CHALLENGE = 3;
+const MATCH_PAIRS = 5;
+const WORD_BANK_MAX_WORDS = 8;
+const WORD_BANK_EXTRA_WORDS = 3;
+
+// Splits an Urdu phrase into word tiles, dropping punctuation.
+export const tokenize = (urdu: string) =>
+  urdu
+    .split(/\s+/)
+    .map((w) => w.replace(/[۔؟!،,.?]/g, ""))
+    .filter(Boolean);
 
 // --- File naming -----------------------------------------------------------
 
@@ -251,8 +266,80 @@ export const createBuilder = (units: Unit[]) => {
       };
     };
 
+    const lessonWords = Array.from(
+      new Set(lessonPool.flatMap((i) => tokenize(i.urdu)))
+    );
+
+    // English sentence → tap the Urdu words in order.
+    const wordBank = (i: Item): BuiltChallenge | null => {
+      const words = tokenize(i.urdu);
+      if (words.length < 2 || words.length > WORD_BANK_MAX_WORDS) return null;
+      const extras = shuffle(
+        lessonWords.filter((w) => !words.includes(w)),
+        random
+      ).slice(0, WORD_BANK_EXTRA_WORDS);
+      return {
+        type: "WORD_BANK",
+        question: i.english!,
+        hint: null,
+        audioSrc: audioFor(i, usedIn),
+        options: [
+          ...words.map((text) => ({
+            text,
+            correct: true,
+            audioSrc: null,
+            imageSrc: null,
+          })),
+          ...extras.map((text) => ({
+            text,
+            correct: false,
+            audioSrc: null,
+            imageSrc: null,
+          })),
+        ],
+      };
+    };
+
+    // Pair up to five of the lesson's words with their meanings.
+    const match = (): BuiltChallenge | null => {
+      if (!lesson.items.length) return null;
+      const pairs: Item[] = [];
+      for (const pool of [lesson.items, unitPool]) {
+        for (const c of shuffle(pool, random)) {
+          if (pairs.length >= MATCH_PAIRS) break;
+          if (
+            c.english &&
+            (c.kind === "word" || c.kind === "letter") &&
+            !pairs.some(
+              (p) => same(p.urdu, c.urdu) || same(p.english, c.english)
+            )
+          )
+            pairs.push(c);
+        }
+        if (pairs.length >= 3 && pool === lesson.items) break;
+      }
+      if (pairs.length < 3) return null;
+      return {
+        type: "MATCH",
+        question: "Tap the matching pairs",
+        hint: null,
+        audioSrc: null,
+        options: pairs.map((p) => ({
+          text: p.urdu,
+          pair: p.english!,
+          correct: true,
+          audioSrc: audioFor(p, usedIn),
+          imageSrc: null,
+        })),
+      };
+    };
+
     const produce = (i: Item): BuiltChallenge | null => {
       if (!i.english || i.kind === "reading") return null;
+      if (i.kind === "phrase" || i.kind === "sentence") {
+        const built = wordBank(i);
+        if (built) return built;
+      }
       const others = distractors(i, pools, "urdu", random);
       if (!others.length) return null;
       return {
@@ -288,6 +375,7 @@ export const createBuilder = (units: Unit[]) => {
 
     return [
       ...lesson.items.map(recognise),
+      match(),
       ...shuffle(lesson.items, random).map(produce),
       ...lesson.lines.map(recognise),
       // A quiz whose answer isn't among its options would leave the learner stuck.

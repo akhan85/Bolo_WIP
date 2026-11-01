@@ -24,6 +24,14 @@ export const ChallengeList = () => {
               id: "ASSIST",
               name: "ASSIST",
             },
+            {
+              id: "WORD_BANK",
+              name: "WORD_BANK",
+            },
+            {
+              id: "MATCH",
+              name: "MATCH",
+            },
           ]}
         />
         <ReferenceField source="lessonId" reference="lessons" />

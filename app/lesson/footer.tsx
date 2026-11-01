@@ -9,6 +9,7 @@ type FooterProps = {
   status: "correct" | "wrong" | "none" | "completed";
   disabled?: boolean;
   lessonId?: number;
+  solution?: string; // shown when the learner gets it wrong
 };
 
 export const Footer = ({
@@ -16,6 +17,7 @@ export const Footer = ({
   status,
   disabled,
   lessonId,
+  solution,
 }: FooterProps) => {
   useKey("Enter", onCheck, {}, [onCheck]);
   const isMobile = useMedia("(max-width: 1024px)");
@@ -38,8 +40,18 @@ export const Footer = ({
 
         {status === "wrong" && (
           <div className="flex items-center text-base font-bold text-rose-500 lg:text-2xl">
-            <XCircle className="me-4 h-6 w-6 lg:h-10 lg:w-10" />
-            Try again.
+            <XCircle className="me-4 h-6 w-6 shrink-0 lg:h-10 lg:w-10" />
+            <div>
+              Try again.
+              {solution && (
+                <p className="text-sm font-normal lg:text-base">
+                  Correct answer:{" "}
+                  <span dir="rtl" lang="ur" className="text-lg lg:text-xl">
+                    {solution}
+                  </span>
+                </p>
+              )}
+            </div>
           </div>
         )}
 

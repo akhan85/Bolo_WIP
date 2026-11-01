@@ -61,7 +61,15 @@ export const lessonsRelations = relations(lessons, ({ one, many }) => ({
   challenges: many(challenges),
 }));
 
-export const challengesEnum = pgEnum("type", ["SELECT", "ASSIST"]);
+// SELECT / ASSIST: pick one option.
+// WORD_BANK: tap the correct options in order to build a sentence.
+// MATCH: pair each option's text with its `pair`.
+export const challengesEnum = pgEnum("type", [
+  "SELECT",
+  "ASSIST",
+  "WORD_BANK",
+  "MATCH",
+]);
 
 export const challenges = pgTable("challenges", {
   id: serial("id").primaryKey(),
@@ -97,6 +105,7 @@ export const challengeOptions = pgTable("challenge_options", {
   correct: boolean("correct").notNull(),
   imageSrc: text("image_src"),
   audioSrc: text("audio_src"),
+  pair: text("pair"), // MATCH only: the text this option pairs with
 });
 
 export const challengeOptionsRelations = relations(
