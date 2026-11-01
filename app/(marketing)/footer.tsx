@@ -1,22 +1,21 @@
 import Image from "next/image";
 
-import { Button } from "@/components/ui/button";
-
 export const Footer = () => {
   return (
-    <div className="hidden h-20 w-full border-t-2 border-slate-200 p-2 lg:block">
-      <div className="mx-auto flex h-full max-w-screen-lg items-center justify-evenly">
-        <Button size="lg" variant="ghost" className="w-full cursor-default">
+    <footer className="w-full border-t-2 px-4 py-6">
+      <div className="mx-auto flex max-w-[1040px] flex-col items-center justify-between gap-3 text-sm text-neutral-400 sm:flex-row">
+        <div className="flex items-center gap-x-2 font-bold">
           <Image
             src="/pk.svg"
-            alt="Urdu"
-            height={32}
-            width={40}
-            className="mr-4 rounded-md"
+            alt=""
+            height={20}
+            width={27}
+            className="rounded-[4px] border"
           />
-          Urdu
-        </Button>
+          Learn Urdu with Bolo
+        </div>
+        <p>Speak first. Read next. A little every day.</p>
       </div>
-    </div>
+    </footer>
   );
 };

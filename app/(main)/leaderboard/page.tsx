@@ -13,6 +13,9 @@ import {
   getUserProgress,
   getUserSubscription,
 } from "@/db/queries";
+import { cn } from "@/lib/utils";
+
+const MEDALS = ["🥇", "🥈", "🥉"];
 
 const LeaderboardPage = async () => {
   const userProgressData = getUserProgress();
@@ -59,26 +62,50 @@ const LeaderboardPage = async () => {
           </p>
 
           <Separator className="mb-4 h-0.5 rounded-full" />
-          {leaderboard.map((userProgress, i) => (
-            <div
-              key={userProgress.userId}
-              className="flex w-full items-center rounded-xl p-2 px-4 hover:bg-gray-200/50"
-            >
-              <p className="mr-4 font-bold text-lime-700">{i + 1}</p>
+          {leaderboard.length === 0 && (
+            <p className="py-8 text-neutral-400">
+              No learners yet. Finish a lesson to be the first!
+            </p>
+          )}
+          <ol className="w-full">
+            {leaderboard.map((entry, i) => {
+              const isYou = entry.userId === userProgress.userId;
+              return (
+                <li
+                  key={entry.userId}
+                  className={cn(
+                    "flex w-full items-center gap-x-3 rounded-2xl px-3 py-2 sm:gap-x-4 sm:px-4",
+                    isYou
+                      ? "bg-sky-50 ring-2 ring-sky-200"
+                      : "hover:bg-slate-50"
+                  )}
+                >
+                  <span className="w-8 text-center text-lg font-black text-neutral-400">
+                    {MEDALS[i] ?? i + 1}
+                  </span>
 
-              <Avatar className="ml-3 mr-6 h-12 w-12 border bg-green-500">
-                <AvatarImage
-                  src={userProgress.userImageSrc}
-                  className="object-cover"
-                />
-              </Avatar>
+                  <Avatar className="h-11 w-11 border bg-green-500 sm:h-12 sm:w-12">
+                    <AvatarImage
+                      src={entry.userImageSrc}
+                      className="object-cover"
+                    />
+                  </Avatar>
 
-              <p className="flex-1 font-bold text-neutral-800">
-                {userProgress.userName}
-              </p>
-              <p className="text-muted-foreground">{userProgress.points} XP</p>
-            </div>
-          ))}
+                  <p className="min-w-0 flex-1 truncate font-bold text-neutral-800">
+                    {entry.userName}
+                    {isYou && (
+                      <span className="ms-2 text-sm font-extrabold text-sky-500">
+                        (you)
+                      </span>
+                    )}
+                  </p>
+                  <p className="shrink-0 font-bold text-neutral-500">
+                    {entry.points} XP
+                  </p>
+                </li>
+              );
+            })}
+          </ol>
         </div>
       </FeedWrapper>
     </div>

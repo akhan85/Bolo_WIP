@@ -1,3 +1,4 @@
+import { Check } from "lucide-react";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
@@ -47,28 +48,44 @@ const QuestsPage = async () => {
 
           <ul className="w-full">
             {QUESTS.map((quest) => {
-              const progress = (userProgress.points / quest.value) * 100;
+              const progress = Math.min(
+                (userProgress.points / quest.value) * 100,
+                100
+              );
+              const done = progress >= 100;
 
               return (
-                <div
+                <li
                   className="flex w-full items-center gap-x-4 border-t-2 p-4"
                   key={quest.title}
                 >
                   <Image
                     src="/points.svg"
-                    alt="Points"
-                    width={60}
-                    height={60}
+                    alt=""
+                    width={48}
+                    height={48}
+                    className={done ? "" : "opacity-90"}
                   />
 
                   <div className="flex w-full flex-col gap-y-2">
-                    <p className="text-xl font-bold text-neutral-700">
-                      {quest.title}
-                    </p>
+                    <div className="flex items-center justify-between gap-x-2">
+                      <p className="text-lg font-extrabold text-neutral-700 sm:text-xl">
+                        {quest.title}
+                      </p>
+                      {done ? (
+                        <span className="flex items-center gap-x-1 text-sm font-extrabold text-green-500">
+                          <Check className="h-4 w-4 stroke-[3]" /> Done
+                        </span>
+                      ) : (
+                        <span className="text-sm font-bold text-neutral-400">
+                          {userProgress.points}/{quest.value}
+                        </span>
+                      )}
+                    </div>
 
                     <Progress value={progress} className="h-3" />
                   </div>
-                </div>
+                </li>
               );
             })}
           </ul>

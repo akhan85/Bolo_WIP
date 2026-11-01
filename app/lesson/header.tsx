@@ -22,7 +22,7 @@ export const Header = ({
   const { open } = useExitModal();
 
   return (
-    <header className="mx-auto flex w-full max-w-[1140px] items-center justify-between gap-x-7 px-10 pt-[20px] lg:pt-[50px]">
+    <header className="mx-auto flex w-full max-w-[1140px] shrink-0 items-center justify-between gap-x-4 px-4 pt-4 sm:gap-x-7 sm:px-10 lg:pt-[50px]">
       <div className="flex items-center gap-x-2">
         {showBack && onBack && (
           <ArrowLeft

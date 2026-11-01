@@ -229,7 +229,7 @@ export const Quiz = ({
           width={width}
           height={height}
         />
-        <div className="mx-auto flex h-full max-w-lg flex-col items-center justify-center gap-y-4 text-center lg:gap-y-8">
+        <div className="mx-auto flex w-full max-w-lg flex-1 flex-col items-center justify-center gap-y-4 overflow-y-auto px-4 text-center lg:gap-y-8">
           <Image
             src="/finish.svg"
             alt="Finish"
@@ -296,9 +296,9 @@ export const Quiz = ({
         showBack={activeIndex > 0}
       />
 
-      <div className="flex-1">
-        <div className="flex h-full items-center justify-center">
-          <div className="flex w-full flex-col gap-y-12 px-6 lg:min-h-[350px] lg:w-[600px] lg:px-0">
+      <div className="min-h-0 flex-1 overflow-y-auto">
+        <div className="flex min-h-full items-center justify-center py-6">
+          <div className="flex w-full max-w-[600px] flex-col gap-y-6 px-4 sm:px-6 lg:min-h-[350px] lg:gap-y-10 lg:px-0">
             <h1
               dir="auto"
               className="text-center text-lg font-bold text-neutral-700 lg:text-start lg:text-3xl"

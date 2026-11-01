@@ -27,12 +27,12 @@ export const Footer = ({
   return (
     <footer
       className={cn(
-        "h-[100px] border-t-2 lg:h-[140px]",
+        "min-h-[96px] shrink-0 border-t-2 pb-[env(safe-area-inset-bottom)] lg:h-[140px]",
         status === "correct" && "border-transparent bg-green-100",
         status === "wrong" && "border-transparent bg-rose-100"
       )}
     >
-      <div className="mx-auto flex h-full max-w-[1140px] items-center justify-between px-6 py-4 lg:px-10 lg:py-6">
+      <div className="mx-auto flex h-full min-h-[96px] max-w-[1140px] items-center justify-between gap-x-4 px-4 py-4 sm:px-6 lg:px-10 lg:py-6">
         {status === "correct" && (
           <div className="flex items-center text-base font-bold text-green-500 lg:text-2xl">
             <CheckCircle className="me-4 h-6 w-6 lg:h-10 lg:w-10" />

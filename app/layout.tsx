@@ -1,6 +1,6 @@
 import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata, Viewport } from "next";
-import { Noto_Naskh_Arabic } from "next/font/google";
+import { Noto_Naskh_Arabic, Nunito } from "next/font/google";
 
 import { ExitModal } from "@/components/modals/exit-modal";
 import { HeartsModal } from "@/components/modals/hearts-modal";
@@ -10,7 +10,13 @@ import { siteConfig } from "@/config";
 
 import "./globals.css";
 
-const font = Noto_Naskh_Arabic({ subsets: ["arabic"] });
+// Nunito for English (rounded and friendly); Urdu characters fall back to
+// Noto Naskh Arabic, which is easier for learners to read than Nastaliq.
+const latin = Nunito({ subsets: ["latin"], variable: "--font-latin" });
+const urdu = Noto_Naskh_Arabic({
+  subsets: ["arabic"],
+  variable: "--font-urdu",
+});
 
 export const viewport: Viewport = {
   themeColor: "#22C55E",
@@ -34,8 +40,8 @@ export default function RootLayout({
         },
       }}
     >
-      <html lang="en">
-        <body className={font.className}>
+      <html lang="en" className={`${latin.variable} ${urdu.variable}`}>
+        <body className="font-sans antialiased">
           <Toaster theme="light" richColors closeButton />
           <ExitModal />
           <HeartsModal />

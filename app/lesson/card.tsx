@@ -45,7 +45,17 @@ export const Card = ({
   return (
     <div
       onClick={handleClick}
+      role="button"
+      tabIndex={disabled ? -1 : 0}
+      aria-pressed={!!selected}
+      onKeyDown={(e) => {
+        if (e.key === " ") {
+          e.preventDefault();
+          handleClick();
+        }
+      }}
       className={cn(
+        "focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-sky-200",
         "h-full cursor-pointer rounded-xl border-2 border-b-4 p-4 hover:bg-black/5 active:border-b-2 lg:p-6",
         selected && "border-sky-300 bg-sky-100 hover:bg-sky-100",
         selected &&

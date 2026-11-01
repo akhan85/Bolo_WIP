@@ -19,17 +19,12 @@ export const SidebarItem = ({ label, iconSrc, href }: SidebarItemProps) => {
   return (
     <Button
       variant={isActive ? "sidebarOutline" : "sidebar"}
-      className="h-[52px] justify-start"
+      className="h-[52px] justify-start text-[15px]"
+      aria-current={isActive ? "page" : undefined}
       asChild
     >
       <Link href={href}>
-        <Image
-          src={iconSrc}
-          alt={label}
-          className="me-5"
-          height={32}
-          width={32}
-        />
+        <Image src={iconSrc} alt="" className="me-5" height={32} width={32} />
         {label}
       </Link>
     </Button>

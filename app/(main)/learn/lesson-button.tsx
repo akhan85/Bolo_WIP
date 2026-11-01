@@ -4,13 +4,15 @@ import { Check, Crown, Star } from "lucide-react";
 import Link from "next/link";
 import { CircularProgressbarWithChildren } from "react-circular-progressbar";
 
-import { buttonVariants } from "@/components/ui/button";
+import type { UnitTheme } from "@/lib/unit-themes";
 import { cn } from "@/lib/utils";
 
 import "react-circular-progressbar/dist/styles.css";
 
 type LessonButtonProps = {
   id: number;
+  title: string;
+  theme: UnitTheme;
   index: number;
   totalCount: number;
   locked?: boolean;
@@ -20,6 +22,8 @@ type LessonButtonProps = {
 
 export const LessonButton = ({
   id,
+  title,
+  theme,
   index,
   totalCount,
   locked,
@@ -45,12 +49,23 @@ export const LessonButton = ({
   const Icon = isCompleted ? Check : isLast ? Crown : Star;
 
   const href = isCompleted ? `/lesson/${id}` : "/lesson";
+  const state = locked ? "locked" : isCompleted ? "completed" : "start";
+
+  // A round, chunky "3D" button in the unit's colour, or grey when locked
+  const circle = cn(
+    "flex h-[70px] w-[70px] items-center justify-center rounded-full border-b-8 text-white transition active:translate-y-0.5 active:border-b-4",
+    locked ? "border-neutral-300 bg-neutral-200" : theme.button
+  );
 
   return (
     <Link
       href={href}
+      title={`${title} (${state})`}
+      aria-label={`${title}, ${state}`}
       aria-disabled={locked}
+      tabIndex={locked ? -1 : undefined}
       style={{ pointerEvents: locked ? "none" : "auto" }}
+      className="rounded-full focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-sky-300"
     >
       <div
         className="relative"
@@ -72,28 +87,20 @@ export const LessonButton = ({
               value={Number.isNaN(percentage) ? 0 : percentage}
               styles={{
                 path: {
-                  stroke: "#4ade80",
+                  stroke: theme.ring,
                 },
                 trail: {
                   stroke: "#e5e7eb",
                 },
               }}
             >
-              <div
-                className={cn(
-                  "h-[70px] w-[70px] border-b-8",
-                  buttonVariants({
-                    variant: locked ? "locked" : "secondary",
-                    size: "rounded",
-                  })
-                )}
-              >
+              <div className={circle}>
                 <Icon
                   className={cn(
                     "h-10 w-10",
                     locked
                       ? "fill-neutral-400 stroke-neutral-400 text-neutral-400"
-                      : "fill-primary-foreground text-primary-foreground",
+                      : "fill-white text-white",
                     isCompleted && "fill-none stroke-[4]"
                   )}
                 />
@@ -101,21 +108,13 @@ export const LessonButton = ({
             </CircularProgressbarWithChildren>
           </div>
         ) : (
-          <div
-            className={cn(
-              "h-[70px] w-[70px] border-b-8",
-              buttonVariants({
-                variant: locked ? "locked" : "secondary",
-                size: "rounded",
-              })
-            )}
-          >
+          <div className={circle}>
             <Icon
               className={cn(
                 "h-10 w-10",
                 locked
                   ? "fill-neutral-400 stroke-neutral-400 text-neutral-400"
-                  : "fill-primary-foreground text-primary-foreground",
+                  : "fill-white text-white",
                 isCompleted && "fill-none stroke-[4]"
               )}
             />

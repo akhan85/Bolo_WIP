@@ -12,18 +12,16 @@ import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 
-
 export const Header = () => {
-
   return (
-    <header className="h-20 w-full border-b-2 border-slate-200 px-4">
-      <div className="mx-auto flex h-full items-center justify-between lg:max-w-screen-lg rtl:flex-row-reverse">
-        <Link href="/" className="flex items-center gap-x-3 pb-7 ps-4 pt-8 rtl:flex-row-reverse">
-          <Image src="/mascot.svg" alt="Mascot" height={40} width={40} />
+    <header className="sticky top-0 z-40 h-16 w-full border-b-2 border-slate-200 bg-white/90 px-4 backdrop-blur sm:h-20">
+      <div className="mx-auto flex h-full max-w-[1040px] items-center justify-between">
+        <Link href="/" className="flex items-center gap-x-3">
+          <Image src="/mascot.svg" alt="" height={40} width={40} />
 
-          <h1 className="text-2xl font-extrabold tracking-wide text-green-600">
+          <span className="text-2xl font-black tracking-wide text-green-600 sm:text-3xl">
             Bolo
-          </h1>
+          </span>
         </Link>
 
         <div className="flex gap-x-3">
@@ -41,13 +39,9 @@ export const Header = () => {
                 afterSignInUrl="/learn"
                 afterSignUpUrl="/learn"
               >
-                <Button size="lg" variant="ghost">
-                  Login
-                </Button>
+                <Button variant="ghost">Log in</Button>
               </SignInButton>
             </SignedOut>
-
-
           </ClerkLoaded>
         </div>
       </div>
