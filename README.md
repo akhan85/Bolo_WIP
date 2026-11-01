@@ -18,6 +18,7 @@ Run these from the `Bolo_WIP` folder:
 | Load or refresh the lessons in the database (**resets progress**) | `npm run db:prod` |
 | Update the database tables after changing `db/schema.ts` | `npm run db:push` |
 | See which audio and images are still missing | `npm run assets:report` |
+| Generate missing audio with AI voices (needs Azure key in `.env`) | `npm run audio:generate` |
 | Browse the database in a web UI | `npm run db:studio` |
 | Check for code errors | `npx tsc --noEmit` and `npm run lint` |
 

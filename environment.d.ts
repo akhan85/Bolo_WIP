@@ -16,6 +16,10 @@ declare global {
 
       // clerk admin user id(s) (separated by comma(,) and space( )). Ex: "user_123, user_456, user_789"
       CLERK_ADMIN_IDS: string;
+
+      // azure speech, only needed for npm run audio:generate
+      AZURE_SPEECH_KEY?: string;
+      AZURE_SPEECH_REGION?: string;
     }
   }
 }

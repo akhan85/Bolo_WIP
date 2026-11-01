@@ -12,7 +12,8 @@
     "db:studio": "npx drizzle-kit studio",
     "db:push": "npx drizzle-kit push:pg",
     "db:prod": "tsx ./scripts/prod.ts",
-    "assets:report": "tsx ./scripts/assets-report.ts"
+    "assets:report": "tsx ./scripts/assets-report.ts",
+    "audio:generate": "tsx ./scripts/generate-audio.ts"
   },
   "description": "Bolo - learn Urdu with bite-sized, Duolingo-style lessons.",
   "license": "MIT",

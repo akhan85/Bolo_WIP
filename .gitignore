@@ -39,3 +39,6 @@ next-env.d.ts
 # testing tools
 /ngrok
 /stripe
+
+# audio:generate test clips
+/audio-samples

@@ -1,5 +1,40 @@
 # Recording Urdu audio for Bolo
 
+## Option A: generate it with AI voices (recommended to start)
+
+Bolo can create every missing clip with Microsoft Azure's Pakistani Urdu neural voices (Uzma, female, and Asad, male). The whole course is only about 7,000 characters, well inside Azure's free tier (500,000 characters a month).
+
+**One-time setup**
+1. Sign in at https://portal.azure.com, then open **https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices** (skip the portal search; it can error).
+2. Resource group: create `bolo`. Region: the closest one (for example East US). Name: `bolo-speech`. Pricing tier: **Free F0**. Then **Review + create → Create**.
+3. **Go to resource → Keys and Endpoint.** Copy **KEY 1** and the **Location/Region** (for example `eastus`).
+4. Paste them into `.env`:
+   ```
+   AZURE_SPEECH_KEY=your-key-here
+   AZURE_SPEECH_REGION=eastus
+   ```
+
+> If the portal shows "Interaction required / AADSTS50058", your browser is blocking Microsoft's sign-in cookies. Click **Sign in again**, or use a private window, or use Chrome/Edge, or (in Safari) turn off "Prevent cross-site tracking" temporarily.
+
+**Generate**
+```bash
+npm run audio:generate -- --sample
+```
+That creates 6 test clips in `audio-samples/`. Open them and listen. If they sound right:
+```bash
+npm run audio:generate
+```
+```bash
+npm run db:prod
+```
+The first command creates every missing clip in `public/sound/` (it never overwrites existing files, so your own recordings are safe). The second loads the lessons with the new audio. Note that it resets learner progress.
+
+You can also do it in batches: `npm run audio:generate -- --only "Start Here" --limit 20`.
+
+**What the generator does for you:** it speaks about 10% slower than normal, reads single letters by their names (ب → "be"), and uses the male voice for male-speaker sentences (پیتا ہوں) and the female voice otherwise. A native speaker should still skim the **Start Here** clips: AI voices occasionally put stress in the wrong place. If one sounds off, delete the file and record that one yourself (Option B below).
+
+## Option B: record it yourself
+
 Bolo plays a recording when a question appears (the 🔊 button in the speech bubble) and when a learner taps an Urdu answer. Every recording is optional. If a file is missing the app stays silent, but listening matters a lot for learning Urdu, so it's worth doing.
 
 ## 1. What to record
