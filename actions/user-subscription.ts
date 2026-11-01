@@ -10,54 +10,67 @@ import { absoluteUrl } from "@/lib/utils";
 const returnUrl = absoluteUrl("/shop");
 
 export const createStripeUrl = async () => {
-  const { userId } = auth();
-  const user = await currentUser();
+  try {
+    const { userId } = auth();
+    const user = await currentUser();
 
-  if (!userId || !user) throw new Error("Unauthorized.");
+    if (!userId || !user) return { error: "Please sign in to upgrade." };
 
-  const userSubscription = await getUserSubscription();
+    const userSubscription = await getUserSubscription();
 
-  // Gifted Pro has no Stripe customer to manage
-  if (userSubscription?.stripeCustomerId.startsWith(GIFTED_SUBSCRIPTION_PREFIX))
-    throw new Error("This account has gifted Pro.");
+    // Gifted Pro has no Stripe customer to manage
+    if (
+      userSubscription?.stripeCustomerId?.startsWith(GIFTED_SUBSCRIPTION_PREFIX)
+    )
+      return { error: "This account has gifted Pro." };
 
-  // redirect user to customer portal who already have a subscription
-  if (userSubscription && userSubscription.stripeCustomerId) {
-    const stripeSession = await stripe.billingPortal.sessions.create({
-      customer: userSubscription.stripeCustomerId,
-      return_url: returnUrl,
-    });
+    // Active paid subscribers manage billing in the Stripe portal
+    if (userSubscription?.isActive && userSubscription.stripeCustomerId) {
+      const stripeSession = await stripe.billingPortal.sessions.create({
+        customer: userSubscription.stripeCustomerId,
+        return_url: returnUrl,
+      });
 
-    return { data: stripeSession.url };
-  }
+      if (!stripeSession.url)
+        return { error: "Could not open billing portal." };
+      return { data: stripeSession.url };
+    }
 
-  // checkout
-  const stripeSession = await stripe.checkout.sessions.create({
-    mode: "subscription",
-    payment_method_types: ["card"],
-    customer_email: user.emailAddresses[0].emailAddress,
-    line_items: [
-      {
-        quantity: 1,
-        price_data: {
-          currency: "USD",
-          product_data: {
-            name: "Bolo Pro",
-            description: "Unlimited hearts.",
-          },
-          unit_amount: 2000, // $20.00 USD
-          recurring: {
-            interval: "month",
+    const email = user.emailAddresses[0]?.emailAddress;
+    if (!email) return { error: "Add an email to your account to upgrade." };
+
+    // checkout
+    const stripeSession = await stripe.checkout.sessions.create({
+      mode: "subscription",
+      payment_method_types: ["card"],
+      customer_email: email,
+      line_items: [
+        {
+          quantity: 1,
+          price_data: {
+            currency: "USD",
+            product_data: {
+              name: "Bolo Pro",
+              description: "Unlimited hearts.",
+            },
+            unit_amount: 2000, // $20.00 USD
+            recurring: {
+              interval: "month",
+            },
           },
         },
+      ],
+      metadata: {
+        userId,
       },
-    ],
-    metadata: {
-      userId,
-    },
-    success_url: returnUrl,
-    cancel_url: returnUrl,
-  });
+      success_url: returnUrl,
+      cancel_url: returnUrl,
+    });
 
-  return { data: stripeSession.url };
+    if (!stripeSession.url) return { error: "Could not start checkout." };
+    return { data: stripeSession.url };
+  } catch (error) {
+    console.error("[createStripeUrl]", error);
+    return { error: "Something went wrong." };
+  }
 };

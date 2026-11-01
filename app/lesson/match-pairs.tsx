@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 import { challengeOptions } from "@/db/schema";
-import { cn, seededShuffle } from "@/lib/utils";
+import { cn, seededDerangement, seededShuffle } from "@/lib/utils";
 
 type MatchPairsProps = {
   challengeId: number;
@@ -26,9 +26,10 @@ export const MatchPairs = ({
     () => seededShuffle(options, challengeId),
     [options, challengeId]
   );
+  // Derange against the left column so a word is never beside its meaning.
   const right = useMemo(
-    () => seededShuffle(options, challengeId * 7 + 3),
-    [options, challengeId]
+    () => seededDerangement(options, left, challengeId * 7 + 3, (o) => o.id),
+    [options, left, challengeId]
   );
 
   const [leftPick, setLeftPick] = useState<number>();

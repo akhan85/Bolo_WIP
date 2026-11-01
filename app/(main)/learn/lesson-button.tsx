@@ -1,5 +1,7 @@
 "use client";
 
+import { useEffect, useRef } from "react";
+
 import { Check, Crown, Star } from "lucide-react";
 import Link from "next/link";
 import { CircularProgressbarWithChildren } from "react-circular-progressbar";
@@ -50,6 +52,26 @@ export const LessonButton = ({
 
   const href = isCompleted ? `/lesson/${id}` : "/lesson";
   const state = locked ? "locked" : isCompleted ? "completed" : "start";
+  const nodeRef = useRef<HTMLAnchorElement>(null);
+
+  useEffect(() => {
+    if (!current) return;
+
+    const scroll = () =>
+      nodeRef.current?.scrollIntoView({
+        block: "center",
+        inline: "nearest",
+        behavior: "auto",
+      });
+
+    scroll();
+    const frame = requestAnimationFrame(scroll);
+    const timer = window.setTimeout(scroll, 50);
+    return () => {
+      cancelAnimationFrame(frame);
+      window.clearTimeout(timer);
+    };
+  }, [current]);
 
   // A round, chunky "3D" button in the unit's colour, or grey when locked
   const circle = cn(
@@ -59,13 +81,15 @@ export const LessonButton = ({
 
   return (
     <Link
+      ref={nodeRef}
+      id={current ? "current-lesson" : undefined}
       href={href}
       title={`${title} (${state})`}
       aria-label={`${title}, ${state}`}
       aria-disabled={locked}
       tabIndex={locked ? -1 : undefined}
       style={{ pointerEvents: locked ? "none" : "auto" }}
-      className="rounded-full focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-sky-300"
+      className="scroll-mt-32 rounded-full focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-sky-300"
     >
       <div
         className="relative"

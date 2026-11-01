@@ -34,13 +34,27 @@ export const Items = ({
   };
 
   const onUpgrade = () => {
-    toast.loading("Redirecting to checkout...");
+    if (pending || isGifted) return;
+
     startTransition(() => {
+      const toastId = toast.loading("Redirecting to checkout...", {
+        dismissible: true,
+      });
+
       createStripeUrl()
         .then((response) => {
-          if (response.data) window.location.href = response.data;
+          if (response.data) {
+            window.location.assign(response.data);
+            return;
+          }
+
+          toast.error(response.error ?? "Something went wrong.", {
+            id: toastId,
+          });
         })
-        .catch(() => toast.error("Something went wrong."));
+        .catch(() => {
+          toast.error("Something went wrong.", { id: toastId });
+        });
     });
   };
 
