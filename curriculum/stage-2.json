@@ -1,0 +1,803 @@
+{
+  "stage": {
+    "id": 2,
+    "name": "Grammar Foundations",
+    "level": "A1-A2",
+    "description": "The sentence patterns behind everyday Urdu: pronouns and 'to be', gender and agreement, possession and family, numbers, present-tense verbs, and talking about likes, needs and feelings."
+  },
+  "units": [
+    {
+      "title": "Me, You & \"To Be\"",
+      "description": "Pronouns, ہونا (to be) and respectful speech",
+      "lessons": [
+        {
+          "title": "I Am, You Are",
+          "objectives": [
+            "Use میں، تم، آپ as subjects",
+            "Match each pronoun with ہوں / ہو / ہیں",
+            "Notice that the verb comes last (subject-object-verb)"
+          ],
+          "notes": "Urdu sentences end with the verb. ہونا (to be) changes with the subject: میں ... ہوں، تم ... ہو، آپ ... ہیں. آپ always takes the plural form ہیں, even for one person - that is what makes it respectful.",
+          "vocab": [
+            { "urdu": "میں", "roman": "main", "english": "I" },
+            { "urdu": "تم", "roman": "tum", "english": "you (informal)" },
+            { "urdu": "آپ", "roman": "aap", "english": "you (respectful)" },
+            { "urdu": "ہوں", "roman": "hoon", "english": "am (with میں)" },
+            { "urdu": "ہو", "roman": "ho", "english": "are (with تم)" },
+            { "urdu": "ہیں", "roman": "hain", "english": "are (with آپ / plural)" }
+          ],
+          "phrases": [
+            { "urdu": "میں طالب علم ہوں۔", "roman": "main talib-e-ilm hoon", "english": "I am a student." },
+            { "urdu": "آپ استاد ہیں۔", "roman": "aap ustaad hain", "english": "You are a teacher." },
+            { "urdu": "تم کہاں ہو؟", "roman": "tum kahan ho", "english": "Where are you?" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "آپ کون ہیں؟", "roman": "aap kaun hain", "english": "Who are you?" },
+            { "speaker": "B", "urdu": "میں علی ہوں۔", "roman": "main Ali hoon", "english": "I am Ali." },
+            { "speaker": "A", "urdu": "کیا آپ استاد ہیں؟", "roman": "kya aap ustaad hain", "english": "Are you a teacher?" },
+            { "speaker": "B", "urdu": "نہیں، میں طالب علم ہوں۔", "roman": "nahin, main talib-e-ilm hoon", "english": "No, I am a student." }
+          ],
+          "quiz": [
+            { "question": "Complete the sentence: میں طالب علم ___ ۔", "options": ["ہوں", "ہو", "ہیں"], "answer": "ہوں" },
+            { "question": "Which word for 'you' is respectful?", "options": ["آپ", "تم", "میں"], "answer": "آپ" }
+          ]
+        },
+        {
+          "title": "He, She, We & They",
+          "objectives": [
+            "Use یہ (near) and وہ (far) for he, she, it and they",
+            "Use ہم (we) with ہیں",
+            "Use ہے (is) for one person or thing"
+          ],
+          "notes": "Urdu has no separate words for 'he' and 'she'. یہ means this person/thing nearby and وہ means that person/thing further away. Gender shows up in the verb and adjectives instead, which comes in Unit 2.",
+          "vocab": [
+            { "urdu": "یہ", "roman": "yeh", "english": "this / he / she (near)" },
+            { "urdu": "وہ", "roman": "woh", "english": "that / he / she (far)" },
+            { "urdu": "ہم", "roman": "hum", "english": "we" },
+            { "urdu": "ہے", "roman": "hai", "english": "is" },
+            { "urdu": "دوست", "roman": "dost", "english": "friend" },
+            { "urdu": "بہن", "roman": "behan", "english": "sister" }
+          ],
+          "phrases": [
+            { "urdu": "وہ ڈاکٹر ہے۔", "roman": "woh doctor hai", "english": "He is a doctor." },
+            { "urdu": "ہم دوست ہیں۔", "roman": "hum dost hain", "english": "We are friends." },
+            { "urdu": "یہ میری بہن ہے۔", "roman": "yeh meri behan hai", "english": "This is my sister." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "یہ کون ہے؟", "roman": "yeh kaun hai", "english": "Who is this?" },
+            { "speaker": "B", "urdu": "یہ میرا دوست ہے۔", "roman": "yeh mera dost hai", "english": "This is my friend." },
+            { "speaker": "A", "urdu": "اور وہ؟", "roman": "aur woh", "english": "And that person?" },
+            { "speaker": "B", "urdu": "وہ میری بہن ہے۔", "roman": "woh meri behan hai", "english": "That is my sister." }
+          ],
+          "quiz": [
+            { "question": "Complete the sentence: ہم دوست ___ ۔", "options": ["ہیں", "ہے", "ہوں"], "answer": "ہیں" },
+            { "question": "Which word points to someone far away?", "options": ["وہ", "یہ", "ہم"], "answer": "وہ" }
+          ]
+        },
+        {
+          "title": "Tum or Aap? Speaking Respectfully",
+          "objectives": [
+            "Choose آپ for elders, strangers and anyone you respect",
+            "Use جی as a polite 'yes'",
+            "Address older people warmly as آنٹی، انکل، آپا، بھائی جان"
+          ],
+          "notes": "Respect is built into Urdu grammar. Use آپ with elders and people you don't know; تم is for close friends and children. Calling an older stranger آنٹی or انکل is normal and friendly. Elders often call younger people بیٹا (child) affectionately.",
+          "vocab": [
+            { "urdu": "جی", "roman": "jee", "english": "yes (polite)" },
+            { "urdu": "ہاں", "roman": "haan", "english": "yes (casual)" },
+            { "urdu": "نہیں", "roman": "nahin", "english": "no / not" },
+            { "urdu": "آنٹی", "roman": "aunty", "english": "aunty (any older woman)" },
+            { "urdu": "انکل", "roman": "uncle", "english": "uncle (any older man)" },
+            { "urdu": "بیٹا", "roman": "beta", "english": "child / dear (said by elders)" }
+          ],
+          "phrases": [
+            { "urdu": "آپ کیسے ہیں؟", "roman": "aap kaise hain", "english": "How are you? (respectful, to a man)" },
+            { "urdu": "تم کیسی ہو؟", "roman": "tum kaisi ho", "english": "How are you? (casual, to a girl)" },
+            { "urdu": "جی، شکریہ۔", "roman": "jee, shukriya", "english": "Yes, thank you." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "السلام علیکم آنٹی!", "roman": "assalam-o-alaikum aunty", "english": "Hello, aunty!" },
+            { "speaker": "B", "urdu": "وعلیکم السلام بیٹا۔ تم کیسے ہو؟", "roman": "wa alaikum assalam beta. tum kaise ho", "english": "Hello, dear. How are you?" },
+            { "speaker": "A", "urdu": "جی، میں ٹھیک ہوں۔ آپ کیسی ہیں؟", "roman": "jee, main theek hoon. aap kaisi hain", "english": "I'm fine. How are you?" },
+            { "speaker": "B", "urdu": "میں بھی ٹھیک ہوں۔", "roman": "main bhi theek hoon", "english": "I'm fine too." }
+          ],
+          "quiz": [
+            { "question": "You meet your friend's grandmother. Which 'you' do you use?", "options": ["آپ", "تم", "وہ"], "answer": "آپ" },
+            { "question": "Which word is a polite 'yes'?", "options": ["جی", "نہیں", "ہم"], "answer": "جی" }
+          ]
+        },
+        {
+          "title": "Review: Meeting the Neighbours",
+          "objectives": [
+            "Introduce yourself and someone with you",
+            "Use یہاں / وہاں (here / there)",
+            "Respond to خوش آمدید (welcome)"
+          ],
+          "notes": "This lesson recycles every pattern from the unit in one realistic conversation. Encourage learners to read the dialogue aloud in both roles.",
+          "vocab": [
+            { "urdu": "پڑوسی", "roman": "parosi", "english": "neighbour" },
+            { "urdu": "نیا", "roman": "naya", "english": "new" },
+            { "urdu": "یہاں", "roman": "yahan", "english": "here" },
+            { "urdu": "وہاں", "roman": "wahan", "english": "there" },
+            { "urdu": "گھر", "roman": "ghar", "english": "house / home", "image": "/images/house.svg" }
+          ],
+          "phrases": [
+            { "urdu": "ہم نئے پڑوسی ہیں۔", "roman": "hum naye parosi hain", "english": "We are the new neighbours." },
+            { "urdu": "آپ کا گھر کہاں ہے؟", "roman": "aap ka ghar kahan hai", "english": "Where is your house?" },
+            { "urdu": "میرا گھر وہاں ہے۔", "roman": "mera ghar wahan hai", "english": "My house is over there." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "السلام علیکم! ہم نئے پڑوسی ہیں۔", "roman": "assalam-o-alaikum! hum naye parosi hain", "english": "Hello! We are the new neighbours." },
+            { "speaker": "B", "urdu": "وعلیکم السلام! خوش آمدید۔", "roman": "wa alaikum assalam! khush aamdeed", "english": "Hello! Welcome." },
+            { "speaker": "A", "urdu": "میں سارہ ہوں، اور یہ میرا بھائی ہے۔", "roman": "main Sara hoon, aur yeh mera bhai hai", "english": "I am Sara, and this is my brother." },
+            { "speaker": "B", "urdu": "آپ سے مل کر خوشی ہوئی۔", "roman": "aap se mil kar khushi hui", "english": "Nice to meet you." }
+          ],
+          "quiz": [
+            { "question": "Complete the sentence: میں سارہ ___ ۔", "options": ["ہوں", "ہے", "ہیں"], "answer": "ہوں" },
+            { "question": "What does وہاں mean?", "options": ["there", "here", "where"], "answer": "there" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Boy, Girl & Agreement",
+      "description": "Noun gender, plurals, adjectives and colours",
+      "lessons": [
+        {
+          "title": "Masculine & Feminine",
+          "objectives": [
+            "Know that every Urdu noun is masculine or feminine",
+            "Use the -ا (masculine) and -ی (feminine) ending pattern",
+            "Remember the common exception آدمی (man, masculine)"
+          ],
+          "notes": "Rule of thumb: nouns ending in ا are usually masculine (لڑکا) and nouns ending in ی are usually feminine (لڑکی). Exceptions exist - آدمی ends in ی but is masculine - so learn each noun together with its gender.",
+          "vocab": [
+            { "urdu": "لڑکا", "roman": "larka", "english": "boy", "image": "/boy.svg" },
+            { "urdu": "لڑکی", "roman": "larki", "english": "girl", "image": "/girl.svg" },
+            { "urdu": "آدمی", "roman": "aadmi", "english": "man", "image": "/man.svg" },
+            { "urdu": "عورت", "roman": "aurat", "english": "woman", "image": "/woman.svg" },
+            { "urdu": "کتا", "roman": "kutta", "english": "dog", "image": "/images/dog.svg" },
+            { "urdu": "بلی", "roman": "billi", "english": "cat", "image": "/images/cat.svg" }
+          ],
+          "phrases": [
+            { "urdu": "لڑکا یہاں ہے۔", "roman": "larka yahan hai", "english": "The boy is here." },
+            { "urdu": "لڑکی وہاں ہے۔", "roman": "larki wahan hai", "english": "The girl is there." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "یہ لڑکا کون ہے؟", "roman": "yeh larka kaun hai", "english": "Who is this boy?" },
+            { "speaker": "B", "urdu": "یہ احمد ہے۔", "roman": "yeh Ahmed hai", "english": "This is Ahmed." },
+            { "speaker": "A", "urdu": "اور وہ لڑکی؟", "roman": "aur woh larki", "english": "And that girl?" },
+            { "speaker": "B", "urdu": "وہ زینب ہے۔", "roman": "woh Zainab hai", "english": "That is Zainab." }
+          ],
+          "quiz": [
+            { "question": "Nouns ending in ا (like لڑکا) are usually...", "options": ["masculine", "feminine"], "answer": "masculine" },
+            { "question": "Nouns ending in ی (like لڑکی) are usually...", "options": ["feminine", "masculine"], "answer": "feminine" },
+            { "question": "Which of these is masculine, even though it ends in ی?", "options": ["آدمی", "لڑکی", "بلی"], "answer": "آدمی" }
+          ]
+        },
+        {
+          "title": "One and Many (Plurals)",
+          "objectives": [
+            "Make masculine -ا nouns plural with -ے",
+            "Make feminine -ی nouns plural with -یاں",
+            "Make other feminine nouns plural with -یں"
+          ],
+          "notes": "Plural patterns: لڑکا → لڑکے، کمرہ → کمرے (masc. -a → -e); لڑکی → لڑکیاں (fem. -i → -iyan); کتاب → کتابیں (fem. consonant → -ein). Masculine nouns ending in a consonant don't change: ایک دوست، دو دوست.",
+          "vocab": [
+            { "urdu": "لڑکے", "roman": "larke", "english": "boys" },
+            { "urdu": "لڑکیاں", "roman": "larkiyan", "english": "girls" },
+            { "urdu": "کتاب", "roman": "kitaab", "english": "book", "image": "/images/book.svg" },
+            { "urdu": "کتابیں", "roman": "kitaabein", "english": "books" },
+            { "urdu": "کمرہ", "roman": "kamra", "english": "room" },
+            { "urdu": "کمرے", "roman": "kamre", "english": "rooms" }
+          ],
+          "phrases": [
+            { "urdu": "لڑکے کھیل رہے ہیں۔", "roman": "larke khel rahe hain", "english": "The boys are playing." },
+            { "urdu": "یہ کتابیں نئی ہیں۔", "roman": "yeh kitaabein nayi hain", "english": "These books are new." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "لڑکے کہاں ہیں؟", "roman": "larke kahan hain", "english": "Where are the boys?" },
+            { "speaker": "B", "urdu": "لڑکے باہر ہیں۔", "roman": "larke bahar hain", "english": "The boys are outside." },
+            { "speaker": "A", "urdu": "اور لڑکیاں؟", "roman": "aur larkiyan", "english": "And the girls?" },
+            { "speaker": "B", "urdu": "لڑکیاں کمرے میں ہیں۔", "roman": "larkiyan kamre mein hain", "english": "The girls are in the room." }
+          ],
+          "quiz": [
+            { "question": "What is the plural of لڑکا?", "options": ["لڑکے", "لڑکیاں", "لڑکا"], "answer": "لڑکے" },
+            { "question": "What is the plural of کتاب?", "options": ["کتابیں", "کتابے", "کتابی"], "answer": "کتابیں" }
+          ]
+        },
+        {
+          "title": "Describing Things",
+          "objectives": [
+            "Make -ا adjectives agree: اچھا (m), اچھی (f), اچھے (pl)",
+            "Place the adjective before the noun",
+            "Recognise adjectives that never change, like خوبصورت"
+          ],
+          "notes": "Adjectives ending in ا change to match the noun: اچھا لڑکا، اچھی لڑکی، اچھے لڑکے. Adjectives ending in anything else stay the same: خوبصورت لڑکا، خوبصورت لڑکی.",
+          "vocab": [
+            { "urdu": "اچھا", "roman": "achha", "english": "good (masc.)" },
+            { "urdu": "اچھی", "roman": "achhi", "english": "good (fem.)" },
+            { "urdu": "بڑا", "roman": "bara", "english": "big (masc.)" },
+            { "urdu": "چھوٹی", "roman": "chhoti", "english": "small (fem.)" },
+            { "urdu": "لمبا", "roman": "lamba", "english": "tall / long (masc.)" },
+            { "urdu": "خوبصورت", "roman": "khoobsurat", "english": "beautiful" }
+          ],
+          "phrases": [
+            { "urdu": "اچھا لڑکا", "roman": "achha larka", "english": "a good boy" },
+            { "urdu": "اچھی لڑکی", "roman": "achhi larki", "english": "a good girl" },
+            { "urdu": "اچھے لڑکے", "roman": "achhe larke", "english": "good boys" },
+            { "urdu": "چھوٹی بلی", "roman": "chhoti billi", "english": "a small cat" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "آپ کا گھر کیسا ہے؟", "roman": "aap ka ghar kaisa hai", "english": "What is your house like?" },
+            { "speaker": "B", "urdu": "میرا گھر بڑا اور خوبصورت ہے۔", "roman": "mera ghar bara aur khoobsurat hai", "english": "My house is big and beautiful." },
+            { "speaker": "A", "urdu": "اور آپ کی بلی؟", "roman": "aur aap ki billi", "english": "And your cat?" },
+            { "speaker": "B", "urdu": "میری بلی چھوٹی ہے۔", "roman": "meri billi chhoti hai", "english": "My cat is small." }
+          ],
+          "quiz": [
+            { "question": "Choose the right word: ___ لڑکی (good)", "options": ["اچھی", "اچھا", "اچھے"], "answer": "اچھی" },
+            { "question": "Choose the right word: ___ گھر (big)", "options": ["بڑا", "بڑی", "بڑے"], "answer": "بڑا" }
+          ]
+        },
+        {
+          "title": "Colours",
+          "objectives": [
+            "Name six basic colours",
+            "Apply agreement to colour words (نیلا / نیلی)",
+            "Notice that لال and سفید never change"
+          ],
+          "notes": "Colours are adjectives, so the -ا ones agree: نیلا آسمان (sky, m) but نیلی گاڑی (car, f). لال and سفید don't end in ا, so they never change.",
+          "vocab": [
+            { "urdu": "لال", "roman": "laal", "english": "red", "image": "/images/red.svg" },
+            { "urdu": "نیلا", "roman": "neela", "english": "blue", "image": "/images/blue.svg" },
+            { "urdu": "ہرا", "roman": "hara", "english": "green", "image": "/images/green.svg" },
+            { "urdu": "پیلا", "roman": "peela", "english": "yellow", "image": "/images/yellow.svg" },
+            { "urdu": "کالا", "roman": "kaala", "english": "black", "image": "/images/black.svg" },
+            { "urdu": "سفید", "roman": "safed", "english": "white", "image": "/images/white.svg" }
+          ],
+          "phrases": [
+            { "urdu": "نیلا آسمان", "roman": "neela aasmaan", "english": "the blue sky" },
+            { "urdu": "ہری گھاس", "roman": "hari ghaas", "english": "green grass" },
+            { "urdu": "سفید بلی", "roman": "safed billi", "english": "a white cat" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "آپ کا پسندیدہ رنگ کون سا ہے؟", "roman": "aap ka pasandeeda rang kaun sa hai", "english": "What is your favourite colour?" },
+            { "speaker": "B", "urdu": "میرا پسندیدہ رنگ ہرا ہے۔", "roman": "mera pasandeeda rang hara hai", "english": "My favourite colour is green." },
+            { "speaker": "A", "urdu": "میرا نیلا ہے۔", "roman": "mera neela hai", "english": "Mine is blue." }
+          ],
+          "quiz": [
+            { "question": "Which colour word never changes form?", "options": ["لال", "نیلا", "کالا"], "answer": "لال" },
+            { "question": "گھاس (grass) is feminine. Choose: ___ گھاس (green)", "options": ["ہری", "ہرا", "ہرے"], "answer": "ہری" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mine, Yours & Family",
+      "description": "Possessives, کا / کی / کے and family on both sides",
+      "lessons": [
+        {
+          "title": "My & Your",
+          "objectives": [
+            "Use میرا / میری / میرے (my)",
+            "Use آپ کا / آپ کی (your, respectful)",
+            "Make the possessive agree with the thing owned"
+          ],
+          "notes": "The key idea: 'my' agrees with the thing you own, not with you. A woman says میرا گھر (house is masc.) and a man says میری کتاب (book is fem.).",
+          "vocab": [
+            { "urdu": "میرا", "roman": "mera", "english": "my (masc. thing)" },
+            { "urdu": "میری", "roman": "meri", "english": "my (fem. thing)" },
+            { "urdu": "میرے", "roman": "mere", "english": "my (plural / respected)" },
+            { "urdu": "آپ کا", "roman": "aap ka", "english": "your (masc. thing)" },
+            { "urdu": "آپ کی", "roman": "aap ki", "english": "your (fem. thing)" },
+            { "urdu": "نام", "roman": "naam", "english": "name" }
+          ],
+          "phrases": [
+            { "urdu": "میرا نام سارہ ہے۔", "roman": "mera naam Sara hai", "english": "My name is Sara." },
+            { "urdu": "میری کتاب کہاں ہے؟", "roman": "meri kitaab kahan hai", "english": "Where is my book?" },
+            { "urdu": "آپ کا نام کیا ہے؟", "roman": "aap ka naam kya hai", "english": "What is your name?" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "کیا یہ آپ کی کتاب ہے؟", "roman": "kya yeh aap ki kitaab hai", "english": "Is this your book?" },
+            { "speaker": "B", "urdu": "جی نہیں، یہ میری کتاب نہیں ہے۔", "roman": "jee nahin, yeh meri kitaab nahin hai", "english": "No, this is not my book." },
+            { "speaker": "A", "urdu": "پھر کس کی ہے؟", "roman": "phir kis ki hai", "english": "Then whose is it?" },
+            { "speaker": "B", "urdu": "شاید علی کی ہے۔", "roman": "shayad Ali ki hai", "english": "Maybe it's Ali's." }
+          ],
+          "quiz": [
+            { "question": "کتاب is feminine. Choose: ___ کتاب (my)", "options": ["میری", "میرا", "میرے"], "answer": "میری" },
+            { "question": "گھر is masculine. Choose: ___ گھر (my)", "options": ["میرا", "میری", "میرے"], "answer": "میرا" }
+          ]
+        },
+        {
+          "title": "Whose Is It? (کا، کی، کے)",
+          "objectives": [
+            "Show possession with کا / کی / کے ('s / of)",
+            "Ask 'whose?' with کس کا / کس کی",
+            "Choose کا / کی / کے by the gender of the thing owned"
+          ],
+          "notes": "کا / کی / کے work like English 's but come after the owner and agree with the thing owned: علی کا قلم (pen, m), علی کی کتاب (book, f), علی کے دوست (friends, pl).",
+          "vocab": [
+            { "urdu": "کا", "roman": "ka", "english": "'s / of (masc.)" },
+            { "urdu": "کی", "roman": "ki", "english": "'s / of (fem.)" },
+            { "urdu": "کے", "roman": "ke", "english": "'s / of (plural)" },
+            { "urdu": "کس کا", "roman": "kis ka", "english": "whose" },
+            { "urdu": "قلم", "roman": "qalam", "english": "pen", "image": "/images/pen.svg" }
+          ],
+          "phrases": [
+            { "urdu": "علی کا قلم", "roman": "Ali ka qalam", "english": "Ali's pen" },
+            { "urdu": "سارہ کی کتاب", "roman": "Sara ki kitaab", "english": "Sara's book" },
+            { "urdu": "استاد کے بچے", "roman": "ustaad ke bachche", "english": "the teacher's children" },
+            { "urdu": "یہ قلم کس کا ہے؟", "roman": "yeh qalam kis ka hai", "english": "Whose pen is this?" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "یہ قلم کس کا ہے؟", "roman": "yeh qalam kis ka hai", "english": "Whose pen is this?" },
+            { "speaker": "B", "urdu": "یہ میرے دوست کا ہے۔", "roman": "yeh mere dost ka hai", "english": "It is my friend's." },
+            { "speaker": "A", "urdu": "اور یہ کتاب؟", "roman": "aur yeh kitaab", "english": "And this book?" },
+            { "speaker": "B", "urdu": "وہ سارہ کی ہے۔", "roman": "woh Sara ki hai", "english": "That is Sara's." }
+          ],
+          "quiz": [
+            { "question": "Choose: علی ___ کتاب", "options": ["کی", "کا", "کے"], "answer": "کی" },
+            { "question": "Choose: علی ___ قلم", "options": ["کا", "کی", "کے"], "answer": "کا" }
+          ]
+        },
+        {
+          "title": "Father's Side of the Family",
+          "objectives": [
+            "Name grandparents and relatives on the father's side",
+            "Tell چچا (younger) and تایا (older) apart",
+            "Use respectful plural ہیں for elders"
+          ],
+          "notes": "Urdu has a separate word for each relative depending on which side of the family they're on. Father's side: دادا، دادی، چچا (father's younger brother)، تایا (father's elder brother)، پھوپھو (father's sister). Elders take the respectful plural: میرے دادا مہربان ہیں.",
+          "vocab": [
+            { "urdu": "ابو", "roman": "abbu", "english": "dad" },
+            { "urdu": "امی", "roman": "ammi", "english": "mum" },
+            { "urdu": "دادا", "roman": "dada", "english": "grandfather (father's father)" },
+            { "urdu": "دادی", "roman": "dadi", "english": "grandmother (father's mother)" },
+            { "urdu": "چچا", "roman": "chacha", "english": "uncle (father's younger brother)" },
+            { "urdu": "تایا", "roman": "taya", "english": "uncle (father's elder brother)" },
+            { "urdu": "پھوپھو", "roman": "phuppho", "english": "aunt (father's sister)" }
+          ],
+          "phrases": [
+            { "urdu": "میرے دادا بہت مہربان ہیں۔", "roman": "mere dada bohat mehrbaan hain", "english": "My grandfather is very kind." },
+            { "urdu": "چچا کا گھر قریب ہے۔", "roman": "chacha ka ghar qareeb hai", "english": "Uncle's house is nearby." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "اس تصویر میں کون ہیں؟", "roman": "is tasveer mein kaun hain", "english": "Who is in this picture?" },
+            { "speaker": "B", "urdu": "یہ میرے دادا اور دادی ہیں۔", "roman": "yeh mere dada aur dadi hain", "english": "These are my grandparents." },
+            { "speaker": "A", "urdu": "اور یہ؟", "roman": "aur yeh", "english": "And this?" },
+            { "speaker": "B", "urdu": "یہ میری پھوپھو ہیں۔", "roman": "yeh meri phuppho hain", "english": "This is my aunt (dad's sister)." }
+          ],
+          "quiz": [
+            { "question": "Your father's sister is your...", "options": ["پھوپھو", "خالہ", "چچا"], "answer": "پھوپھو" },
+            { "question": "Your father's father is your...", "options": ["دادا", "نانا", "ابو"], "answer": "دادا" }
+          ]
+        },
+        {
+          "title": "Mother's Side & Siblings",
+          "objectives": [
+            "Name grandparents and relatives on the mother's side",
+            "Talk about brothers, sisters and cousins",
+            "Ask how many siblings someone has"
+          ],
+          "notes": "Mother's side: نانا، نانی، ماموں (mother's brother)، خالہ (mother's sister). A useful contrast drill: دادا / نانا، دادی / نانی، پھوپھو / خالہ، چچا / ماموں.",
+          "vocab": [
+            { "urdu": "نانا", "roman": "nana", "english": "grandfather (mother's father)" },
+            { "urdu": "نانی", "roman": "nani", "english": "grandmother (mother's mother)" },
+            { "urdu": "ماموں", "roman": "mamoon", "english": "uncle (mother's brother)" },
+            { "urdu": "خالہ", "roman": "khala", "english": "aunt (mother's sister)" },
+            { "urdu": "بھائی", "roman": "bhai", "english": "brother" },
+            { "urdu": "کزن", "roman": "cousin", "english": "cousin" }
+          ],
+          "phrases": [
+            { "urdu": "میری خالہ لاہور میں رہتی ہیں۔", "roman": "meri khala Lahore mein rehti hain", "english": "My aunt lives in Lahore." },
+            { "urdu": "ماموں آج آ رہے ہیں۔", "roman": "mamoon aaj aa rahe hain", "english": "Uncle is coming today." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "آپ کے کتنے بہن بھائی ہیں؟", "roman": "aap ke kitne behan bhai hain", "english": "How many brothers and sisters do you have?" },
+            { "speaker": "B", "urdu": "میرا ایک بھائی اور دو بہنیں ہیں۔", "roman": "mera ek bhai aur do behnein hain", "english": "I have one brother and two sisters." },
+            { "speaker": "A", "urdu": "اور کزن؟", "roman": "aur cousin", "english": "And cousins?" },
+            { "speaker": "B", "urdu": "بہت سارے!", "roman": "bohat saare", "english": "Lots!" }
+          ],
+          "quiz": [
+            { "question": "Your mother's brother is your...", "options": ["ماموں", "چچا", "تایا"], "answer": "ماموں" },
+            { "question": "Your mother's sister is your...", "options": ["خالہ", "پھوپھو", "نانی"], "answer": "خالہ" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Numbers & Counting",
+      "description": "1-20, bigger numbers, prices and days of the week",
+      "lessons": [
+        {
+          "title": "One to Five",
+          "objectives": [
+            "Count from 1 to 5",
+            "Say how many of something you have",
+            "Ask کتنے؟ (how many?)"
+          ],
+          "notes": "Numbers come before the noun and the noun goes plural from two upward: ایک کتاب، دو کتابیں. میرے پاس (lit. 'near me') is how Urdu says 'I have'.",
+          "vocab": [
+            { "urdu": "ایک", "roman": "ek", "english": "one (1)" },
+            { "urdu": "دو", "roman": "do", "english": "two (2)" },
+            { "urdu": "تین", "roman": "teen", "english": "three (3)" },
+            { "urdu": "چار", "roman": "chaar", "english": "four (4)" },
+            { "urdu": "پانچ", "roman": "paanch", "english": "five (5)" }
+          ],
+          "phrases": [
+            { "urdu": "ایک کتاب", "roman": "ek kitaab", "english": "one book" },
+            { "urdu": "دو بلیاں", "roman": "do billiyan", "english": "two cats" },
+            { "urdu": "تین دوست", "roman": "teen dost", "english": "three friends" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "آپ کے پاس کتنے قلم ہیں؟", "roman": "aap ke paas kitne qalam hain", "english": "How many pens do you have?" },
+            { "speaker": "B", "urdu": "میرے پاس تین قلم ہیں۔", "roman": "mere paas teen qalam hain", "english": "I have three pens." },
+            { "speaker": "A", "urdu": "اور کتابیں؟", "roman": "aur kitaabein", "english": "And books?" },
+            { "speaker": "B", "urdu": "صرف ایک!", "roman": "sirf ek", "english": "Only one!" }
+          ],
+          "quiz": [
+            { "question": "دو + تین = ?", "options": ["پانچ", "چار", "ایک"], "answer": "پانچ" },
+            { "question": "Which word is 4?", "options": ["چار", "تین", "دو"], "answer": "چار" }
+          ]
+        },
+        {
+          "title": "Six to Ten",
+          "objectives": [
+            "Count from 6 to 10",
+            "Say your age with سال کا / سال کی",
+            "Ask عمر کتنی ہے؟ (how old?)"
+          ],
+          "notes": "Age agrees with the person: a boy says میں نو سال کا ہوں and a girl says میں نو سال کی ہوں - the same کا / کی agreement from Unit 3.",
+          "vocab": [
+            { "urdu": "چھ", "roman": "chhe", "english": "six (6)" },
+            { "urdu": "سات", "roman": "saat", "english": "seven (7)" },
+            { "urdu": "آٹھ", "roman": "aath", "english": "eight (8)" },
+            { "urdu": "نو", "roman": "nau", "english": "nine (9)" },
+            { "urdu": "دس", "roman": "das", "english": "ten (10)" }
+          ],
+          "phrases": [
+            { "urdu": "سات دن", "roman": "saat din", "english": "seven days" },
+            { "urdu": "دس روپے", "roman": "das rupay", "english": "ten rupees" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "تمہاری عمر کتنی ہے؟", "roman": "tumhari umar kitni hai", "english": "How old are you?" },
+            { "speaker": "B", "urdu": "میں نو سال کا ہوں۔", "roman": "main nau saal ka hoon", "english": "I am nine years old." },
+            { "speaker": "A", "urdu": "اور تمہاری بہن؟", "roman": "aur tumhari behan", "english": "And your sister?" },
+            { "speaker": "B", "urdu": "وہ سات سال کی ہے۔", "roman": "woh saat saal ki hai", "english": "She is seven." }
+          ],
+          "quiz": [
+            { "question": "پانچ + پانچ = ?", "options": ["دس", "نو", "آٹھ"], "answer": "دس" },
+            { "question": "Which number comes right after چھ?", "options": ["سات", "آٹھ", "پانچ"], "answer": "سات" },
+            { "question": "A girl says she is seven: میں سات سال ___ ہوں۔", "options": ["کی", "کا", "کے"], "answer": "کی" }
+          ]
+        },
+        {
+          "title": "Bigger Numbers & Prices",
+          "objectives": [
+            "Recognise 11, 12, 15, 20, 100 and 1000",
+            "Ask a price with کتنے کا ہے؟",
+            "Understand a price in rupees"
+          ],
+          "notes": "Numbers 11-99 in Urdu are irregular, so learners memorise them gradually. Start with the ones used most in shops: 12, 15, 20, 50, 100, 1000. Full 11-20 list for practice: گیارہ، بارہ، تیرہ، چودہ، پندرہ، سولہ، سترہ، اٹھارہ، انیس، بیس.",
+          "vocab": [
+            { "urdu": "گیارہ", "roman": "gyarah", "english": "eleven (11)" },
+            { "urdu": "بارہ", "roman": "barah", "english": "twelve (12)" },
+            { "urdu": "پندرہ", "roman": "pandrah", "english": "fifteen (15)" },
+            { "urdu": "بیس", "roman": "bees", "english": "twenty (20)" },
+            { "urdu": "سو", "roman": "sau", "english": "hundred (100)" },
+            { "urdu": "ہزار", "roman": "hazaar", "english": "thousand (1000)" }
+          ],
+          "phrases": [
+            { "urdu": "بارہ مہینے", "roman": "barah mahine", "english": "twelve months" },
+            { "urdu": "سو روپے", "roman": "sau rupay", "english": "a hundred rupees" },
+            { "urdu": "یہ کتنے کا ہے؟", "roman": "yeh kitne ka hai", "english": "How much is this?" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "یہ کتنے کا ہے؟", "roman": "yeh kitne ka hai", "english": "How much is this?" },
+            { "speaker": "B", "urdu": "بیس روپے کا۔", "roman": "bees rupay ka", "english": "Twenty rupees." },
+            { "speaker": "A", "urdu": "اور وہ؟", "roman": "aur woh", "english": "And that one?" },
+            { "speaker": "B", "urdu": "وہ پندرہ روپے کا ہے۔", "roman": "woh pandrah rupay ka hai", "english": "That one is fifteen rupees." }
+          ],
+          "quiz": [
+            { "question": "دس + دس = ?", "options": ["بیس", "بارہ", "پندرہ"], "answer": "بیس" },
+            { "question": "How many months are in a year?", "options": ["بارہ", "گیارہ", "دس"], "answer": "بارہ" }
+          ]
+        },
+        {
+          "title": "Days of the Week",
+          "objectives": [
+            "Name the seven days",
+            "Ask and say what day it is",
+            "Understand that کل means both 'yesterday' and 'tomorrow'"
+          ],
+          "notes": "The week is often thought of as starting on پیر (Monday). جمعہ (Friday) is special in Muslim households - many families go to Friday prayers. کل means yesterday or tomorrow; the verb tense tells you which.",
+          "vocab": [
+            { "urdu": "پیر", "roman": "peer", "english": "Monday" },
+            { "urdu": "منگل", "roman": "mangal", "english": "Tuesday" },
+            { "urdu": "بدھ", "roman": "budh", "english": "Wednesday" },
+            { "urdu": "جمعرات", "roman": "jumeraat", "english": "Thursday" },
+            { "urdu": "جمعہ", "roman": "juma", "english": "Friday" },
+            { "urdu": "ہفتہ", "roman": "hafta", "english": "Saturday / week" },
+            { "urdu": "اتوار", "roman": "itwaar", "english": "Sunday" }
+          ],
+          "phrases": [
+            { "urdu": "آج کیا دن ہے؟", "roman": "aaj kya din hai", "english": "What day is it today?" },
+            { "urdu": "آج جمعہ ہے۔", "roman": "aaj juma hai", "english": "Today is Friday." },
+            { "urdu": "کل ہفتہ ہے۔", "roman": "kal hafta hai", "english": "Tomorrow is Saturday." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "آج کیا دن ہے؟", "roman": "aaj kya din hai", "english": "What day is it today?" },
+            { "speaker": "B", "urdu": "آج جمعرات ہے۔", "roman": "aaj jumeraat hai", "english": "Today is Thursday." },
+            { "speaker": "A", "urdu": "یعنی کل جمعہ ہے!", "roman": "yaani kal juma hai", "english": "So tomorrow is Friday!" }
+          ],
+          "quiz": [
+            { "question": "Which day comes after جمعہ?", "options": ["ہفتہ", "اتوار", "جمعرات"], "answer": "ہفتہ" },
+            { "question": "کل can mean...", "options": ["yesterday or tomorrow", "today", "every day"], "answer": "yesterday or tomorrow" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Everyday Actions",
+      "description": "Verbs, the present tense, negatives and yes/no questions",
+      "lessons": [
+        {
+          "title": "Action Words",
+          "objectives": [
+            "Recognise the dictionary form of verbs (ending in نا)",
+            "Learn seven high-frequency verbs",
+            "Combine a noun with a verb: پانی پینا"
+          ],
+          "notes": "Every Urdu verb's dictionary form ends in نا. Remove نا to get the stem: کھانا → کھا، پینا → پی. Learners will build every tense from that stem. Note: کھانا also means 'food'.",
+          "vocab": [
+            { "urdu": "کھانا", "roman": "khana", "english": "to eat / food" },
+            { "urdu": "پینا", "roman": "peena", "english": "to drink" },
+            { "urdu": "جانا", "roman": "jana", "english": "to go" },
+            { "urdu": "آنا", "roman": "aana", "english": "to come" },
+            { "urdu": "سونا", "roman": "sona", "english": "to sleep" },
+            { "urdu": "پڑھنا", "roman": "parhna", "english": "to read / study" },
+            { "urdu": "لکھنا", "roman": "likhna", "english": "to write" }
+          ],
+          "phrases": [
+            { "urdu": "پانی پینا", "roman": "paani peena", "english": "to drink water" },
+            { "urdu": "اسکول جانا", "roman": "school jana", "english": "to go to school" },
+            { "urdu": "کتاب پڑھنا", "roman": "kitaab parhna", "english": "to read a book" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "تم کیا کر رہے ہو؟", "roman": "tum kya kar rahe ho", "english": "What are you doing?" },
+            { "speaker": "B", "urdu": "میں کتاب پڑھ رہا ہوں۔", "roman": "main kitaab parh raha hoon", "english": "I am reading a book." },
+            { "speaker": "A", "urdu": "اچھا! کون سی کتاب؟", "roman": "achha! kaun si kitaab", "english": "Nice! Which book?" }
+          ],
+          "quiz": [
+            { "question": "Urdu verbs in their dictionary form end in...", "options": ["نا", "ی", "ے"], "answer": "نا" },
+            { "question": "Which verb means 'to write'?", "options": ["لکھنا", "پڑھنا", "پینا"], "answer": "لکھنا" }
+          ]
+        },
+        {
+          "title": "I Eat, I Drink",
+          "objectives": [
+            "Form the present habitual: stem + تا / تی / تے + ہونا",
+            "Choose تا (male speaker) or تی (female speaker)",
+            "Talk about food and drink you have every day"
+          ],
+          "notes": "Present habitual = what you usually do. Stem + تا (m) / تی (f) / تے (plural or respectful) + ہونا: میں چائے پیتا ہوں (man), میں چائے پیتی ہوں (woman), ہم چائے پیتے ہیں. The speaker's gender matters, so learners should practise the form that matches them.",
+          "vocab": [
+            { "urdu": "چائے", "roman": "chai", "english": "tea", "image": "/images/tea.svg" },
+            { "urdu": "پانی", "roman": "paani", "english": "water", "image": "/images/water.svg" },
+            { "urdu": "روٹی", "roman": "roti", "english": "flatbread (roti)", "image": "/images/roti.svg" },
+            { "urdu": "دودھ", "roman": "doodh", "english": "milk", "image": "/images/milk.svg" },
+            { "urdu": "روز", "roman": "roz", "english": "every day" }
+          ],
+          "phrases": [
+            { "urdu": "میں روز چائے پیتا ہوں۔", "roman": "main roz chai peeta hoon", "english": "I drink tea every day. (man)" },
+            { "urdu": "میں روز چائے پیتی ہوں۔", "roman": "main roz chai peeti hoon", "english": "I drink tea every day. (woman)" },
+            { "urdu": "وہ روٹی کھاتی ہے۔", "roman": "woh roti khati hai", "english": "She eats roti." },
+            { "urdu": "ہم پانی پیتے ہیں۔", "roman": "hum paani peete hain", "english": "We drink water." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "آپ صبح کیا پیتے ہیں؟", "roman": "aap subah kya peete hain", "english": "What do you drink in the morning?" },
+            { "speaker": "B", "urdu": "میں چائے پیتی ہوں۔ اور آپ؟", "roman": "main chai peeti hoon. aur aap", "english": "I drink tea. And you?" },
+            { "speaker": "A", "urdu": "میں دودھ پیتا ہوں۔", "roman": "main doodh peeta hoon", "english": "I drink milk." }
+          ],
+          "quiz": [
+            { "question": "A girl says 'I drink': میں ___ ہوں۔", "options": ["پیتی", "پیتا", "پیتے"], "answer": "پیتی" },
+            { "question": "Choose: ہم پانی ___ ہیں۔", "options": ["پیتے", "پیتا", "پیتی"], "answer": "پیتے" }
+          ]
+        },
+        {
+          "title": "Not! Saying No",
+          "objectives": [
+            "Make a sentence negative with نہیں before the verb",
+            "Drop ہے / ہوں in negative sentences, as speakers do",
+            "Use how-often words: ہمیشہ، کبھی کبھی، کبھی نہیں"
+          ],
+          "notes": "Put نہیں right before the verb: میں گوشت نہیں کھاتا. In everyday speech the final ہوں / ہے is usually dropped in negatives. کبھی نہیں (never) wraps around the verb: وہ کبھی دیر نہیں کرتی.",
+          "vocab": [
+            { "urdu": "ہمیشہ", "roman": "hamesha", "english": "always" },
+            { "urdu": "کبھی کبھی", "roman": "kabhi kabhi", "english": "sometimes" },
+            { "urdu": "کبھی نہیں", "roman": "kabhi nahin", "english": "never" },
+            { "urdu": "گوشت", "roman": "gosht", "english": "meat" },
+            { "urdu": "کافی", "roman": "coffee", "english": "coffee" }
+          ],
+          "phrases": [
+            { "urdu": "میں گوشت نہیں کھاتا۔", "roman": "main gosht nahin khata", "english": "I don't eat meat." },
+            { "urdu": "وہ کبھی دیر نہیں کرتی۔", "roman": "woh kabhi der nahin karti", "english": "She is never late." },
+            { "urdu": "ہم ہمیشہ ساتھ کھانا کھاتے ہیں۔", "roman": "hum hamesha saath khana khate hain", "english": "We always eat together." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "کیا تم کافی پیتے ہو؟", "roman": "kya tum coffee peete ho", "english": "Do you drink coffee?" },
+            { "speaker": "B", "urdu": "نہیں، میں کافی نہیں پیتا۔", "roman": "nahin, main coffee nahin peeta", "english": "No, I don't drink coffee." },
+            { "speaker": "A", "urdu": "اور چائے؟", "roman": "aur chai", "english": "And tea?" },
+            { "speaker": "B", "urdu": "ہاں، کبھی کبھی۔", "roman": "haan, kabhi kabhi", "english": "Yes, sometimes." }
+          ],
+          "quiz": [
+            { "question": "Make it negative: میں گوشت ___ کھاتا۔", "options": ["نہیں", "ہاں", "ہمیشہ"], "answer": "نہیں" },
+            { "question": "What does کبھی کبھی mean?", "options": ["sometimes", "always", "never"], "answer": "sometimes" }
+          ]
+        },
+        {
+          "title": "Yes/No Questions & My Day",
+          "objectives": [
+            "Turn a statement into a question by adding کیا at the start",
+            "Name the parts of the day",
+            "Ask and answer about daily habits"
+          ],
+          "notes": "To ask a yes/no question, put کیا at the start and raise your voice at the end: آپ اردو بولتے ہیں → کیا آپ اردو بولتے ہیں؟ Here کیا doesn't mean 'what' - it just marks a question.",
+          "vocab": [
+            { "urdu": "صبح", "roman": "subah", "english": "morning" },
+            { "urdu": "دوپہر", "roman": "dopehar", "english": "afternoon" },
+            { "urdu": "شام", "roman": "shaam", "english": "evening" },
+            { "urdu": "رات", "roman": "raat", "english": "night" },
+            { "urdu": "کام", "roman": "kaam", "english": "work" }
+          ],
+          "phrases": [
+            { "urdu": "کیا آپ اردو بولتے ہیں؟", "roman": "kya aap Urdu bolte hain", "english": "Do you speak Urdu?" },
+            { "urdu": "جی ہاں، تھوڑی تھوڑی۔", "roman": "jee haan, thori thori", "english": "Yes, a little." },
+            { "urdu": "کیا وہ گھر پر کام کرتی ہے؟", "roman": "kya woh ghar par kaam karti hai", "english": "Does she work from home?" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "کیا آپ اردو بولتے ہیں؟", "roman": "kya aap Urdu bolte hain", "english": "Do you speak Urdu?" },
+            { "speaker": "B", "urdu": "جی ہاں، تھوڑی تھوڑی۔", "roman": "jee haan, thori thori", "english": "Yes, a little." },
+            { "speaker": "A", "urdu": "آپ اردو کب پڑھتے ہیں؟", "roman": "aap Urdu kab parhte hain", "english": "When do you study Urdu?" },
+            { "speaker": "B", "urdu": "میں رات کو پڑھتا ہوں۔", "roman": "main raat ko parhta hoon", "english": "I study at night." }
+          ],
+          "quiz": [
+            { "question": "Turn into a question: آپ چائے پیتے ہیں۔", "options": ["کیا آپ چائے پیتے ہیں؟", "آپ کیا چائے؟", "چائے آپ کیا ہیں؟"], "answer": "کیا آپ چائے پیتے ہیں؟" },
+            { "question": "What does شام mean?", "options": ["evening", "morning", "night"], "answer": "evening" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Likes, Needs & Feelings",
+      "description": "مجھے ... پسند ہے، چاہیے، feelings and weather",
+      "lessons": [
+        {
+          "title": "I Like... (پسند)",
+          "objectives": [
+            "Say what you like with مجھے ... پسند ہے",
+            "Ask what someone likes with آپ کو ... پسند ہے؟",
+            "Say what you don't like"
+          ],
+          "notes": "Urdu says 'to me, X is liked': مجھے آم پسند ہے. The person who likes takes کو (میں → مجھے، ہم → ہمیں، آپ → آپ کو). This same pattern is used for needs and feelings in the next lessons.",
+          "vocab": [
+            { "urdu": "پسند", "roman": "pasand", "english": "liked / liking" },
+            { "urdu": "مجھے", "roman": "mujhe", "english": "to me" },
+            { "urdu": "آپ کو", "roman": "aap ko", "english": "to you (respectful)" },
+            { "urdu": "آم", "roman": "aam", "english": "mango", "image": "/images/mango.svg" },
+            { "urdu": "سیب", "roman": "saib", "english": "apple", "image": "/images/apple.svg" },
+            { "urdu": "کرکٹ", "roman": "cricket", "english": "cricket", "image": "/images/cricket.svg" }
+          ],
+          "phrases": [
+            { "urdu": "مجھے آم پسند ہے۔", "roman": "mujhe aam pasand hai", "english": "I like mangoes." },
+            { "urdu": "کیا آپ کو کرکٹ پسند ہے؟", "roman": "kya aap ko cricket pasand hai", "english": "Do you like cricket?" },
+            { "urdu": "مجھے سیب پسند نہیں۔", "roman": "mujhe saib pasand nahin", "english": "I don't like apples." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "آپ کو کون سا پھل پسند ہے؟", "roman": "aap ko kaun sa phal pasand hai", "english": "Which fruit do you like?" },
+            { "speaker": "B", "urdu": "مجھے آم بہت پسند ہے!", "roman": "mujhe aam bohat pasand hai", "english": "I really like mangoes!" },
+            { "speaker": "A", "urdu": "مجھے بھی!", "roman": "mujhe bhi", "english": "Me too!" }
+          ],
+          "quiz": [
+            { "question": "'I like tea': ___ چائے پسند ہے۔", "options": ["مجھے", "میں", "میرا"], "answer": "مجھے" },
+            { "question": "Which one is a fruit?", "options": ["آم", "کرکٹ", "دودھ"], "answer": "آم" }
+          ]
+        },
+        {
+          "title": "I Need... (چاہیے)",
+          "objectives": [
+            "Ask for things with مجھے ... چاہیے",
+            "Ask someone what they need",
+            "Shop for everyday items politely"
+          ],
+          "notes": "چاہیے uses the same 'to me' pattern as پسند: مجھے پانی چاہیے (I need water). It covers both 'need' and a polite 'want', which makes it one of the most useful words for travellers.",
+          "vocab": [
+            { "urdu": "چاہیے", "roman": "chahiye", "english": "needed / wanted" },
+            { "urdu": "ہمیں", "roman": "hamein", "english": "to us" },
+            { "urdu": "مدد", "roman": "madad", "english": "help" },
+            { "urdu": "کرسی", "roman": "kursi", "english": "chair", "image": "/images/chair.svg" },
+            { "urdu": "چابی", "roman": "chaabi", "english": "key", "image": "/images/key.svg" }
+          ],
+          "phrases": [
+            { "urdu": "مجھے پانی چاہیے۔", "roman": "mujhe paani chahiye", "english": "I need water." },
+            { "urdu": "آپ کو کیا چاہیے؟", "roman": "aap ko kya chahiye", "english": "What do you need?" },
+            { "urdu": "ہمیں ایک ٹکٹ چاہیے۔", "roman": "hamein ek ticket chahiye", "english": "We need one ticket." },
+            { "urdu": "مجھے مدد چاہیے۔", "roman": "mujhe madad chahiye", "english": "I need help." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "جی، آپ کو کیا چاہیے؟", "roman": "jee, aap ko kya chahiye", "english": "Yes, what do you need?" },
+            { "speaker": "B", "urdu": "مجھے دو روٹیاں اور دودھ چاہیے۔", "roman": "mujhe do rotiyan aur doodh chahiye", "english": "I need two rotis and milk." },
+            { "speaker": "A", "urdu": "اور کچھ؟", "roman": "aur kuch", "english": "Anything else?" },
+            { "speaker": "B", "urdu": "نہیں، شکریہ۔", "roman": "nahin, shukriya", "english": "No, thank you." }
+          ],
+          "quiz": [
+            { "question": "'We need water': ___ پانی چاہیے۔", "options": ["ہمیں", "ہم", "ہمارا"], "answer": "ہمیں" },
+            { "question": "What does مجھے چابی چاہیے mean?", "options": ["I need the key.", "I like the key.", "I am a key."], "answer": "I need the key." }
+          ]
+        },
+        {
+          "title": "How Do You Feel?",
+          "objectives": [
+            "Describe feelings: happy, sad, tired, hungry, thirsty, ill",
+            "Make feeling adjectives agree (تھکا ہوا / تھکی ہوئی)",
+            "Ask what's wrong: کیا ہوا؟"
+          ],
+          "notes": "Feelings use ہونا with an adjective: میں خوش ہوں. Adjectives ending in ا agree with the speaker: a man is بھوکا، a woman is بھوکی. تھکا ہوا / تھکی ہوئی (tired) has two parts and both agree.",
+          "vocab": [
+            { "urdu": "خوش", "roman": "khush", "english": "happy", "image": "/images/happy.svg" },
+            { "urdu": "اداس", "roman": "udaas", "english": "sad", "image": "/images/sad.svg" },
+            { "urdu": "تھکا ہوا", "roman": "thaka hua", "english": "tired (masc.)" },
+            { "urdu": "بھوکا", "roman": "bhooka", "english": "hungry (masc.)" },
+            { "urdu": "پیاسا", "roman": "pyaasa", "english": "thirsty (masc.)" },
+            { "urdu": "بیمار", "roman": "beemar", "english": "ill / sick" }
+          ],
+          "phrases": [
+            { "urdu": "میں بہت خوش ہوں۔", "roman": "main bohat khush hoon", "english": "I am very happy." },
+            { "urdu": "وہ تھکی ہوئی ہے۔", "roman": "woh thaki hui hai", "english": "She is tired." },
+            { "urdu": "کیا تم بھوکے ہو؟", "roman": "kya tum bhooke ho", "english": "Are you hungry?" }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "کیا ہوا؟ تم اداس کیوں ہو؟", "roman": "kya hua? tum udaas kyun ho", "english": "What happened? Why are you sad?" },
+            { "speaker": "B", "urdu": "میں بیمار ہوں۔", "roman": "main beemar hoon", "english": "I'm ill." },
+            { "speaker": "A", "urdu": "اوہ! آرام کرو۔", "roman": "oh! aaraam karo", "english": "Oh! Get some rest." }
+          ],
+          "quiz": [
+            { "question": "A girl says 'I am tired': میں ___ ہوں۔", "options": ["تھکی ہوئی", "تھکا ہوا", "تھکے ہوئے"], "answer": "تھکی ہوئی" },
+            { "question": "What does پیاسا mean?", "options": ["thirsty", "hungry", "happy"], "answer": "thirsty" }
+          ]
+        },
+        {
+          "title": "Weather & Review",
+          "objectives": [
+            "Talk about the weather with گرمی، سردی، بارش",
+            "Say you feel hot or cold with مجھے ... لگ رہی ہے",
+            "Combine likes, needs and feelings in one conversation"
+          ],
+          "notes": "Weather words are nouns: آج گرمی ہے (lit. 'today there is heat'). Feeling hot or cold uses the 'to me' pattern again: مجھے سردی لگ رہی ہے. The dialogue recycles پسند، چاہیے and feelings from the whole unit.",
+          "vocab": [
+            { "urdu": "موسم", "roman": "mausam", "english": "weather" },
+            { "urdu": "گرمی", "roman": "garmi", "english": "heat / hot weather", "image": "/images/sun.svg" },
+            { "urdu": "سردی", "roman": "sardi", "english": "cold / cold weather", "image": "/images/cold.svg" },
+            { "urdu": "بارش", "roman": "baarish", "english": "rain", "image": "/images/rain.svg" },
+            { "urdu": "آج", "roman": "aaj", "english": "today" }
+          ],
+          "phrases": [
+            { "urdu": "آج بہت گرمی ہے۔", "roman": "aaj bohat garmi hai", "english": "It's very hot today." },
+            { "urdu": "باہر بارش ہو رہی ہے۔", "roman": "bahar baarish ho rahi hai", "english": "It's raining outside." },
+            { "urdu": "مجھے سردی لگ رہی ہے۔", "roman": "mujhe sardi lag rahi hai", "english": "I feel cold." }
+          ],
+          "dialogue": [
+            { "speaker": "A", "urdu": "آج موسم کیسا ہے؟", "roman": "aaj mausam kaisa hai", "english": "What's the weather like today?" },
+            { "speaker": "B", "urdu": "بارش ہو رہی ہے، اور سردی بھی ہے۔", "roman": "baarish ho rahi hai, aur sardi bhi hai", "english": "It's raining, and it's cold too." },
+            { "speaker": "A", "urdu": "مجھے گرم چائے چاہیے!", "roman": "mujhe garam chai chahiye", "english": "I need hot tea!" },
+            { "speaker": "B", "urdu": "مجھے بھی! مجھے بارش بہت پسند ہے۔", "roman": "mujhe bhi! mujhe baarish bohat pasand hai", "english": "Me too! I really like the rain." }
+          ],
+          "quiz": [
+            { "question": "What does بارش mean?", "options": ["rain", "sun", "snow"], "answer": "rain" },
+            { "question": "'It's very hot today': آج بہت ___ ہے۔", "options": ["گرمی", "سردی", "بارش"], "answer": "گرمی" }
+          ]
+        }
+      ]
+    }
+  ]
+}

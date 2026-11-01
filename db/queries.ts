@@ -64,8 +64,10 @@ export const getUnits = cache(async () => {
 
   const normalizedData = data.map((unit) => {
     const lessonsWithCompletedStatus = unit.lessons.map((lesson) => {
+      // Matches getCourseProgress, which skips lessons with no challenges -
+      // otherwise an empty lesson shows as locked forever.
       if (lesson.challenges.length === 0)
-        return { ...lesson, completed: false };
+        return { ...lesson, completed: true };
 
       const allCompletedChallenges = lesson.challenges.every((challenge) => {
         return (
@@ -192,7 +194,7 @@ export const getLessonPercentage = cache(async () => {
 
   const lesson = await getLesson(courseProgress?.activeLessonId);
 
-  if (!lesson) return 0;
+  if (!lesson || !lesson.challenges.length) return 0;
 
   const completedChallenges = lesson.challenges.filter(
     (challenge) => challenge.completed

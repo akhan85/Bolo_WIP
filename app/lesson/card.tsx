@@ -36,9 +36,9 @@ export const Card = ({
   const handleClick = useCallback(() => {
     if (disabled) return;
 
-    void controls.play();
+    if (audioSrc) void controls.play()?.catch(() => {});
     onClick();
-  }, [disabled, onClick, controls]);
+  }, [disabled, onClick, controls, audioSrc]);
 
   useKey(shortcut, handleClick, {}, [handleClick]);
 
@@ -58,7 +58,7 @@ export const Card = ({
         type === "ASSIST" && "w-full lg:p-3"
       )}
     >
-      {audio}
+      {audioSrc && audio}
       {imageSrc && (
         <div className="relative mb-4 aspect-square max-h-[80px] w-full lg:max-h-[150px]">
           <Image src={imageSrc} fill alt={text} />
@@ -73,8 +73,10 @@ export const Card = ({
       >
         {type === "ASSIST" && <div aria-hidden />}
         <p
+          dir="auto"
           className={cn(
             "text-sm text-neutral-600 lg:text-base",
+            /[\u0600-\u06FF]/.test(text) && "text-lg lg:text-xl",
             selected && "text-sky-500",
             selected && status === "correct" && "text-green-500",
             selected && status === "wrong" && "text-rose-500"

@@ -20,13 +20,17 @@ export const Challenge = ({
   disabled,
   type,
 }: ChallengeProps) => {
+  // Picture options sit side by side; plain text options stack as a list.
+  const pictureGrid =
+    type === "SELECT" || options.some((option) => option.imageSrc);
+
   return (
     <div
       className={cn(
         "grid gap-2",
-        type === "ASSIST" && "grid-cols-1",
-        type === "SELECT" &&
-          "grid-cols-2 lg:grid-cols-[repeat(auto-fit,minmax(0,1fr))]"
+        pictureGrid
+          ? "grid-cols-2 lg:grid-cols-[repeat(auto-fit,minmax(0,1fr))]"
+          : "grid-cols-1"
       )}
     >
       {options.map((option, i) => (

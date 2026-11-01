@@ -72,6 +72,8 @@ export const challenges = pgTable("challenges", {
     .notNull(),
   type: challengesEnum("type").notNull(),
   question: text("question").notNull(),
+  hint: text("hint"), // romanized pronunciation shown under the prompt
+  audioSrc: text("audio_src"), // audio for the prompt itself
   order: integer("order").notNull(),
 });
 

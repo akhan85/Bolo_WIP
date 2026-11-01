@@ -70,6 +70,16 @@ export const Quiz = ({
     return initialPercentage === 100 ? 0 : initialPercentage;
   });
   const [challenges] = useState(initialLessonChallenges);
+  // Challenges already counted towards the progress bar this session, so
+  // going back and answering one again doesn't push it past 100%.
+  const [countedIds, setCountedIds] = useState<Set<number>>(
+    () =>
+      new Set(
+        initialPercentage === 100
+          ? []
+          : initialLessonChallenges.filter((c) => c.completed).map((c) => c.id)
+      )
+  );
   const [activeIndex, setActiveIndex] = useState(() => {
     const uncompletedIndex = challenges.findIndex(
       (challenge) => !challenge.completed
@@ -133,7 +143,12 @@ export const Quiz = ({
 
             void correctControls.play();
             setStatus("correct");
-            setPercentage((prev) => prev + 100 / challenges.length);
+            if (!countedIds.has(challenge.id)) {
+              setCountedIds((prev) => new Set(prev).add(challenge.id));
+              setPercentage((prev) =>
+                Math.min(prev + 100 / challenges.length, 100)
+              );
+            }
 
             // This is a practice
             if (initialPercentage === 100) {
@@ -213,7 +228,7 @@ export const Quiz = ({
 
   const title =
     challenge.type === "ASSIST"
-      ? "Select the correct meaning"
+      ? "What does this mean?"
       : challenge.question;
 
   return (
@@ -231,13 +246,20 @@ export const Quiz = ({
       <div className="flex-1">
         <div className="flex h-full items-center justify-center">
           <div className="flex w-full flex-col gap-y-12 px-6 lg:min-h-[350px] lg:w-[600px] lg:px-0">
-            <h1 className="text-center text-lg font-bold text-neutral-700 lg:text-start lg:text-3xl">
+            <h1
+              dir="auto"
+              className="text-center text-lg font-bold text-neutral-700 lg:text-start lg:text-3xl"
+            >
               {title}
             </h1>
 
             <div className="mb-8">
               {challenge.type === "ASSIST" && (
-                <QuestionBubble question={challenge.question} />
+                <QuestionBubble
+                  question={challenge.question}
+                  hint={challenge.hint}
+                  audioSrc={challenge.audioSrc}
+                />
               )}
 
               <Challenge
