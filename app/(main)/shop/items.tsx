@@ -14,12 +14,14 @@ type ItemsProps = {
   hearts: number;
   points: number;
   hasActiveSubscription: boolean;
+  isGifted?: boolean; // Pro given with `npm run pro -- grant`
 };
 
 export const Items = ({
   hearts,
   points,
   hasActiveSubscription,
+  isGifted,
 }: ItemsProps) => {
   const [pending, startTransition] = useTransition();
 
@@ -89,8 +91,12 @@ export const Items = ({
           </p>
         </div>
 
-        <Button onClick={onUpgrade} disabled={pending} aria-disabled={pending}>
-          {hasActiveSubscription ? "Manage" : "Upgrade"}
+        <Button
+          onClick={onUpgrade}
+          disabled={pending || isGifted}
+          aria-disabled={pending || isGifted}
+        >
+          {isGifted ? "Gifted" : hasActiveSubscription ? "Manage" : "Upgrade"}
         </Button>
       </div>
     </ul>

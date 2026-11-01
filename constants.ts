@@ -28,3 +28,6 @@ export const QUESTS = [
     value: 1000,
   },
 ];
+
+// Subscriptions given away with `npm run pro -- grant` (no Stripe involved)
+export const GIFTED_SUBSCRIPTION_PREFIX = "manual_";

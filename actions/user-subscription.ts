@@ -2,6 +2,7 @@
 
 import { auth, currentUser } from "@clerk/nextjs";
 
+import { GIFTED_SUBSCRIPTION_PREFIX } from "@/constants";
 import { getUserSubscription } from "@/db/queries";
 import { stripe } from "@/lib/stripe";
 import { absoluteUrl } from "@/lib/utils";
@@ -15,6 +16,10 @@ export const createStripeUrl = async () => {
   if (!userId || !user) throw new Error("Unauthorized.");
 
   const userSubscription = await getUserSubscription();
+
+  // Gifted Pro has no Stripe customer to manage
+  if (userSubscription?.stripeCustomerId.startsWith(GIFTED_SUBSCRIPTION_PREFIX))
+    throw new Error("This account has gifted Pro.");
 
   // redirect user to customer portal who already have a subscription
   if (userSubscription && userSubscription.stripeCustomerId) {

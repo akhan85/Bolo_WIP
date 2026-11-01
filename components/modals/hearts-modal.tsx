@@ -23,9 +23,9 @@ export const HeartsModal = () => {
 
   useEffect(() => setIsClient(true), []);
 
-  const onClick = () => {
+  const goTo = (href: string) => {
     close();
-    router.push("/store");
+    router.push(href);
   };
 
   if (!isClient) return null;
@@ -35,12 +35,7 @@ export const HeartsModal = () => {
       <DialogContent className="max-w-md">
         <DialogHeader>
           <div className="mb-5 flex w-full items-center justify-center">
-            <Image
-              src="/mascot_bad.svg"
-              alt="Mascot Bad"
-              height={80}
-              width={80}
-            />
+            <Image src="/mascot_bad.svg" alt="" height={80} width={80} />
           </div>
 
           <DialogTitle className="text-center text-2xl font-bold">
@@ -48,7 +43,8 @@ export const HeartsModal = () => {
           </DialogTitle>
 
           <DialogDescription className="text-center text-base">
-            Get Pro for unlimited hearts, or purchase them in the store.
+            Refill them in the shop with your XP, or practise a lesson
+            you&apos;ve finished. Every correct answer there earns a heart back.
           </DialogDescription>
         </DialogHeader>
 
@@ -58,9 +54,18 @@ export const HeartsModal = () => {
               variant="primary"
               className="w-full"
               size="lg"
-              onClick={onClick}
+              onClick={() => goTo("/shop")}
             >
-              Get unlimited hearts
+              Refill in the shop
+            </Button>
+
+            <Button
+              variant="secondary"
+              className="w-full"
+              size="lg"
+              onClick={() => goTo("/learn")}
+            >
+              Practise to earn hearts
             </Button>
 
             <Button

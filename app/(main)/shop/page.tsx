@@ -5,6 +5,7 @@ import { FeedWrapper } from "@/components/feed-wrapper";
 import { Quests } from "@/components/quests";
 import { StickyWrapper } from "@/components/sticky-wrapper";
 import { UserProgress } from "@/components/user-progress";
+import { GIFTED_SUBSCRIPTION_PREFIX } from "@/constants";
 import { getUserProgress, getUserSubscription } from "@/db/queries";
 
 import { Items } from "./items";
@@ -21,6 +22,9 @@ const ShopPage = async () => {
   if (!userProgress || !userProgress.activeCourse) redirect("/courses");
 
   const isPro = !!userSubscription?.isActive;
+  const isGifted =
+    isPro &&
+    !!userSubscription?.stripeCustomerId.startsWith(GIFTED_SUBSCRIPTION_PREFIX);
 
   return (
     <div className="flex flex-row-reverse gap-[48px] px-6">
@@ -50,6 +54,7 @@ const ShopPage = async () => {
             hearts={userProgress.hearts}
             points={userProgress.points}
             hasActiveSubscription={isPro}
+            isGifted={isGifted}
           />
         </div>
       </FeedWrapper>

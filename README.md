@@ -19,6 +19,9 @@ Run these from the `Bolo_WIP` folder:
 | Update the database tables after changing `db/schema.ts` | `npm run db:push` |
 | See which audio and images are still missing | `npm run assets:report` |
 | Generate missing audio with AI voices (needs Azure key in `.env`) | `npm run audio:generate` |
+| See learners and who has Pro | `npm run pro -- list` |
+| Give an account free Pro (unlimited hearts), no payment | `npm run pro -- grant <name or user id>` |
+| Remove free Pro | `npm run pro -- revoke <name or user id>` |
 | Browse the database in a web UI | `npm run db:studio` |
 | Check for code errors | `npx tsc --noEmit` and `npm run lint` |
 
