@@ -48,12 +48,18 @@ export const Items = ({
             return;
           }
 
-          toast.error(response.error ?? "Something went wrong.", {
+          const message = response.error ?? "Something went wrong.";
+          console.error("[upgrade]", message, response);
+          toast.error(message, {
             id: toastId,
           });
         })
-        .catch(() => {
-          toast.error("Something went wrong.", { id: toastId });
+        .catch((error) => {
+          console.error("[upgrade]", error);
+          toast.error(
+            error instanceof Error ? error.message : "Something went wrong.",
+            { id: toastId }
+          );
         });
     });
   };
