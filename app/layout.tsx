@@ -1,4 +1,5 @@
 import { ClerkProvider } from "@clerk/nextjs";
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import { Noto_Naskh_Arabic, Nunito } from "next/font/google";
 
@@ -47,6 +48,7 @@ export default function RootLayout({
           <HeartsModal />
           <PracticeModal />
           {children}
+          <Analytics />
         </body>
       </html>
     </ClerkProvider>
